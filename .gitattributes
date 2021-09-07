@@ -1,1 +1,5 @@
 *.png binary
+*.pdf binary
+*.dat binary
+*.plt binary
+*.svg binary
