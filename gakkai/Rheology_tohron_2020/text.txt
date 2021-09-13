@@ -1,0 +1,31 @@
+Existence of hysteresis is one of a key to achieve high durability for rubber materials.
+For hysteresis cycle, added fillers are believed to play an important roll in meso-scale region response against local stress.
+
+connectivity 
+
+Our question is ``Is there other mechanism to enhance durability in micro-scale region such as size of polymer chains''
+``Phantom Network Model'', in which fluctuation of junction point is rather high, seems to be a good candidate for micro-scale energy dissipation.
+
+Employing molecular dynamics simulation method, the possibility for ``Phantom Network Model'' with KG chains by changing the topological conditions was investigated.
+
+
+ 破壊靭性が高いゴム系材料は、フィラー同士の相互作用のような比較的大きなスケールの構造から、フィラー界面近傍での拘束領域のような中間的なスケール、さらには、ネットワーク構造の均一性のようなミクロなスケールに至るマルチスケールの事象が階層的に組み合わさりマクロ特性に大きな影響を与えることが知られている。
+ゴムの大きな破壊靭性の由来について、 ヒステリシスロスの存在が亀裂進展に伴うエネルギー開放量を減少させ、その結果、亀裂の進展が抑制されるというモデルがAndrewsに提案されている~\cite{Andrews1977}。
+一般には、ゴムへのフィラーの添加~\cite{Igarashi2013} がヒステリシスの主要な発生原因とされおり、その発現の機構の一つとしてフィラー近傍でのナノキャビティーの開閉も報告されている~\cite{Zhang2013}。
+このような靭性向上効果はメゾスケール領域での挙動であると考えられているが、ヒステリシス挙動はこのスケールでしか発現しないのであろうか。
+我々は、分子鎖描像のようなミクロな領域においても粘弾性緩和でのエネルギー散逸を設計することでエラストマー材料の破壊耐性を向上し、しなやかな強さを付与できる可能性が残されているのではないかと考えている。
+
+
+ゴム弾性の古典的なモデルは、ネットワークを構成するストランドをガウス鎖とし、その結節点のミクロな変形がマクロな変形と相似でアフィン変形するとした「アフィンネットワークモデル」である~\cite{Flory1953}。
+この古典的なモデルからの発展形として、結節点の揺らぎに注目しミクロな変形がマクロと異なるとした「ファントムネットワークモデル~\cite{James1943, Flory1976}」が提案されている。
+我々は、この結節点のゆらぎ由来の散逸が、ミクロなスケールでの粘弾性的なエネルギー散逸モデルとなりうるのではないかと考えている。
+
+
+ポリマーのMDシミュレーションでは、ポリマー鎖のすり抜けを抑制し絡み合いを表した「KG 鎖」と呼ばれるビーズ・スプリングモデル~\cite{Kremer1990} が実在鎖との整合性がよいモデルとして広く用いられている。
+また、ビーズ間のポテンシャルを省略することで鎖のすり抜けを許容した、いわゆる「ファントム鎖」、ここでは混乱を避けるため「スヌケ鎖」と呼ぶ、も用いられることがある。
+Flory によれば、メルト状態と同一なランダムネットワークにおいて「ファントムネットワーク」としてのふるまいを示すとされているが~\cite{Flory1976}、「スヌケ鎖」であることがファントムネットワークの必要条件であるとはされていない。
+Everaers らは、規則構造を有するネットワークを用いて「KG 鎖」と「スヌケ鎖」の比較を行い、この規則的なネットワーク構造では、鎖のすり抜けを許容した「スヌケ鎖」においてもアフィン変形する「アフィンネットワークモデル」としての挙動を示すことを報告している~\cite{Everaers1999}。
+一方、Duering 等は、メルト状態でリニアポリマーの末端を反応させることでランダムなネットワークの構築を目指したが、「ファントムネットワークモデル」の特性は得られてはいない~\cite{Duering1994}。
+
+我々は、規則構造ネットワークのユニットセル間における規則性をランダムへと変えることで、「ファントムネットワークモデル」を再現できるシミュレーション系の構築を目指した。
+本報告では、平衡構造での鎖の挙動、及び、大変形時の挙動に注目した検討結果について報告する。
