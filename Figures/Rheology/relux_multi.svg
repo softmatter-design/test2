@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="relux_multi.svg"
+   inkscape:export-filename="D:\Dropbox\Adhesives\産総研_接着_2020_2\fig\Maxwell_model.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1609"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1323" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1329" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4587"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4584"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1609-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1323-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.63234634"
+     inkscape:cx="902.44837"
+     inkscape:cy="743.23032"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1072"
+     inkscape:window-y="472"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:nodetypes="cccccccc"
+       id="path1272"
+       d="m 192.72514,974.00258 50.00004,50.16102 50.0001,-50.16102 h -30.0001 v -85.06106 h -40.00004 v 85.06106 z"
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:nodetypes="cccccccc"
+       id="path1272-9"
+       d="m 192.72515,346.80056 49.99993,-50.161 50.0001,50.161 h -30 v 85.0611 h -40.00003 v -85.0611 z"
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="path879"
+       d="m 86.687557,534.31059 48.860263,-92.9921 77.23074,20.48978 23.64206,-29.94661 67.77396,17.33751 105.6012,50.4364 -9.4569,56.74095 14.1853,97.72052 -18.9137,138.7001 -66.1978,50.43639 -80.383,45.70799 -140.27619,3.15226 -45.707993,-89.83982 14.18524,-124.51486 -22.06593,-67.77391 z"
+       style="fill:#1d0a14;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.24788733" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:transform-center-y="0.97410651"
+       inkscape:transform-center-x="-1.4816934"
+       d="m 176.5274,509.09243 -15.94365,5.53429 -4.47969,16.27147 -10.19028,-13.45312 -16.85939,0.76773 9.64572,-13.84878 -5.94,-15.79699 16.15166,4.89411 13.18828,-10.53081 0.33656,16.8735 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="0.75267353"
+       sodipodi:arg1="0.12435499"
+       sodipodi:r2="12.707226"
+       sodipodi:r1="25.414454"
+       sodipodi:cy="505.94015"
+       sodipodi:cx="151.30921"
+       sodipodi:sides="5"
+       id="path881"
+       style="opacity:0.993;fill:#800080;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       sodipodi:type="star" />
+    <circle
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       r="20.489786"
+       cy="537.46283"
+       cx="323.10822"
+       id="path883"
+       style="opacity:0.993;fill:#ff0000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       d="m 140.27624,843.2336 -20.74237,4.40409 -14.18524,-15.76137 6.55714,-20.16547 20.74237,-4.40408 14.18523,15.76137 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="true"
+       sodipodi:arg2="1.36158"
+       sodipodi:arg1="0.83798123"
+       sodipodi:r2="10.60238"
+       sodipodi:r1="21.204762"
+       sodipodi:cy="827.4722"
+       sodipodi:cx="126.091"
+       sodipodi:sides="6"
+       id="path885"
+       style="opacity:0.993;fill:#000080;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       sodipodi:type="star" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:transform-center-y="-0.44303476"
+       inkscape:transform-center-x="4.7491223"
+       d="m 129.28472,621.68822 -15.78208,-8.22572 -15.782084,-8.22572 15.014724,-9.55483 15.01473,-9.55482 0.76736,17.78054 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="2.0512647"
+       sodipodi:arg1="1.0040671"
+       sodipodi:r2="10.275159"
+       sodipodi:r1="20.550318"
+       sodipodi:cy="604.35069"
+       sodipodi:cx="118.25176"
+       sodipodi:sides="3"
+       id="path887"
+       style="opacity:0.993;fill:#008000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       sodipodi:type="star" />
+    <circle
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       style="opacity:0.993;fill:#ff0000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path883-7"
+       cx="174.95117"
+       cy="766.00287"
+       r="20.489786" />
+    <circle
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       style="opacity:0.993;fill:#ff0000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path883-4"
+       cx="277.40015"
+       cy="715.56647"
+       r="20.489786" />
+    <circle
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       style="opacity:0.993;fill:#ff0000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path883-48"
+       cx="193.86481"
+       cy="556.37659"
+       r="20.489786" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:type="star"
+       style="opacity:0.993;fill:#008000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path887-8"
+       sodipodi:sides="3"
+       sodipodi:cx="306.24187"
+       sodipodi:cy="786.64001"
+       sodipodi:r1="20.550318"
+       sodipodi:r2="10.275159"
+       sodipodi:arg1="1.0040671"
+       sodipodi:arg2="2.0512647"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 317.27484,803.97753 -15.78208,-8.22572 -15.78208,-8.22573 15.01472,-9.55482 15.01473,-9.55483 0.76736,17.78055 z"
+       inkscape:transform-center-x="4.7491223"
+       inkscape:transform-center-y="-0.44303476" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:type="star"
+       style="opacity:0.993;fill:#008000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path887-9"
+       sodipodi:sides="3"
+       sodipodi:cx="362.98273"
+       sodipodi:cy="699.95248"
+       sodipodi:r1="20.550318"
+       sodipodi:r2="10.275159"
+       sodipodi:arg1="1.0040671"
+       sodipodi:arg2="2.0512647"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 374.01569,717.28997 -15.78209,-8.22573 -15.78208,-8.22572 15.01473,-9.55482 15.01472,-9.55483 0.76736,17.78055 z"
+       inkscape:transform-center-x="4.7491223"
+       inkscape:transform-center-y="-0.44303476" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:type="star"
+       style="opacity:0.993;fill:#008000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path887-7"
+       sodipodi:sides="3"
+       sodipodi:cx="167.54175"
+       sodipodi:cy="674.73428"
+       sodipodi:r1="20.550318"
+       sodipodi:r2="10.275159"
+       sodipodi:arg1="1.0040671"
+       sodipodi:arg2="2.0512647"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 178.57471,692.07176 -15.78208,-8.22572 -15.78209,-8.22572 15.01473,-9.55482 15.01472,-9.55483 0.76736,17.78055 z"
+       inkscape:transform-center-x="4.7491223"
+       inkscape:transform-center-y="-0.44303476" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:type="star"
+       style="opacity:0.993;fill:#008000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path887-6"
+       sodipodi:sides="3"
+       sodipodi:cx="268.41461"
+       sodipodi:cy="480.86935"
+       sodipodi:r1="20.550318"
+       sodipodi:r2="10.275159"
+       sodipodi:arg1="1.0040671"
+       sodipodi:arg2="2.0512647"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 279.44757,498.20687 -15.78208,-8.22573 -15.78208,-8.22572 15.01472,-9.55482 15.01473,-9.55483 0.76736,17.78055 z"
+       inkscape:transform-center-x="4.7491223"
+       inkscape:transform-center-y="-0.44303476" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:type="star"
+       style="opacity:0.993;fill:#800080;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path881-1"
+       sodipodi:sides="5"
+       sodipodi:cx="229.18463"
+       sodipodi:cy="830.48679"
+       sodipodi:r1="25.414454"
+       sodipodi:r2="12.707226"
+       sodipodi:arg1="0.12435499"
+       sodipodi:arg2="0.75267353"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 254.40283,833.63909 -15.94365,5.53429 -4.47969,16.27148 -10.19028,-13.45313 -16.85939,0.76773 9.64571,-13.84878 -5.93999,-15.79699 16.15166,4.89411 13.18828,-10.53081 0.33656,16.87351 z"
+       inkscape:transform-center-x="-1.4816934"
+       inkscape:transform-center-y="0.97410651" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:type="star"
+       style="opacity:0.993;fill:#800080;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path881-16"
+       sodipodi:sides="5"
+       sodipodi:cx="254.40275"
+       sodipodi:cy="641.35026"
+       sodipodi:r1="25.414454"
+       sodipodi:r2="12.707226"
+       sodipodi:arg1="0.12435499"
+       sodipodi:arg2="0.75267353"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 279.62096,644.50256 -15.94366,5.53429 -4.47968,16.27147 -10.19029,-13.45313 -16.85939,0.76773 9.64572,-13.84878 -5.94,-15.79699 16.15167,4.89411 13.18827,-10.53081 0.33656,16.87351 z"
+       inkscape:transform-center-x="-1.4816934"
+       inkscape:transform-center-y="0.97410651" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:type="star"
+       style="opacity:0.993;fill:#000080;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path885-8"
+       sodipodi:sides="6"
+       sodipodi:cx="351.4787"
+       sodipodi:cy="598.93222"
+       sodipodi:r1="21.204762"
+       sodipodi:r2="10.60238"
+       sodipodi:arg1="0.83798123"
+       sodipodi:arg2="1.36158"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 365.66394,614.69357 -20.74237,4.40408 -14.18524,-15.76137 6.55713,-20.16547 20.74237,-4.40408 14.18524,15.76137 z" />
+    <circle
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       style="opacity:0.993;fill:#ff0000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       id="path883-9"
+       cx="484.9675"
+       cy="717.13489"
+       r="20.489786" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="true"
+       sodipodi:arg2="1.36158"
+       sodipodi:arg1="0.83798123"
+       sodipodi:r2="10.60238"
+       sodipodi:r1="21.204762"
+       sodipodi:cy="562.68106"
+       sodipodi:cx="484.96763"
+       sodipodi:sides="6"
+       id="path885-8-8"
+       style="opacity:0.993;fill:#000080;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       sodipodi:type="star"
+       d="m 499.15286,578.44241 -20.74237,4.40408 -14.18524,-15.76137 6.55713,-20.16546 20.74237,-4.40409 14.18524,15.76137 z" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:transform-center-y="0.97410651"
+       inkscape:transform-center-x="-1.4816934"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="0.75267353"
+       sodipodi:arg1="0.12435499"
+       sodipodi:r2="12.707226"
+       sodipodi:r1="25.414454"
+       sodipodi:cy="638.19418"
+       sodipodi:cx="484.03618"
+       sodipodi:sides="5"
+       id="path881-16-7"
+       style="opacity:0.993;fill:#800080;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       sodipodi:type="star"
+       d="m 509.25439,641.34643 -15.94365,5.53429 -4.47969,16.27147 -10.19028,-13.45312 -16.85939,0.76772 9.64571,-13.84877 -5.93999,-15.797 16.15166,4.89411 13.18828,-10.5308 0.33656,16.8735 z" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:transform-center-y="-0.44303476"
+       inkscape:transform-center-x="4.7491223"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="2.0512647"
+       sodipodi:arg1="1.0040671"
+       sodipodi:r2="10.275159"
+       sodipodi:r1="20.550318"
+       sodipodi:cy="794.50918"
+       sodipodi:cx="490.16722"
+       sodipodi:sides="3"
+       id="path887-9-8"
+       style="opacity:0.993;fill:#008000;stroke:#ff0000;stroke-width:1.33333;stroke-dasharray:5.33333, 10.6667"
+       sodipodi:type="star"
+       d="m 501.20017,811.84667 -15.78209,-8.22572 -15.78208,-8.22573 15.01473,-9.55482 15.01472,-9.55483 0.76736,17.78055 z" />
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1047"
+       y="515.39691"
+       x="534.31061"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="515.39691"
+         x="534.31061"
+         id="tspan1045"
+         sodipodi:role="line">緩和時間</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1051"
+       y="573.45184"
+       x="746.15881"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="573.45184"
+         x="746.15881"
+         id="tspan1049"
+         sodipodi:role="line">2個</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1055"
+       y="651.55035"
+       x="746.11591"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="651.55035"
+         x="746.11591"
+         id="tspan1053"
+         sodipodi:role="line">3個</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1059"
+       y="725.81177"
+       x="746.51691"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="725.81177"
+         x="746.51691"
+         id="tspan1057"
+         sodipodi:role="line">4個</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1063"
+       y="805.13251"
+       x="746.10156"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="805.13251"
+         x="746.10156"
+         id="tspan1061"
+         sodipodi:role="line">5個</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1067"
+       y="567.76855"
+       x="593.08142"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="567.76855"
+         x="593.08142"
+         id="tspan1065"
+         sodipodi:role="line">τ<tspan
+   id="tspan1069"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub">1</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="593.24811"
+       y="645.86707"
+       id="text1067-5"><tspan
+         sodipodi:role="line"
+         id="tspan1065-6"
+         x="593.24811"
+         y="645.86707">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1069-0">2</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="592.82104"
+       y="719.99341"
+       id="text1067-9"><tspan
+         sodipodi:role="line"
+         id="tspan1065-9"
+         x="592.82104"
+         y="719.99341">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1069-8">3</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="592.31061"
+       y="799.44922"
+       id="text1067-58"><tspan
+         sodipodi:role="line"
+         id="tspan1065-68"
+         x="592.31061"
+         y="799.44922">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1069-7">4</tspan></tspan></text>
+    <rect
+       transform="rotate(-90)"
+       y="1344.9819"
+       x="-920.67072"
+       height="105"
+       width="180"
+       id="rect3973-9-9-0-9-1-5-4"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-7-9-5-2"
+       d="m 1345.2945,735.98615 v 184.2159 h 104.375 v -186.5625"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       y="896.112"
+       x="1349.0243"
+       height="21.74955"
+       width="96.915565"
+       id="rect1763-2-5-6"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:2.12242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1397.732,603.87325 v -31.8851 m -0.5,321.2262 v -31.8851 m 23.95,-241.722 -47.4,32.2851 m 24,-48.2235 23.4,15.9384 m 0,64.5704 -47.4,32.2853 m 47.4,-32.2853 -47.4,-32.2853 m 47.4,96.8557 -47.4,32.2853 m 47.4,-32.2853 -47.4,-32.2851 m 47.4,96.8557 -47.4,32.2852 m 47.4,-32.2852 -47.4,-32.2853 m 23.4,80.5088 -23.4,-15.9383"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:4.79463;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-8-0-2-7"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       transform="rotate(-90)"
+       y="1684.3079"
+       x="-920.67072"
+       height="105"
+       width="180"
+       id="rect3973-9-9-0-9-1-5-8"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-7-9-5-68"
+       d="m 1684.6204,735.98615 v 184.2159 h 104.375 v -186.5625"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       y="896.112"
+       x="1688.3501"
+       height="21.74955"
+       width="96.915565"
+       id="rect1763-2-5-8"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:2.12242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1737.0579,603.93675 v -31.9486 m -0.5,321.8659 v -31.9486 m 23.9499,-242.2034 -47.4,32.3495 m 24,-48.3196 23.4,15.9701 m 0,64.699 -47.4,32.3496 m 47.4,-32.3496 -47.4,-32.3495 m 47.4,97.0485 -47.4,32.3496 m 47.4,-32.3496 -47.4,-32.3494 m 47.4,97.0485 -47.4,32.3496 m 47.4,-32.3496 -47.4,-32.3495 m 23.4,80.6691 -23.4,-15.97"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:4.7994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-8-0-2-70"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1043.5041,1057.6983 h 693.3038"
+       id="path2001"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       id="rect3973-9-9-0-9-1-5"
+       width="180"
+       height="105"
+       x="-920.67072"
+       y="991.00421"
+       transform="rotate(-90)"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 991.31662,735.98615 v 184.2159 h 104.37498 v -186.5625"
+       id="path3963-4-3-5-7-9-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:2.12242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1763-2-5"
+       width="96.915565"
+       height="21.74955"
+       x="995.04639"
+       y="810.112"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path3118-6-6-8-0-2"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:4.13276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1043.7541,595.67795 v -23.6898 m -0.5,238.6624 v -23.6897 m 23.95,-179.593 -47.4,23.987 m 24,-35.8288 23.4,11.8418 m 0,47.9741 -47.4,23.9871 m 47.4,-23.9871 -47.4,-23.9871 m 47.4,71.9611 -47.4,23.9872 m 47.4,-23.9872 -47.4,-23.9869 m 47.4,71.9611 -47.4,23.9871 m 47.4,-23.9871 -47.4,-23.987 m 23.4,59.8158 -23.4,-11.8417"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1043.5041,922.31645 V 1057.6983"
+       id="path2003"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       transform="rotate(-90)"
+       y="1164.3301"
+       x="-920.67072"
+       height="105"
+       width="180"
+       id="rect3973-9-9-0-9-1-5-9"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-7-9-5-8"
+       d="m 1164.6425,735.98615 v 184.2159 h 104.375 v -186.5625"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       y="810.112"
+       x="1168.3724"
+       height="21.74955"
+       width="96.915565"
+       id="rect1763-2-5-2"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:2.12242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1217.08,595.67795 v -23.6898 m -0.5,238.6624 v -23.6897 m 23.95,-179.593 -47.4,23.987 m 24,-35.8288 23.4,11.8418 m 0,47.9741 -47.4,23.9871 m 47.4,-23.9871 -47.4,-23.9871 m 47.4,71.9611 -47.4,23.9872 m 47.4,-23.9872 -47.4,-23.9869 m 47.4,71.9611 -47.4,23.9871 m 47.4,-23.9871 -47.4,-23.987 m 23.4,59.8158 -23.4,-11.8417"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:4.13276;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-8-0-2-2"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2003-7"
+       d="M 1216.8301,922.31645 V 1057.6983"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2003-5"
+       d="M 1397.482,922.31645 V 1057.6983"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2003-21"
+       d="M 1736.8079,922.31645 V 1057.6983"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2001-4"
+       d="m 1043.7541,571.98815 h 693.3038"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1397.648,1060.5188 v 88.8444"
+       id="path2093"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2093-7"
+       d="m 1397.648,483.03033 v 88.84442"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       id="text1878-4"
+       y="872.67194"
+       x="1124.6776"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       xml:space="preserve"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="fill:#0000ff;stroke-width:0.999999"
+         y="872.67194"
+         x="1124.6776"
+         id="tspan1876-8"
+         sodipodi:role="line">η<tspan
+   style="font-size:19.0667px;baseline-shift:sub;stroke-width:0.999999"
+   id="tspan2128">2</tspan></tspan></text>
+    <text
+       id="text1874-8"
+       y="673.04315"
+       x="1124.5989"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       xml:space="preserve"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         y="673.04315"
+         x="1124.5989"
+         id="tspan1872-3"
+         sodipodi:role="line"
+         style="stroke-width:0.999999">E<tspan
+   style="font-size:19.0667px;baseline-shift:sub;stroke-width:0.999999"
+   id="tspan2148">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       x="1307.8175"
+       y="872.65448"
+       id="text1878-4-5"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1876-8-5"
+         x="1307.8175"
+         y="872.65448"
+         style="fill:#0000ff;stroke-width:0.999999">η<tspan
+   id="tspan2128-0"
+   style="font-size:19.0667px;baseline-shift:sub;stroke-width:0.999999">3</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       x="1307.7388"
+       y="672.90814"
+       id="text1874-8-1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1872-3-7"
+         x="1307.7388"
+         y="672.90814"
+         style="stroke-width:0.999999">E<tspan
+   id="tspan2148-7"
+   style="font-size:19.0667px;baseline-shift:sub;stroke-width:0.999999">3</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       x="944.86011"
+       y="872.67194"
+       id="text1878-4-4"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1876-8-90"
+         x="944.86011"
+         y="872.67194"
+         style="fill:#0000ff;stroke-width:0.999999">η<tspan
+   id="tspan2128-7"
+   style="font-size:19.0667px;baseline-shift:sub;stroke-width:0.999999">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       x="944.78131"
+       y="673.04315"
+       id="text1874-8-6"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1872-3-5"
+         x="944.78131"
+         y="673.04315"
+         style="stroke-width:0.999999">E<tspan
+   id="tspan2148-1"
+   style="font-size:19.0667px;baseline-shift:sub;stroke-width:0.999999">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       x="1641.8383"
+       y="872.67194"
+       id="text1878-4-7"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1876-8-6"
+         x="1641.8383"
+         y="872.67194"
+         style="fill:#0000ff;stroke-width:0.999999">η<tspan
+   id="tspan2128-1"
+   style="font-size:19.0667px;baseline-shift:sub;stroke-width:0.999999">n</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       x="1641.7595"
+       y="673.04315"
+       id="text1874-8-5"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1872-3-75"
+         x="1641.7595"
+         y="673.04315"
+         style="stroke-width:0.999999">E<tspan
+   id="tspan2148-78"
+   style="font-size:19.0667px;baseline-shift:sub;stroke-width:0.999999">n</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       x="1528.094"
+       y="786.93463"
+       id="text2230"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2228"
+         x="1528.094"
+         y="786.93463"
+         style="stroke-width:0.999999">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1017.3315"
+       y="540.53864"
+       id="text1067-7"><tspan
+         sodipodi:role="line"
+         id="tspan1065-3"
+         x="1017.3315"
+         y="540.53864">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1069-1">1</tspan></tspan></text>
+    <text
+       id="text1067-5-7"
+       y="540.53864"
+       x="1194.3566"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="540.53864"
+         x="1194.3566"
+         id="tspan1065-6-5"
+         sodipodi:role="line">τ<tspan
+   id="tspan1069-0-3"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub">2</tspan></tspan></text>
+    <text
+       id="text1067-9-3"
+       y="540.23657"
+       x="1334.5881"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="540.23657"
+         x="1334.5881"
+         id="tspan1065-9-6"
+         sodipodi:role="line">τ<tspan
+   id="tspan1069-8-3"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub">3</tspan></tspan></text>
+    <text
+       id="text1067-58-2"
+       y="540.53864"
+       x="1718.817"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="540.53864"
+         x="1718.817"
+         id="tspan1065-68-1"
+         sodipodi:role="line">τ<tspan
+   id="tspan1069-7-1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub">n</tspan></tspan></text>
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:nodetypes="czc"
+       id="path1318"
+       d="m 829.93739,533.1386 c 36.94133,-54.16913 42.50952,-86.96845 118.76728,-91.36323 76.25773,-4.39478 97.50613,56.80416 97.50613,56.80416"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1609)" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1609-8)"
+       d="m 822.58194,634.18326 c 50.81392,-70.22862 155.36319,-244.20105 226.66856,-246.3203 99.3246,-2.952 124.9099,20.84931 166.7297,109.43347"
+       id="path1318-2"
+       sodipodi:nodetypes="csc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="レイヤー" />
+</svg>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="dashpot.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path981" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="472"
+     inkscape:window-x="1072"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="560"
+     inkscape:cx="455.0315"
+     inkscape:zoom="0.72304878"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-87)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="レイヤー 1">
+    <text
+       id="text12"
+       y="129.17857"
+       x="-302.38092"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve" />
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       transform="matrix(0.26458333,0,0,0.26458333,-57.326744,111.65537)"
+       id="g960">
+      <g
+         id="g79">
+        <rect
+           transform="rotate(-90)"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none"
+           id="rect3973-9-8"
+           width="180"
+           height="105"
+           x="-507.32639"
+           y="619.62463" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 620.24962,323.11055 v 184.21583 h 104.375 V 320.76387"
+           id="path3963-4-32"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g922"
+         transform="translate(4.7776046,-84)">
+        <rect
+           y="429.20151"
+           x="621.21704"
+           height="26.626083"
+           width="92.884949"
+           id="rect81"
+           style="fill:#0000ff;stroke:#0000ff;stroke-width:2.40892;stroke-opacity:1" />
+        <rect
+           y="281.26212"
+           x="662.58868"
+           height="149.4205"
+           width="10.141663"
+           id="rect918"
+           style="fill:#0000ff;stroke:#0000ff;stroke-width:2.66667;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       transform="matrix(0.26458333,0,0,0.26458333,-50.447574,109.26831)"
+       id="g968">
+      <g
+         id="g79-1"
+         transform="translate(218.677,9.021992)">
+        <rect
+           y="619.62463"
+           x="-507.32639"
+           height="105"
+           width="180"
+           id="rect3973-9-8-3"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none"
+           transform="rotate(-90)" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3963-4-32-3"
+           d="m 620.24962,323.11055 v 184.21583 h 104.375 V 320.76387"
+           style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(223.4546,9.021992)"
+         id="g922-3">
+        <rect
+           style="fill:#0000ff;stroke:#0000ff;stroke-width:2.40892;stroke-opacity:1"
+           id="rect81-2"
+           width="92.884949"
+           height="26.626083"
+           x="621.21704"
+           y="429.20151" />
+        <rect
+           style="fill:#0000ff;stroke:#0000ff;stroke-width:2.66667;stroke-opacity:1"
+           id="rect918-7"
+           width="10.141663"
+           height="149.4205"
+           x="662.58868"
+           y="281.26212" />
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="path970"
+       d="m 139.04694,213.20204 h 25.75982"
+       style="fill:none;stroke:#000000;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)" />
+    <path
+       style="fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.132292px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 113.70162,155.89718 6.61458,6.63589 6.61458,-6.63589 h -3.96875 V 144.6443 h -5.29166 v 11.25288 z"
+       id="path1272-7"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="131.57861"
+       y="155.91528"
+       id="text933"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="131.57861"
+         y="155.91528"
+         id="tspan935">移動速度：大</tspan></text>
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:nodetypes="cccccccc"
+       id="path1272-7-1"
+       d="m 123.50786,172.80941 6.61458,-6.63589 6.61459,6.63589 h -3.96875 v 11.25288 h -5.29167 v -11.25288 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.132292px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="137.68439"
+       y="179.83035"
+       id="text956"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan954"
+         x="137.68439"
+         y="179.83035">抵抗：大</tspan></text>
+  </g>
+</svg>

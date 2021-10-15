@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="160mm"
+   viewBox="0 0 297 160"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="bisekibun.svg"
+   inkscape:export-filename="D:\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_4\定積分_2.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
+  <defs
+     id="defs5274">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path874"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1;fill:#0000ff;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path880"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path874-0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.60647144"
+     inkscape:cx="548.52133"
+     inkscape:cy="199.10569"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1072"
+     inkscape:window-y="472"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata5277">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-50)">
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       transform="translate(13.088003)"
+       id="g1062">
+      <g
+         id="g999"
+         transform="translate(0,-1.0962751)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="127.46671"
+           y="143.52109"
+           id="text1232"><tspan
+             id="tspan921"
+             sodipodi:role="line"
+             x="127.46671"
+             y="143.52109"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">位置 x(t)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="264.99612"
+           y="143.76913"
+           id="text1236"><tspan
+             sodipodi:role="line"
+             id="tspan1234"
+             x="264.99612"
+             y="143.76913"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">速度 v(t)</tspan></text>
+      </g>
+      <g
+         id="g957"
+         transform="translate(5.7972313)">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1.41111;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+           d="m 196.12437,113.25868 c 0,0 13.01571,-32.01535 43.62667,-31.62934 30.61098,0.38601 46.89868,31.26579 46.89868,31.26579"
+           id="path869"
+           sodipodi:nodetypes="czc" />
+        <text
+           xml:space="preserve"
+           style="font-size:25.4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.264583;stroke-opacity:1"
+           x="217.40625"
+           y="72.904007"
+           id="text1270"><tspan
+             sodipodi:role="line"
+             id="tspan1268"
+             x="217.40625"
+             y="72.904007"
+             style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.264583;stroke-opacity:1">微分</tspan></text>
+      </g>
+      <g
+         id="g934"
+         transform="translate(5.7972385)">
+        <path
+           sodipodi:nodetypes="czc"
+           id="path869-9"
+           d="m 287.27417,154.57064 c 0,0 -13.01571,32.01535 -43.62668,31.62934 -30.61097,-0.38601 -46.89867,-31.26579 -46.89867,-31.26579"
+           style="fill:none;stroke:#ff0000;stroke-width:1.41111;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-0)" />
+        <text
+           xml:space="preserve"
+           style="font-size:25.4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.264583;stroke-opacity:1"
+           x="217.35664"
+           y="212.74364"
+           id="text1274"><tspan
+             sodipodi:role="line"
+             id="tspan1272"
+             x="217.35664"
+             y="212.74364"
+             style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.264583;stroke-opacity:1">積分</tspan></text>
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       transform="translate(-9.161602,0.69113408)"
+       id="g1023">
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         id="text1561"
+         y="72.777939"
+         x="-27.266672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           y="72.777939"
+           x="-27.266672"
+           id="tspan1559"
+           sodipodi:role="line">小学生レベルでは、</tspan><tspan
+           id="tspan1565"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           y="95.631279"
+           x="-27.266672"
+           sodipodi:role="line">平均としての運動</tspan><tspan
+           id="tspan865"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           y="118.48462"
+           x="-27.266672"
+           sodipodi:role="line">（一定値）を考えて、</tspan><tspan
+           id="tspan1798"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           y="141.33797"
+           x="-27.266672"
+           sodipodi:role="line">単純に割り算</tspan></text>
+      <g
+         transform="translate(4.6442086)"
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         id="g1765">
+        <rect
+           style="opacity:0.998;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:4.81149;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1569"
+           width="142.4061"
+           height="59.084522"
+           x="-23.375282"
+           y="148.5995" />
+        <text
+           xml:space="preserve"
+           style="font-size:16.9333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.998;stroke-width:0.264583"
+           x="-18.136038"
+           y="172.83357"
+           id="text1757"><tspan
+             sodipodi:role="line"
+             id="tspan1755"
+             x="-18.136038"
+             y="172.83357"
+             style="stroke-width:0.264583">距離＝速度×時間</tspan><tspan
+             sodipodi:role="line"
+             x="-18.136038"
+             y="195.68692"
+             style="stroke-width:0.264583"
+             id="tspan1759">速度＝距離÷時間</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

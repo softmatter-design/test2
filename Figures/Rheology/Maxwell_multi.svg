@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="Maxwell_multi.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4584-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4587-0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-3-7"
+       style="overflow:visible">
+      <path
+         id="path4584-5-99"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6-3"
+       style="overflow:visible">
+      <path
+         id="path4587-0-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-3-6"
+       style="overflow:visible">
+      <path
+         id="path4584-5-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6-1"
+       style="overflow:visible">
+      <path
+         id="path4587-0-84"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="472"
+     inkscape:window-x="1072"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="267.58146"
+     inkscape:cx="1200.3805"
+     inkscape:zoom="0.41986485"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-87)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="レイヤー 1">
+    <text
+       id="text12"
+       y="129.17857"
+       x="-302.38092"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       inkscape:connector-curvature="0"
+       id="path4579-4"
+       d="M 117.41694,56.524868 V 34.860008"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-3);marker-end:url(#Arrow1Lend-6)" />
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       id="text5213-7"
+       y="11.15667"
+       x="135.4601"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:0%;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-size:7.40833px;line-height:1.25;stroke-width:0.264583"
+         y="11.15667"
+         x="135.4601"
+         id="tspan5215-7"
+         sodipodi:role="line">ε</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-3-7);marker-end:url(#Arrow1Lend-6-3)"
+       d="M 117.41694,32.009968 V -35.079408"
+       id="path4579-4-76"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-3-6);marker-end:url(#Arrow1Lend-6-1)"
+       d="M 133.76981,54.545998 V -35.658998"
+       id="path4579-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="opacity:0.993;fill:none;stroke:#000000;stroke-width:0.446233;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.892463, 0.446233;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 133.76982,56.500788 H 80.853157"
+       id="path4575-3-2-4-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect3973-9-9-0-9-1"
+       width="47.625"
+       height="27.78125"
+       x="-56.500809"
+       y="80.853165"
+       transform="rotate(-90)" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 80.935836,7.636328 v 48.74043 H 108.55172 V 7.015428"
+       id="path3963-4-3-5-7-9"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1763-2"
+       width="25.642242"
+       height="5.7545681"
+       x="81.922668"
+       y="27.248795" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       id="path3118-6-6-8-0"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:1.09346;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 94.80992,-29.486918 v -6.26791 m -0.13229,63.146096 v -6.26791 m 6.33677,-47.517326 -12.541246,6.34658 m 6.349996,-9.4797 6.19125,3.13312 m 0,12.69315 -12.541246,6.34658 m 12.541246,-6.34658 -12.541246,-6.34657 M 101.0144,-1.007658 88.473154,5.338922 M 101.0144,-1.007658 88.473154,-7.354238 M 101.0144,11.685498 88.473154,18.032078 M 101.0144,11.685498 88.473154,5.338922 m 6.191246,15.826276 -6.191246,-3.13312"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       inkscape:connector-curvature="0"
+       id="path4575-3-2-4-9-7"
+       d="M 124.256,33.069628 H 81.922666"
+       style="opacity:0.993;fill:none;stroke:#000000;stroke-width:0.399124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.798243, 0.399124;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="opacity:0.993;fill:none;stroke:#000000;stroke-width:0.446233;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.892463, 0.446233;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 133.76981,-35.658998 H 80.853157"
+       id="path4575-3-2-4-9-7-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:0%;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="118.67433"
+       y="3.3013844"
+       id="text5213-7-1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5215-7-2"
+         x="118.67433"
+         y="3.3013844"
+         style="font-size:7.40833px;line-height:1.25;stroke-width:0.264583">ε<tspan
+   id="tspan1849"
+   style="font-size:4.81542px;baseline-shift:sub;stroke-width:0.264583">s</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       id="text5213-7-1-4"
+       y="46.442032"
+       x="118.65552"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:0%;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-size:7.40833px;line-height:1.25;stroke-width:0.264583"
+         y="46.442032"
+         x="118.65552"
+         id="tspan5215-7-2-8"
+         sodipodi:role="line">ε<tspan
+   style="font-size:4.81542px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1849-7">d</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       id="text1874"
+       y="-6.3693309"
+       x="73.414536"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="-6.3693309"
+         x="73.414536"
+         id="tspan1872"
+         sodipodi:role="line">E</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       id="text1878"
+       y="41.165329"
+       x="73.471375"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="fill:#0000ff;stroke-width:0.264583"
+         y="41.165329"
+         x="73.471375"
+         id="tspan1876"
+         sodipodi:role="line">η</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       id="text1882"
+       y="-6.3693614"
+       x="55.693775"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="-6.3693614"
+         x="55.693775"
+         id="tspan1880"
+         sodipodi:role="line">弾性</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_model.png"
+       id="text1886"
+       y="42.215805"
+       x="55.875675"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="42.215805"
+         x="55.875675"
+         id="tspan1884"
+         sodipodi:role="line">粘性</tspan></text>
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-300.67906,260.12332)"
+       id="g1928-30">
+      <rect
+         transform="rotate(-90)"
+         y="1104.4159"
+         x="815.34735"
+         height="105"
+         width="180"
+         id="rect3973-9-9-0-9-1-5-3"
+         style="fill:#9ff2f1;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3963-4-3-5-7-9-5-6"
+         d="m 1104.7283,-1000.0319 v 184.21584 h 104.375 v -186.56254"
+         style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="-925.90607"
+         x="1108.4581"
+         height="21.749548"
+         width="96.915565"
+         id="rect1763-2-5-5"
+         style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:2.12242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 1157.1658,-1140.3402 v -23.6898 m -0.5,238.66247 v -23.68976 m 23.95,-179.59301 -47.4,23.987 m 24,-35.8288 23.4,11.8418 m 0,47.9741 -47.4,23.9871 m 47.4,-23.9871 -47.4,-23.9871 m 47.4,71.9612 -47.4,23.9871 m 47.4,-23.9871 -47.4,-23.987 m 47.4,71.96117 -47.4,23.98706 m 47.4,-23.98706 -47.4,-23.98707 m 23.4,59.81585 -23.4,-11.84172"
+         style="fill:#aa0000;stroke:#ff0000;stroke-width:4.13277;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3118-6-6-8-0-2-22" />
+    </g>
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect3973-9-9-0-9-1-5-4"
+       width="47.625"
+       height="27.78125"
+       x="-190.55237"
+       y="454.78186"
+       transform="rotate(-90)" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 454.86454,141.68792 v 48.74045 h 27.61588 v -49.36134"
+       id="path3963-4-3-5-7-9-5-2"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1763-2-5-6"
+       width="25.642242"
+       height="5.7545681"
+       x="455.85138"
+       y="157.06662" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="path3118-6-6-8-0-2-7"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:1.05571;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 468.73862,104.13933 v -5.84257 m -0.13229,58.8609 v -5.84257 m 6.33677,-44.2927 -12.54125,5.91587 m 6.35,-8.83638 6.19125,2.92051 m 0,11.83176 -12.54125,5.91591 m 12.54125,-5.91591 -12.54125,-5.91589 m 12.54125,17.74766 -12.54125,5.9159 m 12.54125,-5.9159 -12.54125,-5.91586 m 12.54125,17.74765 -12.54125,5.91589 m 12.54125,-5.91589 -12.54125,-5.91589 m 6.19125,14.75228 -6.19125,-2.9205"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect3973-9-9-0-9-1-5-8"
+       width="47.625"
+       height="27.78125"
+       x="-190.55237"
+       y="544.56183"
+       transform="rotate(-90)" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 544.64451,141.68792 v 48.74045 h 27.61589 v -49.36134"
+       id="path3963-4-3-5-7-9-5-68"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1763-2-5-8"
+       width="25.642242"
+       height="5.7545681"
+       x="545.63135"
+       y="184.05453" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="path3118-6-6-8-0-2-70"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:1.26984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 558.5186,106.74983 v -8.45307 m -0.13229,85.16036 v -8.45306 m 6.33674,-64.083 -12.54125,8.55914 m 6.35,-12.78456 6.19125,4.22542 m 0,17.11828 -12.54125,8.55917 m 12.54125,-8.55917 -12.54125,-8.55914 m 12.54125,25.67743 -12.54125,8.55916 m 12.54125,-8.55916 -12.54125,-8.55912 m 12.54125,25.67743 -12.54125,8.55915 m 12.54125,-8.55915 -12.54125,-8.55915 m 6.19125,21.3437 -6.19125,-4.2254"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="path2001"
+       d="M 375.01583,226.80759 H 558.45246"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       transform="rotate(-90)"
+       y="361.12521"
+       x="-190.55237"
+       height="27.78125"
+       width="47.625"
+       id="rect3973-9-9-0-9-1-5"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-7-9-5"
+       d="m 361.20789,141.68792 v 48.74045 h 27.61589 v -49.36134"
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       y="143.30841"
+       x="362.19473"
+       height="5.7545681"
+       width="25.642242"
+       id="rect1763-2-5"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:connector-curvature="0"
+       d="m 375.08198,102.69772 v -4.40096 m -0.13229,44.33735 v -4.40094 m 6.33677,-33.36377 -12.54125,4.45617 m 6.35,-6.65607 6.19125,2.1999 m 0,8.91236 -12.54125,4.45618 m 12.54125,-4.45618 -12.54125,-4.45619 m 12.54125,13.36853 -12.54125,4.45619 m 12.54125,-4.45619 -12.54125,-4.45616 m 12.54125,13.36854 -12.54125,4.45618 m 12.54125,-4.45618 -12.54125,-4.45619 m 6.19125,11.11225 -6.19125,-2.19988"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:0.916251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-8-0-2" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="path2003"
+       d="m 375.01583,190.9878 v 35.81979"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect3973-9-9-0-9-1-5-9"
+       width="47.625"
+       height="27.78125"
+       x="-190.55237"
+       y="406.98438"
+       transform="rotate(-90)" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 407.06704,141.68792 v 48.74045 h 27.61589 v -49.36134"
+       id="path3963-4-3-5-7-9-5-8"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1763-2-5-2"
+       width="25.642242"
+       height="5.7545681"
+       x="408.05389"
+       y="143.30841" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="path3118-6-6-8-0-2-2"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:0.916251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 420.94113,102.69772 v -4.40096 m -0.13229,44.33735 v -4.40094 m 6.33677,-33.36377 -12.54126,4.45617 m 6.35001,-6.65607 6.19125,2.1999 m 0,8.91236 -12.54126,4.45618 m 12.54126,-4.45618 -12.54126,-4.45619 m 12.54126,13.36853 -12.54126,4.45619 m 12.54126,-4.45619 -12.54126,-4.45616 m 12.54126,13.36854 -12.54126,4.45618 m 12.54126,-4.45618 -12.54126,-4.45619 m 6.19126,11.11225 -6.19126,-2.19988"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 420.87499,190.9878 v 35.81979"
+       id="path2003-7" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 468.67248,190.9878 v 35.81979"
+       id="path2003-5" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 558.45246,190.9878 v 35.81979"
+       id="path2003-21" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 375.08198,98.29676 H 558.5186"
+       id="path2001-4" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="path2093"
+       d="m 468.7164,227.55383 v 23.50674"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 468.7164,74.76001 V 98.26676"
+       id="path2093-7" />
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="396.49301"
+       y="177.85269"
+       id="text1878-4"><tspan
+         sodipodi:role="line"
+         id="tspan1876-8"
+         x="396.49301"
+         y="177.85269"
+         style="fill:#0000ff;stroke-width:0.264583">η<tspan
+   id="tspan2128"
+   style="font-size:5.04472px;baseline-shift:sub;stroke-width:0.264583">2</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="396.47217"
+       y="125.03422"
+       id="text1874-8"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1872-3"
+         x="396.47217"
+         y="125.03422">E<tspan
+   id="tspan2148"
+   style="font-size:5.04472px;baseline-shift:sub;stroke-width:0.264583">2</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="text1878-4-5"
+       y="177.84805"
+       x="444.94879"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="fill:#0000ff;stroke-width:0.264583"
+         y="177.84805"
+         x="444.94879"
+         id="tspan1876-8-5"
+         sodipodi:role="line">η<tspan
+   style="font-size:5.04472px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2128-0">3</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="text1874-8-1"
+       y="124.99854"
+       x="444.92792"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="124.99854"
+         x="444.92792"
+         id="tspan1872-3-7"
+         sodipodi:role="line">E<tspan
+   style="font-size:5.04472px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2148-7">3</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="text1878-4-4"
+       y="177.85269"
+       x="348.91626"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="fill:#0000ff;stroke-width:0.264583"
+         y="177.85269"
+         x="348.91626"
+         id="tspan1876-8-90"
+         sodipodi:role="line">η<tspan
+   style="font-size:5.04472px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2128-7">1</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="text1874-8-6"
+       y="125.03422"
+       x="348.89542"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="125.03422"
+         x="348.89542"
+         id="tspan1872-3-5"
+         sodipodi:role="line">E<tspan
+   style="font-size:5.04472px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2148-1">1</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="text1878-4-7"
+       y="177.85269"
+       x="533.32507"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="fill:#0000ff;stroke-width:0.264583"
+         y="177.85269"
+         x="533.32507"
+         id="tspan1876-8-6"
+         sodipodi:role="line">η<tspan
+   style="font-size:5.04472px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2128-1">n</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="text1874-8-5"
+       y="125.03422"
+       x="533.30426"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="125.03422"
+         x="533.30426"
+         id="tspan1872-3-75"
+         sodipodi:role="line">E<tspan
+   style="font-size:5.04472px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2148-78">n</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       id="text2230"
+       y="155.168"
+       x="503.23029"
+       style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="155.168"
+         x="503.23029"
+         id="tspan2228"
+         sodipodi:role="line">...</tspan></text>
+    <g
+       transform="translate(-71.20843,-276.01144)"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="g2558">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect3973-9-9-0-9-1-5-4-4"
+         width="47.625"
+         height="27.78125"
+         x="-676.11743"
+         y="236.68628"
+         transform="rotate(-90)" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 236.76897,627.25295 v 48.74045 h 27.61588 v -49.36134"
+         id="path3963-4-3-5-7-9-5-2-4"
+         inkscape:connector-curvature="0" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1763-2-5-6-32"
+         width="25.642242"
+         height="5.7545686"
+         x="237.75581"
+         y="669.61957" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="path3118-6-6-8-0-2-7-9"
+         style="fill:#aa0000;stroke:#ff0000;stroke-width:1.26858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 250.64305,592.29806 v -8.43627 m -0.13229,84.99112 v -8.43627 m 6.33677,-63.95563 -12.54125,8.5421 m 6.35,-12.75913 6.19125,4.21703 m 0,17.08425 -12.54125,8.54216 m 12.54125,-8.54216 -12.54125,-8.54215 m 12.54125,25.62642 -12.54125,8.54215 m 12.54125,-8.54215 -12.54125,-8.54211 m 12.54125,25.6264 -12.54125,8.54214 m 12.54125,-8.54214 -12.54125,-8.54214 m 6.19125,21.30128 -6.19125,-4.217"
+         inkscape:connector-curvature="0" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect3973-9-9-0-9-1-5-8-3"
+         width="47.625"
+         height="27.78125"
+         x="-676.11743"
+         y="326.46625"
+         transform="rotate(-90)" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 326.54894,627.25295 v 48.74045 h 27.61589 v -49.36134"
+         id="path3963-4-3-5-7-9-5-68-03"
+         inkscape:connector-curvature="0" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1763-2-5-8-6"
+         width="25.642242"
+         height="5.7545686"
+         x="327.53577"
+         y="669.61957" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="path3118-6-6-8-0-2-70-0"
+         style="fill:#aa0000;stroke:#ff0000;stroke-width:1.26984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 340.42303,592.31486 v -8.45307 m -0.13229,85.16036 v -8.45306 m 6.33674,-64.083 -12.54125,8.55914 m 6.35,-12.78456 6.19125,4.22542 m 0,17.11828 -12.54125,8.55917 m 12.54125,-8.55917 -12.54125,-8.55914 m 12.54125,25.67743 -12.54125,8.55916 m 12.54125,-8.55916 -12.54125,-8.55912 m 12.54125,25.67743 -12.54125,8.55915 m 12.54125,-8.55915 -12.54125,-8.55915 m 6.19125,21.3437 -6.19125,-4.2254"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="path2001-5"
+         d="M 156.92026,712.37262 H 340.35689"
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         transform="rotate(-90)"
+         y="143.02965"
+         x="-676.11743"
+         height="27.78125"
+         width="47.625"
+         id="rect3973-9-9-0-9-1-5-94"
+         style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         inkscape:connector-curvature="0"
+         id="path3963-4-3-5-7-9-5-1"
+         d="m 143.11232,627.25295 v 48.74045 h 27.61589 v -49.36134"
+         style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         y="669.61987"
+         x="144.09917"
+         height="5.7545686"
+         width="25.642242"
+         id="rect1763-2-5-20"
+         style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         inkscape:connector-curvature="0"
+         d="m 156.98641,592.35736 v -8.49557 m -0.13229,85.58838 v -8.49554 m 6.33677,-64.40508 -12.54125,8.60214 m 6.35,-12.84881 6.19125,4.24667 m 0,17.20432 -12.54125,8.60217 m 12.54125,-8.60217 -12.54125,-8.60218 m 12.54125,25.80649 -12.54125,8.60219 m 12.54125,-8.60219 -12.54125,-8.60214 m 12.54125,25.80649 -12.54125,8.60217 m 12.54125,-8.60217 -12.54125,-8.60216 m 6.19125,21.45097 -6.19125,-4.24664"
+         style="fill:#aa0000;stroke:#ff0000;stroke-width:1.27303;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3118-6-6-8-0-2-6" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="path2003-26"
+         d="m 156.92026,676.55283 v 35.81979"
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="rect3973-9-9-0-9-1-5-9-7"
+         width="47.625"
+         height="27.78125"
+         x="-676.11743"
+         y="188.88881"
+         transform="rotate(-90)" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 188.97147,627.25295 v 48.74045 h 27.61589 v -49.36134"
+         id="path3963-4-3-5-7-9-5-8-2"
+         inkscape:connector-curvature="0" />
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1763-2-5-2-2"
+         width="25.642242"
+         height="5.7545686"
+         x="189.95833"
+         y="669.61987" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="path3118-6-6-8-0-2-2-5"
+         style="fill:#aa0000;stroke:#ff0000;stroke-width:1.27313;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 202.84556,592.35875 v -8.49696 m -0.13229,85.60237 v -8.49693 m 6.33677,-64.41561 -12.54126,8.60355 m 6.35001,-12.85091 6.19125,4.24736 m 0,17.20714 -12.54126,8.60357 m 12.54126,-8.60357 -12.54126,-8.60359 m 12.54126,25.81071 -12.54126,8.60359 m 12.54126,-8.60359 -12.54126,-8.60355 m 12.54126,25.81072 -12.54126,8.60357 m 12.54126,-8.60357 -12.54126,-8.60358 m 6.19126,21.45448 -6.19126,-4.24733"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 202.77942,676.55283 v 35.81979"
+         id="path2003-7-8" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 250.57691,676.55283 v 35.81979"
+         id="path2003-5-5" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 340.35689,676.55283 v 35.81979"
+         id="path2003-21-1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 156.98641,583.86179 H 340.42303"
+         id="path2001-4-9" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="path2093-3"
+         d="M 250.62083,713.11886 V 736.6256"
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 250.62083,560.32504 v 23.50675"
+         id="path2093-7-7" />
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="178.39745"
+         y="663.41772"
+         id="text1878-4-44"><tspan
+           sodipodi:role="line"
+           id="tspan1876-8-4"
+           x="178.39745"
+           y="663.41772"
+           style="fill:#0000ff;stroke-width:0.264583">η<tspan
+   id="tspan2128-8"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">2</tspan></tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="178.3766"
+         y="610.59924"
+         id="text1874-8-8"><tspan
+           style="stroke-width:0.264583"
+           sodipodi:role="line"
+           id="tspan1872-3-0"
+           x="178.3766"
+           y="610.59924">E<tspan
+   id="tspan2148-24"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">2</tspan></tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="text1878-4-5-0"
+         y="663.41309"
+         x="226.85323"
+         style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           style="fill:#0000ff;stroke-width:0.264583"
+           y="663.41309"
+           x="226.85323"
+           id="tspan1876-8-5-2"
+           sodipodi:role="line">η<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2128-0-84">3</tspan></tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="text1874-8-1-1"
+         y="610.56354"
+         x="226.83235"
+         style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.264583"
+           y="610.56354"
+           x="226.83235"
+           id="tspan1872-3-7-1"
+           sodipodi:role="line">E<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2148-7-0">3</tspan></tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="text1878-4-4-9"
+         y="663.41772"
+         x="130.82069"
+         style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           style="fill:#0000ff;stroke-width:0.264583"
+           y="663.41772"
+           x="130.82069"
+           id="tspan1876-8-90-4"
+           sodipodi:role="line">η<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2128-7-5">1</tspan></tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="text1874-8-6-9"
+         y="610.59924"
+         x="130.79985"
+         style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.264583"
+           y="610.59924"
+           x="130.79985"
+           id="tspan1872-3-5-4"
+           sodipodi:role="line">E<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2148-1-5">1</tspan></tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="text1878-4-7-3"
+         y="663.41772"
+         x="315.22949"
+         style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           style="fill:#0000ff;stroke-width:0.264583"
+           y="663.41772"
+           x="315.22949"
+           id="tspan1876-8-6-68"
+           sodipodi:role="line">η<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2128-1-9">n</tspan></tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="text1874-8-5-36"
+         y="610.59924"
+         x="315.20868"
+         style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.264583"
+           y="610.59924"
+           x="315.20868"
+           id="tspan1872-3-75-4"
+           sodipodi:role="line">E<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2148-78-7">n</tspan></tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+         id="text2230-1"
+         y="640.73303"
+         x="285.1347"
+         style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.264583"
+           y="640.73303"
+           x="285.1347"
+           id="tspan2228-6"
+           sodipodi:role="line">...</tspan></text>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       y="461.33942"
+       x="-400.77322"
+       height="27.78125"
+       width="47.625"
+       id="rect3973-9-9-0-9-1-5-4-22"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-7-9-5-2-2"
+       d="M 461.42212,351.90875 V 400.6492 H 489.038 v -49.36134"
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       y="394.27536"
+       x="462.409"
+       height="5.7545686"
+       width="25.642242"
+       id="rect1763-2-5-6-1"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 475.2962,316.95386 v -8.43627 m -0.13229,84.99112 v -8.43627 m 6.33677,-63.95563 -12.54125,8.5421 m 6.35,-12.75913 6.19125,4.21703 m 0,17.08425 -12.54125,8.54216 m 12.54125,-8.54216 -12.54125,-8.54215 m 12.54125,25.62642 -12.54125,8.54215 m 12.54125,-8.54215 -12.54125,-8.54211 m 12.54125,25.6264 -12.54125,8.54214 m 12.54125,-8.54214 -12.54125,-8.54214 m 6.19125,21.30128 -6.19125,-4.217"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:1.26858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-8-0-2-7-2"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       transform="rotate(-90)"
+       y="551.11938"
+       x="-400.77322"
+       height="27.78125"
+       width="47.625"
+       id="rect3973-9-9-0-9-1-5-8-4"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-7-9-5-68-3"
+       d="m 551.20209,351.90875 v 48.74045 h 27.61589 v -49.36134"
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       y="394.27536"
+       x="552.1889"
+       height="5.7545686"
+       width="25.642242"
+       id="rect1763-2-5-8-7"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 565.07618,316.97066 v -8.45307 m -0.13229,85.16036 v -8.45306 m 6.33674,-64.083 -12.54125,8.55914 m 6.35,-12.78456 6.19125,4.22542 m 0,17.11828 -12.54125,8.55917 m 12.54125,-8.55917 -12.54125,-8.55914 m 12.54125,25.67743 -12.54125,8.55916 m 12.54125,-8.55916 -12.54125,-8.55912 m 12.54125,25.67743 -12.54125,8.55915 m 12.54125,-8.55915 -12.54125,-8.55915 m 6.19125,21.3437 -6.19125,-4.2254"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:1.26984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-8-0-2-70-3"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 381.57341,437.02842 H 565.01004"
+       id="path2001-44"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect3973-9-9-0-9-1-5-37"
+       width="47.625"
+       height="27.78125"
+       x="-400.77322"
+       y="367.68277"
+       transform="rotate(-90)"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 367.76547,351.90875 v 48.74045 h 27.61589 v -49.36134"
+       id="path3963-4-3-5-7-9-5-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1763-2-5-1"
+       width="25.642242"
+       height="5.7545686"
+       x="368.75229"
+       y="353.52921"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path3118-6-6-8-0-2-8"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:0.922304;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 381.63956,312.97689 v -4.4593 m -0.13229,44.92512 v -4.45928 m 6.33677,-33.80607 -12.54125,4.51524 m 6.35,-6.7443 6.19125,2.22906 m 0,9.03051 -12.54125,4.51525 m 12.54125,-4.51525 -12.54125,-4.51527 m 12.54125,13.54577 -12.54125,4.51526 m 12.54125,-4.51526 -12.54125,-4.51525 m 12.54125,13.54577 -12.54125,4.51525 m 12.54125,-4.51525 -12.54125,-4.51526 m 6.19125,11.25956 -6.19125,-2.22905"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 381.57341,401.20863 v 35.81979"
+       id="path2003-6"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       transform="rotate(-90)"
+       y="413.54196"
+       x="-400.77322"
+       height="27.78125"
+       width="47.625"
+       id="rect3973-9-9-0-9-1-5-9-2"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-7-9-5-8-4"
+       d="m 413.62462,351.90875 v 48.74045 h 27.61589 v -49.36134"
+       style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       y="371.52115"
+       x="414.61148"
+       height="5.7545686"
+       width="25.642242"
+       id="rect1763-2-5-2-4"
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 427.49871,314.78552 v -6.26793 m -0.13229,63.14611 v -6.26791 m 6.33677,-47.51732 -12.54126,6.34656 m 6.35001,-9.4797 6.19125,3.13314 m 0,12.69315 -12.54126,6.34658 m 12.54126,-6.34658 -12.54126,-6.34659 m 12.54126,19.03973 -12.54126,6.34659 m 12.54126,-6.34659 -12.54126,-6.34656 m 12.54126,19.03973 -12.54126,6.34658 m 12.54126,-6.34658 -12.54126,-6.34658 m 6.19126,15.82628 -6.19126,-3.13312"
+       style="fill:#aa0000;stroke:#ff0000;stroke-width:1.09346;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-8-0-2-2-3"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2003-7-0"
+       d="m 427.43257,401.20863 v 35.81979"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2003-5-1"
+       d="m 475.23006,401.20863 v 35.81979"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2003-21-85"
+       d="m 565.01004,401.20863 v 35.81979"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2001-4-7"
+       d="M 381.63956,308.51759 H 565.07618"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 475.27398,437.77466 V 461.2814"
+       id="path2093-9"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2093-7-47"
+       d="m 475.27398,284.98084 v 23.50675"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       id="text1878-4-45"
+       y="388.07352"
+       x="403.0506"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="fill:#0000ff;stroke-width:0.264583"
+         y="388.07352"
+         x="403.0506"
+         id="tspan1876-8-7"
+         sodipodi:role="line">η<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2128-00">2</tspan></tspan></text>
+    <text
+       id="text1874-8-2"
+       y="335.25504"
+       x="403.02975"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         y="335.25504"
+         x="403.02975"
+         id="tspan1872-3-8"
+         sodipodi:role="line"
+         style="stroke-width:0.264583">E<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2148-3">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="451.50641"
+       y="388.06888"
+       id="text1878-4-5-02"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1876-8-5-5"
+         x="451.50641"
+         y="388.06888"
+         style="fill:#0000ff;stroke-width:0.264583">η<tspan
+   id="tspan2128-0-0"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">3</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="451.48553"
+       y="335.21933"
+       id="text1874-8-1-5"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1872-3-7-49"
+         x="451.48553"
+         y="335.21933"
+         style="stroke-width:0.264583">E<tspan
+   id="tspan2148-7-8"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">3</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="355.47382"
+       y="388.07352"
+       id="text1878-4-4-4"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1876-8-90-2"
+         x="355.47382"
+         y="388.07352"
+         style="fill:#0000ff;stroke-width:0.264583">η<tspan
+   id="tspan2128-7-9"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="355.45297"
+       y="335.25504"
+       id="text1874-8-6-68"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1872-3-5-6"
+         x="355.45297"
+         y="335.25504"
+         style="stroke-width:0.264583">E<tspan
+   id="tspan2148-1-2"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="539.88263"
+       y="388.07352"
+       id="text1878-4-7-54"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1876-8-6-3"
+         x="539.88263"
+         y="388.07352"
+         style="fill:#0000ff;stroke-width:0.264583">η<tspan
+   id="tspan2128-1-7"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">n</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="539.86182"
+       y="335.25504"
+       id="text1874-8-5-7"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1872-3-75-49"
+         x="539.86182"
+         y="335.25504"
+         style="stroke-width:0.264583">E<tspan
+   id="tspan2148-78-9"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">n</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="509.7879"
+       y="365.38882"
+       id="text2230-4"
+       inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2228-64"
+         x="509.7879"
+         y="365.38882"
+         style="stroke-width:0.264583">...</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1067-7"
+       y="93.636055"
+       x="367.05014"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="93.636055"
+         x="367.05014"
+         id="tspan1065-3"
+         sodipodi:role="line">τ<tspan
+   id="tspan1069-1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583">1</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="413.88803"
+       y="93.636055"
+       id="text1067-5-7"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-6-5"
+         x="413.88803"
+         y="93.636055">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-0-3">2</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="450.99097"
+       y="93.556129"
+       id="text1067-9-3"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-9-6"
+         x="450.99097"
+         y="93.556129">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-8-3">3</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="552.65149"
+       y="93.636055"
+       id="text1067-58-2"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-68-1"
+         x="552.65149"
+         y="93.636055">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-7-1">n</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1067-7-3"
+       y="304.15329"
+       x="374.74026"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="304.15329"
+         x="374.74026"
+         id="tspan1065-3-5"
+         sodipodi:role="line">τ<tspan
+   id="tspan1069-1-4"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583">1</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="421.57816"
+       y="304.15329"
+       id="text1067-5-7-7"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-6-5-2"
+         x="421.57816"
+         y="304.15329">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-0-3-9">2</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="458.68109"
+       y="304.07333"
+       id="text1067-9-3-4"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-9-6-3"
+         x="458.68109"
+         y="304.07333">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-8-3-7">3</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="560.34161"
+       y="304.15329"
+       id="text1067-58-2-0"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-68-1-7"
+         x="560.34161"
+         y="304.15329">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-7-1-9">n</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text1067-7-5"
+       y="303.19205"
+       x="78.67041"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="303.19205"
+         x="78.67041"
+         id="tspan1065-3-7"
+         sodipodi:role="line">τ<tspan
+   id="tspan1069-1-7"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583">1</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="125.50829"
+       y="303.19205"
+       id="text1067-5-7-6"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-6-5-0"
+         x="125.50829"
+         y="303.19205">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-0-3-0">2</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="162.61122"
+       y="303.11209"
+       id="text1067-9-3-8"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-9-6-0"
+         x="162.61122"
+         y="303.11209">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-8-3-9">3</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="264.27179"
+       y="303.19205"
+       id="text1067-58-2-6"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         id="tspan1065-68-1-4"
+         x="264.27179"
+         y="303.19205">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-7-1-2">n</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="text2836"
+       y="292.58267"
+       x="358.95801"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="fill:#ff0000;stroke-width:0.264583"
+         y="292.58267"
+         x="358.95801"
+         id="tspan2834"
+         sodipodi:role="line">緩和完了</tspan></text>
+    <g
+       id="g2927">
+      <g
+         id="g2344"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         transform="translate(-71.20843,-276.01144)">
+        <rect
+           transform="rotate(-90)"
+           y="143.32053"
+           x="-438.00723"
+           height="27.78125"
+           width="47.625"
+           id="rect3973-9-9-0-9-1-5-4-2"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3963-4-3-5-7-9-5-2-1"
+           d="m 143.40319,389.14277 v 48.74045 h 27.61588 v -49.36134"
+           style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           y="431.5094"
+           x="144.39005"
+           height="5.7545686"
+           width="25.642242"
+           id="rect1763-2-5-6-3"
+           style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 157.27727,389.10873 v -4.64634 m -0.13229,46.80951 v -4.64634 m 6.33677,-35.22405 -12.54125,4.70462 m 6.35,-7.02718 6.19125,2.32256 m 0,9.40928 -12.54125,4.70466 m 12.54125,-4.70466 -12.54125,-4.70466 m 12.54125,14.11395 -12.54125,4.70466 m 12.54125,-4.70466 -12.54125,-4.70463 m 12.54125,14.11393 -12.54125,4.70465 m 12.54125,-4.70465 -12.54125,-4.70464 m 6.19125,11.73184 -6.19125,-2.32255"
+           style="fill:#aa0000;stroke:#ff0000;stroke-width:0.941452;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path3118-6-6-8-0-2-7-8"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           transform="rotate(-90)"
+           y="233.10049"
+           x="-438.00723"
+           height="27.78125"
+           width="47.625"
+           id="rect3973-9-9-0-9-1-5-8-6"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3963-4-3-5-7-9-5-68-0"
+           d="m 233.18316,389.14277 v 48.74045 h 27.61589 v -49.36134"
+           style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           y="431.5094"
+           x="234.17"
+           height="5.7545686"
+           width="25.642242"
+           id="rect1763-2-5-8-9"
+           style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 63.554482,474.26244 H 246.99111"
+           id="path2001-49"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           id="rect3973-9-9-0-9-1-5-5"
+           width="47.625"
+           height="27.78125"
+           x="-438.00723"
+           y="49.663883"
+           transform="rotate(-90)"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 49.746542,389.14277 v 48.74045 h 27.615889 v -49.36134"
+           id="path3963-4-3-5-7-9-5-5"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1763-2-5-69"
+           width="25.642242"
+           height="5.7545686"
+           x="50.733379"
+           y="431.50974"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 63.554482,438.44265 v 35.81979"
+           id="path2003-1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           transform="rotate(-90)"
+           y="95.523041"
+           x="-438.00723"
+           height="27.78125"
+           width="47.625"
+           id="rect3973-9-9-0-9-1-5-9-1"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3963-4-3-5-7-9-5-8-0"
+           d="m 95.605693,389.14277 v 48.74045 h 27.615887 v -49.36134"
+           style="fill:none;stroke:#000000;stroke-width:0.330729;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           y="431.50974"
+           x="96.59256"
+           height="5.7545686"
+           width="25.642242"
+           id="rect1763-2-5-2-3"
+           style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.561557;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           id="path2003-7-1"
+           d="m 109.41364,438.44265 v 35.81979"
+           style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           id="path2003-5-3"
+           d="m 157.21113,438.44265 v 35.81979"
+           style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           id="path2003-21-8"
+           d="m 246.99111,438.44265 v 35.81979"
+           style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           id="path2001-4-2"
+           d="M 63.620632,384.38102 H 247.05725"
+           style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 157.25505,475.00868 v 23.50674"
+           id="path2093-4"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <path
+           id="path2093-7-4"
+           d="m 157.25505,360.84427 v 23.50675"
+           style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           id="text1878-4-3"
+           y="425.30756"
+           x="85.031662"
+           style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             style="fill:#0000ff;stroke-width:0.264583"
+             y="425.30756"
+             x="85.031662"
+             id="tspan1876-8-0"
+             sodipodi:role="line">η<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2128-04">2</tspan></tspan></text>
+        <text
+           id="text1874-8-0"
+           y="401.06451"
+           x="85.010834"
+           style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             y="401.06451"
+             x="85.010834"
+             id="tspan1872-3-9"
+             sodipodi:role="line"
+             style="stroke-width:0.264583">E<tspan
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2148-2">2</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="133.48743"
+           y="425.30292"
+           id="text1878-4-5-6"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan1876-8-5-9"
+             x="133.48743"
+             y="425.30292"
+             style="fill:#0000ff;stroke-width:0.264583">η<tspan
+   id="tspan2128-0-8"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">3</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="133.46658"
+           y="401.02881"
+           id="text1874-8-1-4"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan1872-3-7-4"
+             x="133.46658"
+             y="401.02881"
+             style="stroke-width:0.264583">E<tspan
+   id="tspan2148-7-6"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">3</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="37.454914"
+           y="425.30756"
+           id="text1878-4-4-5"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan1876-8-90-5"
+             x="37.454914"
+             y="425.30756"
+             style="fill:#0000ff;stroke-width:0.264583">η<tspan
+   id="tspan2128-7-7"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">1</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="37.434071"
+           y="401.06451"
+           id="text1874-8-6-6"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan1872-3-5-2"
+             x="37.434071"
+             y="401.06451"
+             style="stroke-width:0.264583">E<tspan
+   id="tspan2148-1-0"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">1</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="221.86372"
+           y="425.30756"
+           id="text1878-4-7-5"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan1876-8-6-6"
+             x="221.86372"
+             y="425.30756"
+             style="fill:#0000ff;stroke-width:0.264583">η<tspan
+   id="tspan2128-1-4"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">n</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="221.8429"
+           y="401.06451"
+           id="text1874-8-5-3"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan1872-3-75-0"
+             x="221.8429"
+             y="401.06451"
+             style="stroke-width:0.264583">E<tspan
+   id="tspan2148-78-3"
+   style="font-size:5.04473px;baseline-shift:sub;stroke-width:0.264583">n</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="188.59395"
+           y="414.79388"
+           id="text2230-0"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan2228-0"
+             x="188.59395"
+             y="414.79388"
+             style="stroke-width:0.264583">...</tspan></text>
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           id="path3118-6-6-8-0-2-7-8-5"
+           style="fill:#aa0000;stroke:#ff0000;stroke-width:0.941451;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 63.449307,388.85078 v -4.64634 m -0.132289,46.80951 v -4.64634 m 6.336769,-35.22405 -12.54125,4.70462 m 6.350001,-7.02718 6.191249,2.32256 m 0,9.40928 -12.54125,4.70466 m 12.54125,-4.70466 -12.54125,-4.70466 m 12.54125,14.11395 -12.54125,4.70466 m 12.54125,-4.70466 -12.54125,-4.70463 m 12.54125,14.11393 -12.54125,4.70465 m 12.54125,-4.70465 -12.54125,-4.70464 m 6.191251,11.73184 -6.191251,-2.32255"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           id="path3118-6-6-8-0-2-7-8-51"
+           style="fill:#aa0000;stroke:#ff0000;stroke-width:0.941451;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 109.40534,389.34075 v -4.64634 m -0.13229,46.80951 v -4.64634 m 6.33677,-35.22405 -12.54125,4.70462 m 6.35,-7.02718 6.19125,2.32256 m 0,9.40928 -12.54125,4.70466 m 12.54125,-4.70466 -12.54125,-4.70466 m 12.54125,14.11395 -12.54125,4.70466 m 12.54125,-4.70466 -12.54125,-4.70463 m 12.54125,14.11393 -12.54125,4.70465 m 12.54125,-4.70465 -12.54125,-4.70464 m 6.19125,11.73184 -6.19125,-2.32255"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="D:\Dropbox\TeX_new\_Figures\Rheology\Maxwell_multi.png"
+           id="path3118-6-6-8-0-2-7-8-3"
+           style="fill:#aa0000;stroke:#ff0000;stroke-width:0.941451;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 247.05211,389.07315 v -4.64634 m -0.13229,46.80951 v -4.64634 m 6.33677,-35.22405 -12.54125,4.70462 m 6.35,-7.02718 6.19125,2.32256 m 0,9.40928 -12.54125,4.70466 m 12.54125,-4.70466 -12.54125,-4.70466 m 12.54125,14.11395 -12.54125,4.70466 m 12.54125,-4.70466 -12.54125,-4.70463 m 12.54125,14.11393 -12.54125,4.70465 m 12.54125,-4.70465 -12.54125,-4.70464 m 6.19125,11.73184 -6.19125,-2.32255"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-15.533637"
+         y="101.80683"
+         id="text1067-7-4"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan1065-3-0"
+           x="-15.533637"
+           y="101.80683"
+           style="stroke-width:0.264583">τ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan1069-1-9">1</tspan></tspan></text>
+      <text
+         id="text1067-5-7-9"
+         y="101.80683"
+         x="31.304258"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           y="101.80683"
+           x="31.304258"
+           id="tspan1065-6-5-25"
+           sodipodi:role="line"
+           style="stroke-width:0.264583">τ<tspan
+   id="tspan1069-0-3-1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583">2</tspan></tspan></text>
+      <text
+         id="text1067-9-3-2"
+         y="101.72691"
+         x="68.407181"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           y="101.72691"
+           x="68.407181"
+           id="tspan1065-9-6-2"
+           sodipodi:role="line"
+           style="stroke-width:0.264583">τ<tspan
+   id="tspan1069-8-3-8"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583">3</tspan></tspan></text>
+      <text
+         id="text1067-58-2-4"
+         y="101.80683"
+         x="170.06773"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           y="101.80683"
+           x="170.06773"
+           id="tspan1065-68-1-73"
+           sodipodi:role="line"
+           style="stroke-width:0.264583">τ<tspan
+   id="tspan1069-7-1-8"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.264583">n</tspan></tspan></text>
+    </g>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="353.36005"
+       y="83.412727"
+       id="text2836-2"><tspan
+         sodipodi:role="line"
+         id="tspan2834-8"
+         x="353.36005"
+         y="83.412727"
+         style="fill:#ff0000;stroke-width:0.264583">緩和完了</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.7611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="403.82651"
+       y="82.451515"
+       id="text2836-7"><tspan
+         sodipodi:role="line"
+         id="tspan2834-4"
+         x="403.82651"
+         y="82.451515"
+         style="fill:#ff0000;stroke-width:0.264583">緩和完了</tspan></text>
+  </g>
+</svg>
