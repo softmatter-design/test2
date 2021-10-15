@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="160mm"
+   viewBox="0 0 297 160"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="車の運動.svg"
+   inkscape:export-filename="D:\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_4\車の運動.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
+  <defs
+     id="defs5274">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path825"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2552"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2550"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1138"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1136" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path837"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1138-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1136-4" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-2"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path837-5"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.5219183"
+     inkscape:cx="690.69144"
+     inkscape:cy="396.85039"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="false" />
+  <metadata
+     id="metadata5277">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-50)">
+    <g
+       id="g2438"
+       transform="translate(-90.675629,-4.8989943)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path812"
+         d="M 112.81464,178.60769 V 83.843398"
+         style="fill:none;stroke:#000000;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1138)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path814"
+         d="m 112.55304,177.35011 h 85.73884"
+         style="fill:none;stroke:#000000;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="4.8850174"
+       y="128.00519"
+       id="text2420"><tspan
+         sodipodi:role="line"
+         id="tspan2418"
+         x="4.8850174"
+         y="128.00519"
+         style="stroke-width:0.26458332">距離</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="58.70681"
+       y="183.02069"
+       id="text2424"><tspan
+         sodipodi:role="line"
+         id="tspan2422"
+         x="58.70681"
+         y="183.02069"
+         style="stroke-width:0.26458332">時間</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="181.55132"
+       y="127.99917"
+       id="text2428"><tspan
+         sodipodi:role="line"
+         id="tspan2426"
+         x="181.55132"
+         y="127.99917"
+         style="stroke-width:0.26458332">速度</tspan></text>
+    <g
+       transform="translate(84.693085,-6.0817415)"
+       id="g2438-9">
+      <path
+         inkscape:connector-curvature="0"
+         id="path812-3"
+         d="M 112.81464,179.99872 V 85.234425"
+         style="fill:none;stroke:#000000;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1138-3)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path814-5"
+         d="m 112.55304,177.35011 h 85.73884"
+         style="fill:none;stroke:#000000;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-2)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="234.07553"
+       y="183.02069"
+       id="text2424-2"><tspan
+         sodipodi:role="line"
+         id="tspan2422-5"
+         x="234.07553"
+         y="183.02069"
+         style="stroke-width:0.26458332">時間</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 21.877411,172.45112 c 0,0 3.458182,-20.26634 5.039633,-22.97286 2.300562,-3.93721 3.847345,-1.85931 5.748218,-2.55164 5.83047,-2.12357 3.701689,-1.20443 5.83047,-2.12357 2.128781,-0.91914 5.425488,-0.91855 7.954041,-2.58156 2.528553,-1.66301 4.641914,-1.13097 6.563249,-3.15919 1.921335,-2.02822 2.225089,-3.27662 3.551745,-5.13507 2.345621,-3.28587 4.548249,0.21159 6.718406,-1.43752 2.170157,-1.64911 3.590036,-5.56965 5.839814,-7.4325 2.249778,-1.86285 4.958851,-1.84566 7.166998,-3.71625 2.208147,-1.87059 4.394133,-4.5997 5.57434,-7.43249 1.180207,-2.83279 0.571282,-4.98848 1.327221,-9.02517 0.755939,-4.03669 0.984119,-11.662189 3.450792,-15.130435 2.466673,-3.468246 6.294041,-3.04538 8.494222,-5.308926 2.200181,-2.263546 4.512563,-7.697938 4.512563,-7.697938"
+       id="path2521"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csszzzszzzzzzzc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 197.24612,171.26837 c 0,0 -0.65141,-54.85921 1.90101,-58.98568 2.55243,-4.12648 12.69184,-3.14724 14.23128,-0.17011 2.54305,4.918 1.6121,40.01007 4.98927,43.965 1.67192,1.95795 3.65875,2.55029 5.84916,1.72727 2.19041,-0.82302 2.34147,-1.71204 4.87897,-2.60774 2.5375,-0.8957 3.21664,-2.21387 5.27341,-4.54997 9.93321,-8.44556 16.23598,-9.21211 17.13437,-19.49534 0.5953,-6.48084 -0.84122,-11.51325 4.00038,-12.84797 4.8416,-1.33471 -0.6954,-0.52154 4.8416,-1.33471 3.67303,-0.53943 1.66001,18.28316 5.62859,22.93866 3.96858,4.6555 3.02692,-17.94085 5.06216,-20.81135 2.03524,-2.8705 5.30893,-5.57437 5.30893,-5.57437"
+       id="path2521-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czsszzcczszzc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="125.8215"
+       y="134.61328"
+       id="text2540"><tspan
+         sodipodi:role="line"
+         id="tspan2538"
+         x="125.8215"
+         y="134.61328"
+         style="font-size:8.46666622px;fill:#ff0000;stroke-width:0.26458332">時間で微分</tspan></text>
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:3.52777767;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 121.57437,144.70023 h 52.2929"
+       id="path2542"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

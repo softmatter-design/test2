@@ -1,0 +1,236 @@
+\documentclass[uplatex,a4paper,11pt]{jsarticle}
+
+
+% 数式
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{bm}
+% 画像
+\usepackage[dvipdfmx]{graphicx, color}
+
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{ascmac}
+
+\graphicspath{{../../_Figures//}{../../_Figures/PhaseSeparation/}}
+
+
+%
+%数式の途中で改行
+\allowdisplaybreaks[3]
+%
+%微分関連のマクロ
+%
+\newcommand{\diff}{\mathrm d}
+\newcommand{\difd}[2]{\dfrac{\diff #1}{\diff #2}}
+\newcommand{\difp}[2]{\dfrac{\partial #1}{\partial #2}}
+\newcommand{\difdd}[2]{\dfrac{\diff^2 #1}{\diff #2^2}}
+\newcommand{\difpp}[2]{\dfrac{\partial^2 #1}{\partial #2^2}}
+
+% ページ設定
+\pagestyle{empty}
+% 高さの設定
+\setlength{\textheight}{\paperheight}   % ひとまず紙面を本文領域に
+\setlength{\topmargin}{-5.4truemm}      % 上の余白を20mm(=1inch-5.4mm)に
+\addtolength{\topmargin}{-\headheight}  % 
+\addtolength{\topmargin}{-\headsep}     % ヘッダの分だけ本文領域を移動させる
+\addtolength{\textheight}{-40truemm}    % 下の余白も20mmに%% 幅の設定
+\setlength{\textwidth}{\paperwidth}     % ひとまず紙面を本文領域に
+\setlength{\oddsidemargin}{-5.4truemm}  % 左の余白を20mm(=1inch-5.4mm)に
+\setlength{\evensidemargin}{-5.4truemm} % 
+\addtolength{\textwidth}{-40truemm}     % 右の余白も20mmに
+%
+%\abovecaptionskip=-5pt
+%\belowcaptionskip=-5pt
+%
+\renewcommand{\baselinestretch}{1.0} % 全体の行間調整
+%\renewcommand{\figurename}{Fig.}
+%\renewcommand{\tablename}{Tab.}
+%
+
+\makeatletter 
+\def\section{\@startsection {section}{1}{\z@}{1.5 ex plus 2ex minus -.2ex}{0.5 ex plus .2ex}{\large\bf}}
+\def\subsection{\@startsection{subsection}{2}{\z@}{0.2\Cvs \@plus.5\Cdp \@minus.2\Cdp}{0.1\Cvs \@plus.3\Cdp}{\reset@font\normalsize\bfseries}}
+\makeatother 
+
+%
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+\hypersetup{%
+bookmarksnumbered=true,%
+colorlinks=true,%
+setpagesize=false,%
+pdftitle={タイトル},%
+pdfauthor={佐々木裕},%
+pdfsubject={},%
+pdfkeywords={キーワード}}
+%
+\begin{document}
+
+
+
+
+% \begin{itemize}
+%     \item 必要最小限の数学的知識（高校レベル）を習得（再確認）。
+%     \item 数式が表したいことのイメージを理解。
+%     \item 図の表すことと数式をつなげる。
+% \end{itemize}
+
+
+
+
+
+
+
+\section*{本講座は}
+
+我々の身の回りの材料の大半は流れるという性質を持っています。
+当然、それぞれの材料ごとに流れ易さは異なりますが、非常に長い時間をかければ岩や大地も流れていきます。
+その流れるものを測る学問がレオロジーです。
+もともと、レオロジーは「お触りの科学」とも言われており、人の五感に基づく直感的な区別は容易です。
+しかしながら、直感的な区別を材料や商品の開発へと結びつけることは困難です。
+
+レオロジーでよくある問題を列記すると、たくさんの困ったことがあるようです。
+\begin{itemize}
+    \item 理論に重きを置いた数式だらけの説明についていけない。
+    \item 逆に、あまりにも直感的な理解を重視し過ぎた説明を聞いても、教科書とのギャップが大きい。
+    \item また、測定等の実践に走りすぎた説明を聞いても、なぜその操作が必要なのかわからない。
+    % \item 教科書や講義でサラッと出てくる「重畳原理」や「緩和時間」等の言葉の定義が実感できない。
+    \item レオロジー測定と開発へのつなげ方がわからない。
+    % \item 材料ごとに挙動が異なり、測り方がわからない。
+    \item 測定はしたけど、何に注目すればいいのやら？
+\end{itemize}
+
+
+レオロジーの本質をきちんと理解することで、各種の材料の違いを明確に区別する方法がイメージでき、材料の設計のポイントもわかってきます。
+
+直感的に感じる違いをきちんとした理解へと結びつけるために、本セミナーでは、「箇条書き」や「図解」を多用します。
+そうすることで、単に抽象的な概念としてだけではなく、ブレイクダウンしたイメージとして直感的に捉えていきます。
+また、数式だけに頼ることなく、数式が表したいことを理解して、イメージと数式をつなげていきます。
+
+本セミナーは、レオロジーを実践的に使いこなすためのベースとなる基本的な事項を実感として理解し、材料の持つ「流動と弾性」という二面性をイメージとして持てるようになることを目指します。
+
+これらの理解を深めることで、開発への展開の第一歩が踏み出せるものと期待しています。
+
+\section*{本講座の進め方}
+
+本講座においては、実際の研究開発に役に立つレオロジー関連の事項について、基礎的な事項をきちんと押さえながら、直感的に理解していくことを目指して説明を行います。
+以下のような点に気を付けて、進めていきたいと考えています。
+	\begin{itemize}	
+		\item
+		  イメージしやすい、直感的な理解を目指す。
+		  \begin{itemize}
+		  \item
+			全体を俯瞰した概念的な説明
+		  \item
+			多様な切り口からの説明
+		  \end{itemize}
+		\item
+		  大事なことは何度か繰り返す。
+		  \begin{itemize}
+		  \item
+			一度ではわかりにくいかも。
+		  \item
+			似たような内容を、ちょっと違う言葉で。
+		  \end{itemize}
+		\item
+		  ゆっくり議論
+		\end{itemize}
+
+\section*{本講座の要件}
+\begin{itemize}
+    \item 対象となる方々
+    \begin{itemize}
+        \item レオロジーが何の役に立つのかを理解したい方
+        \item レオロジー測定はやっているけどどういう意味かよくわからない方
+        \item 知識としてこの技術を理解しようとしている方（上記以外の方々）
+    \end{itemize}
+    \item 必要となる知識
+    \begin{itemize}
+        \item 基本的に中学校程度の数学と理科をベースに、できるだけ図解でのイメージで直感的な理解を狙うので、特定の基礎知識は必要ありません。
+        \item ほんの少しだけ高校以上の数学を復習しますが、羅列とならないように配慮しますので、よほどのアレルギーがある方以外は大丈夫だと思います。
+    \end{itemize}
+\end{itemize}
+
+\section*{簡単な自己紹介}
+
+筆者は、合成化学をベースとした高分子化学を専攻し、化学系材料メーカーへの入社後は各種の光硬化型材料の研究開発に伴う特性評価の過程において、
+レオロジーを始めとした各種の材料評価技術を活用してきました。
+
+
+	\begin{itemize}
+		% \item 略歴
+        % \begin{itemize}
+        %     \item 北海道大学で合成化学系の高分子化学を専攻
+		% 	\item 卒業後、東亞合成株式会社に入社し、現在に至る
+		% \end{itemize}
+		\item  研究・開発歴
+		\begin{itemize}
+			\item 合成をベースとした各種の光硬化型材料の研究開発に従事。
+			\item 機能性材料の特性評価を通して、レオロジー等の評価技術の重要性を痛感。
+			\item 現在は、シミュレーションやレオロジーを主として研究活動を継続。
+		\end{itemize}
+		\item モットー
+		\begin{itemize}
+            \item 「化学をベースに、尤もらしく」
+			\item 「物理、数学、統計の考えを利用して」
+		\end{itemize}
+	\end{itemize}
+
+
+これらの経験において、「新規なものを作り出す技術としての化学の有用性」を何度も再認識してきました。
+それと同時に、物理、数学、統計等の中にある「事象を客観視しながら普遍性を大事にするものの考え方」の重要性を痛感する場面も幾度となく経験してきました。
+そして、それらの場面において最も役立ったのは、レオロジーから学んだマクロな応答をミクロな化学構造へと関連付けていく想像力でした。
+
+このような感覚を皆さんにお伝えできればと望んでおります。
+
+\section*{セミナー概要}
+
+本セミナーでの内容を以下に簡単にまとめました。
+
+\begin{enumerate}
+    \item はじめに
+    \begin{itemize}
+        \item レオロジーとは？
+        \item 会社の仕事とレオロジー
+        \item 人の感覚とレオロジー
+        \item レオロジーを理解するために
+    \end{itemize}
+    \item レオロジーを始める前に、
+    \begin{itemize}
+        \item 数学的な事項の確認から
+        \item 物理的に考えるときに必要となること
+    \end{itemize}
+    \item レオロジーのはじめの一歩
+    \begin{itemize}
+        \item レオロジーのはじめの一歩
+        \item 弾性体の力学的な刺激と応答
+        \item 力学モデルについて
+    \end{itemize}
+    \item 物質の物理を理解するために
+    \begin{itemize}
+        \item レオロジーで扱う関数について
+        \item 微積分について
+        \item 物理モデルを物質の物理とつなげるために
+    \end{itemize}
+    \item 物理化学として物質を見直すと
+    \begin{itemize}
+        \item 物質の三態について
+        \item 流れるということは？
+        \item 応力の由来は？
+    \end{itemize}
+    \item 粘弾性の基礎
+    \begin{itemize}
+        \item 粘性と弾性についての再確認
+        \item 粘弾性のモデル化
+        \item 少しだけ実事象に近づけると
+    \end{itemize}
+    % \item 複雑な事象について
+    % \begin{itemize}
+    %     \item 流れるということをもう少し詳しく
+    %     \item 非ニュートン流体
+    %     \item 実事象の成り立ちについて、例を挙げて
+    % \end{itemize}
+    \item 全体のまとめ
+\end{enumerate}
+
+\end{document}

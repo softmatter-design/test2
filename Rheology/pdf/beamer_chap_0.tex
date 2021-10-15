@@ -1,0 +1,301 @@
+\documentclass[12pt, dvipdfmx]{beamer}
+
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+%%%%%%%%%%%  package  %%%%%%%%%%%
+\usepackage{bxdpx-beamer}% dvipdfmxなので必要
+\usepackage{pxjahyper}% 日本語で'しおり'したい
+
+\usepackage{amssymb,amsmath,ascmac}
+
+\usepackage{multirow}
+\usepackage{bm}
+
+\graphicspath{{../../_Figures//}{../../_Figures/PhaseSeparation/}}
+
+\usepackage{tikz}
+\usepackage{xparse}
+\usetikzlibrary{shapes,arrows}
+%% define fancy arrow. \tikzfancyarrow[<option>]{<text>}. ex: \tikzfancyarrow[fill=red!5]{hoge}
+\tikzset{arrowstyle/.style n args={2}{inner ysep=0.1ex, inner xsep=0.5em, minimum height=2em, draw=#2, fill=black!20, font=\sffamily\bfseries, single arrow, single arrow head extend=0.4em, #1,}}
+\NewDocumentCommand{\tikzfancyarrow}{O{fill=black!20} O{none}  m}{
+\tikz[baseline=-0.5ex]\node [arrowstyle={#1}{#2}] {#3 \mathstrut};}
+
+% %目次スライド
+% \AtBeginSection[]{
+%   \frame{\tableofcontents[currentsection]}
+% }
+%アペンディックスのページ番号除去
+\newcommand{\backupbegin}{
+\newcounter{framenumberappendix}
+\setcounter{framenumberappendix}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+\addtocounter{framenumberappendix}{-\value{framenumber}}
+\addtocounter{framenumber}{\value{framenumberappendix}} 
+}
+
+%%%%%%%%%%%  theme  %%%%%%%%%%%
+\usetheme{Copenhagen}
+% \usetheme{Metropolis}
+% \usetheme{CambridgeUS}
+% \usetheme{Berlin}
+
+%%%%%%%%%%%  inner theme  %%%%%%%%%%%
+% \useinnertheme{default}
+
+% %%%%%%%%%%%  outer theme  %%%%%%%%%%%
+\useoutertheme{default}
+% \useoutertheme{infolines}
+
+%%%%%%%%%%%  color theme  %%%%%%%%%%%
+%\usecolortheme{structure}
+
+%%%%%%%%%%%  font theme  %%%%%%%%%%%
+\usefonttheme{professionalfonts}
+%\usefonttheme{default}
+
+%%%%%%%%%%%  degree of transparency  %%%%%%%%%%%
+%\setbeamercovered{transparent=30}
+
+% \setbeamertemplate{items}[default]
+
+%%%%%%%%%%%  numbering  %%%%%%%%%%%
+% \setbeamertemplate{numbered}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+
+\title
+{数式に頼らない直感的理解による\\
+材料設計のためのレオロジー入門}
+\author[東亞合成　佐々木]{佐々木 裕\thanks{hiroshi\_sasaki@mail.toagosei.co.jp}}
+\institute[東亞合成]{東亞合成株式会社}
+\date{}
+
+\begin{document}
+
+%%%%%
+% 1 P
+%%%%%
+\maketitle
+
+\section{目指すもの}
+
+\subsection{レオロジーとは}
+\begin{frame}
+	\frametitle{レオロジーとは}
+	\begin{itemize}
+		\item 我々の身の回りの材料の大半は「流れ」ます。
+			\begin{itemize}
+				\item 非常に長い時間をかければ、不動に見える岩や大地も流れていきます。
+				\item その流れるものを「測る学問」がレオロジーです。
+			\end{itemize}
+		\item レオロジーは「お触りの科学」とも言われています。
+			\begin{itemize}
+				\item 人間の五感（特に触覚）は極めて優秀であり、
+				\item 手触りで物質の特徴の違いを直感的に区別できます。
+				\item しかしながら、この直感的な区別を材料や商品の開発へと結びつけることは困難です。
+				\item 直感的な区別が定性的であり、定量性がないためです。
+			\end{itemize}
+		\item レオロジーの本質をきちんと理解することで、
+			\begin{itemize}
+				\item 材料の違いを明確に区別する方法がイメージでき、
+				\item 材料の設計のポイントもわかってきます。
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\subsection{目指すもの}
+\begin{frame}
+	\frametitle{目指すもの}
+		\begin{itemize}
+			\item 「直感的な違いをきちんとした理解」へ。
+			\begin{itemize}
+				\item 本講座では、「箇条書き」や「図解」を多用し、
+				\item ブレイクダウンしたイメージとして直感的に理解。
+			\end{itemize}
+			\item 数式を使いこなせることを目指します。
+			\begin{itemize}
+				\item 数式の羅列はやりません。
+				\item 数式が表したいことをイメージして数式とつなげる。
+			\end{itemize}
+			\item 本講座で目指すもの。
+			\begin{itemize}
+				\item レオロジーを実践的に使いこなすためのベースとなる基本的な事項を実感として理解し、
+				\item 材料の持つ「流動と弾性」という二面性をイメージとして持てるようになることを目指します。
+			\end{itemize}
+		\end{itemize}
+\end{frame}
+
+\section{自己紹介}
+\subsection{自己紹介}
+\begin{frame}
+	\frametitle{自己紹介}
+	\begin{itemize}
+		\item 略歴
+			\begin{itemize}
+				\item 北海道大学で合成化学系の高分子化学を専攻
+				\item 卒業後、東亞合成株式会社に入社し、現在に至る
+			\end{itemize}
+		\item  研究・開発歴
+			\begin{itemize}
+				\item 合成をベースとした各種の光硬化型材料の研究開発に従事。
+				\item 機能性材料の特性評価を通して、レオロジー等の評価技術の重要性を痛感。
+				\item 現在は、シミュレーションやレオロジーを主として研究活動を継続。
+			\end{itemize}
+		\item モットー
+			\begin{itemize}
+				\item 「化学をベースに、尤もらしく」
+				\item 「物理、数学、統計の考えを利用して」
+				\item 「できるだけシンプルなモデルで。」
+			\end{itemize}
+	\end{itemize}
+	
+\end{frame}
+
+\subsection{感じてきたこと}
+\begin{frame}
+	\frametitle{感じてきたこと}
+		これまでの経験を通して感じてきたこと、
+		\begin{itemize}
+			\item 「新規なものを作り出す技術としての化学の有用性」を何度も再認識してきました。
+			\item 物理、数学、統計等の中にある「事象を客観視しながら普遍性を大事にするものの考え方」の重要性も痛感しました。
+			\item それらの場面において最も役立ったのは、レオロジーから学んだ「マクロな応答をミクロな化学構造へと繋げられる想像力」でした。
+		\end{itemize}
+\end{frame}
+
+\section{本講座の進め方}
+\subsection{イメージを大事に}
+\begin{frame}
+	\frametitle{イメージを大事に}
+		実際の研究開発に役に立つレオロジー関連の事項について、以下のような点に気を付けて、説明していきたいと考えています。
+		\begin{block}{ポイント}
+			\begin{itemize}	
+				\item イメージしやすい、直感的な理解を目指す。
+					\begin{itemize}
+						\item 全体を俯瞰した概念的な説明を。
+						\item 多様な切り口からの説明を。
+					\end{itemize}
+				\item 大事なことは何度か繰り返す。
+					\begin{itemize}
+						\item 一度ではわかりにくいかも。
+						\item 似たような内容を、ちょっと違う言葉で。
+					\end{itemize}
+				\item ゆっくり議論
+					\begin{itemize}
+						\item わかりにくいことは遠慮なく質問を。
+						\item やりたいことを伝えてください。
+					\end{itemize}
+			\end{itemize}
+		\end{block}
+\end{frame}
+
+\subsection{数式に頼らないということ}
+\begin{frame}
+	\frametitle{数式に頼らないということ}
+		本講座では、できるだけ数式に頼らない説明を目指します。
+		
+		ただ、最初に強調したいのですが、「数式に頼らない」ということは、「数式を使わない」という意味ではありません。
+		\begin{alertblock}{数式を使いこなしましょう}
+			\begin{itemize}
+				\item 状態をイメージするためには、数学的な感覚は有効
+					\begin{itemize}
+						\item 直感的に感じるイメージを数学とつなげて理解すれば、\\
+						共有しやすい。
+						\item そのために、数学（算数？）的な事項の復習もやります。
+					\end{itemize}
+				\item 「天下りの数式展開」は無駄。
+					\begin{itemize}
+						\item 意味の理解できない数式は無意味。
+						\item たいてい、思考停止を招くだけ。
+						\item 数式の表す内容をイメージしましょう。
+					\end{itemize}
+				\item 数式の表すものを一緒に考えていきましょう。
+			\end{itemize}
+		\end{alertblock}
+\end{frame}
+
+% \begin{frame}
+% 	\frametitle{質問事項}
+% 	塗装分野における技術開発に携わられている方から、以下のような質問をいただきました。
+% 	\begin{itemize}
+% 		\item 塗膜の機械的特性（可とう性、硬度等）発現因子の解明
+% 		\item 塗料の粘弾性の差異による加工性への影響
+% 		\item 塗装鋼板屈曲性の温度依存
+% 	\end{itemize}
+% 	実際に、開発の現場にいる方はこの様な問題を解かなくてはいけません。
+
+% 	\color{red}
+% 	残念ながら、本講座で予定しているものは、そのレベルよりずっと手前のものです。
+% 	\color{black}
+% \end{frame}
+
+% \begin{frame}
+% 	\frametitle{必要な知識}
+% 	\begin{itemize}
+% 		\item 塗膜の機械的特性（可とう性、硬度等）発現因子の解明
+% 		\begin{itemize}
+% 			\item 高分子とはどのようなものか？
+% 			\item 高分子固体の硬さとは？
+% 			\item 高分子固体の硬さは温度によってどのように変化？
+% 		\end{itemize}
+% 		\item 塗料の粘弾性の差異による加工性への影響
+% 		\begin{itemize}
+% 			\item 塗膜の粘弾性って、結局何？
+% 			\item 加工するという行為の力学的意味
+% 		\end{itemize}
+% 		\item 塗装鋼板屈曲性の温度依存
+% 		\begin{itemize}
+% 			\item 屈曲性とはどの様な特性
+% 			\item 温度によって何が変化するのか？
+% 		\end{itemize}
+% 	\end{itemize}
+% \end{frame}
+
+% \begin{frame}
+% 	\frametitle{今回のセミナーで得られる知見}
+
+% 	\begin{columns}[T, onlytextwidth]
+% 		\column{.48\linewidth}
+% 		\begin{itemize}
+% 			\item 塗膜の機械的特性
+% 			\begin{itemize}
+% 				\item 高分子とは？
+% 				\item 高分子固体の硬さ？
+% 				\item 温度変化？
+% 			\end{itemize}
+% 			\item 塗料の粘弾性の差異
+% 			\begin{itemize}
+% 				\item 塗膜の粘弾性？
+% 				\item 加工するって？
+% 			\end{itemize}
+% 			\item 塗装鋼板屈曲性
+% 			\begin{itemize}
+% 				\item 屈曲性とは？
+% 				\item 温度による変化？
+% 			\end{itemize}
+% 		\end{itemize}
+% 		\column{.48\linewidth}
+% 		\color{red}
+% 		\begin{itemize}
+% 			\item 硬さについて
+% 			\begin{itemize}
+% 				\item 固体とは。
+% 				\item 固体の硬さとは？
+% 				\item 硬さの温度変化？
+% 			\end{itemize}
+% 			\item 塗料の粘弾性の差異
+% 			\begin{itemize}
+% 				\item 粘弾性とは？
+% 				\item 
+% 			\end{itemize}
+% 			\item 塗装鋼板屈曲性
+% 			\begin{itemize}
+% 				\item 
+% 				\item 
+% 			\end{itemize}
+% 		\end{itemize}
+% 	\end{columns}
+% \end{frame}
+
+\end{document}

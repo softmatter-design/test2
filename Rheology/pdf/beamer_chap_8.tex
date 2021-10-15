@@ -1,0 +1,176 @@
+ \documentclass[12pt, dvipdfmx]{beamer}
+
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+%%%%%%%%%%%  package  %%%%%%%%%%%
+\usepackage{bxdpx-beamer}% dvipdfmxなので必要
+\usepackage{pxjahyper}% 日本語で'しおり'したい
+
+\usepackage{amssymb,amsmath,ascmac}
+
+\usepackage{multirow}
+\usepackage{bm}
+
+\graphicspath{{../../_Figures//}{../../_Figures/Rheology/}}
+
+\usepackage{tikz}
+\usepackage{xparse}
+
+\usepackage{multimedia}
+
+\usetikzlibrary{shapes,arrows}
+%% define fancy arrow. \tikzfancyarrow[<option>]{<text>}. ex: \tikzfancyarrow[fill=red!5]{hoge}
+\tikzset{arrowstyle/.style n args={2}{inner ysep=0.1ex, inner xsep=0.5em, minimum height=2em, draw=#2, fill=black!20, font=\sffamily\bfseries, single arrow, single arrow head extend=0.4em, #1,}}
+\NewDocumentCommand{\tikzfancyarrow}{O{fill=black!20} O{none}  m}{
+\tikz[baseline=-0.5ex]\node [arrowstyle={#1}{#2}] {#3 \mathstrut};}
+
+%目次スライド
+\AtBeginSection[]{
+  \frame{\tableofcontents[currentsection]}
+}
+
+%アペンディックスのページ番号除去
+\newcommand{\backupbegin}{
+   \newcounter{framenumberappendix}
+   \setcounter{framenumberappendix}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+   \addtocounter{framenumberappendix}{-\value{framenumber}}
+   \addtocounter{framenumber}{\value{framenumberappendix}} 
+}
+
+\newcommand{\rmd}{\mathrm{d}}
+\newcommand{\dd}[1]{\dfrac{\mathrm{d} #1}{\mathrm{d} x}}
+
+%%%%%%%%%%%  theme  %%%%%%%%%%%
+\usetheme{Copenhagen}
+% \usetheme{Metropolis}
+% \usetheme{CambridgeUS}
+% \usetheme{Berlin}
+
+%%%%%%%%%%%  inner theme  %%%%%%%%%%%
+% \useinnertheme{default}
+
+% %%%%%%%%%%%  outer theme  %%%%%%%%%%%
+\useoutertheme{default}
+% \useoutertheme{infolines}
+
+%%%%%%%%%%%  color theme  %%%%%%%%%%%
+%\usecolortheme{structure}
+
+%%%%%%%%%%%  font theme  %%%%%%%%%%%
+\usefonttheme{professionalfonts}
+%\usefonttheme{default}
+
+%%%%%%%%%%%  degree of transparency  %%%%%%%%%%%
+%\setbeamercovered{transparent=30}
+
+% \setbeamertemplate{items}[default]
+
+%%%%%%%%%%%  numbering  %%%%%%%%%%%
+% \setbeamertemplate{numbered}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+
+\title
+[複雑な事象を理解するための準備]
+{複雑な事象を理解するための準備}
+\author[東亞合成　佐々木]{佐々木 裕}
+\institute[東亞合成]{東亞合成株式会社}
+\date{\today}
+
+\begin{document}
+
+%%%%%
+% 1 P
+%%%%%
+\maketitle
+
+%%%%%
+% 2 P
+%%%%%
+%% 目次 (必要なければ省略)
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+\begin{frame}
+	\frametitle{この章でのお話}
+	この章以降では、これまでに行ってきた簡略化したモデルでの議論をベースとして、もう少しだけ複雑な事象について議論を進めていきます。
+
+	そのためには、更にもう少しの基礎的な事項の振り返りが必要になってきます。
+	それは、粒子の振る舞いを理解するための熱力学をベースにした統計力学的な考え方と、動的な測定に必要となる周期的な刺激を与えることを数学的に示すために複素数の概念の理解の二点になります。
+	この章では、それらについて概略的な説明を行います。
+	
+	ここでのお話を具体的に列記すると、以下のような事項となります。
+	\begin{boxnote}
+		\begin{itemize}
+			\item 熱力学をベースにした統計力学的な考え方
+			\begin{itemize}
+				\item 熱力学の振り返り
+				\item 統計力学でのエントロピー
+				\item ボルツマン因子について
+			\end{itemize}
+			\item 動的刺激の理解のための数学的な準備
+			\begin{itemize}
+				\item 虚数と複素平面
+				\item オイラーの定理と三角関数
+			\end{itemize}
+		\end{itemize}
+	\end{boxnote}
+	
+\end{frame}
+
+\section{熱力学をベースにした統計力学的な考え方}
+\subsection{熱力学の振り返り}
+\begin{frame}
+	\frametitle{熱力学の振り返り}
+
+\end{frame}
+
+\subsection{統計力学でのエントロピー}
+\begin{frame}
+	\frametitle{統計力学でのエントロピー}
+
+\end{frame}
+
+\subsection{ボルツマン因子について}
+\begin{frame}
+	\frametitle{ボルツマン因子について}
+
+\end{frame}
+
+\section{動的刺激の理解のための数学的な準備}
+\subsection{虚数と複素平面}
+\begin{frame}
+	\frametitle{虚数と複素平面}
+
+\end{frame}
+
+\subsection{オイラーの定理と三角関数}
+\begin{frame}
+	\frametitle{オイラーの定理と三角関数}
+
+\end{frame}
+
+
+% \appendix
+% \backupbegin
+
+% % \section{演習問題 1}
+% % \subsection{「物質の三態について」}
+% % \begin{frame}
+% % 	\frametitle{「物質の三態について」}
+% % 	\scriptsize
+% % 	以下の穴を埋めてください。
+% % 		\begin{itemize}
+% % 			\item 関数の役割を考えてみると、\fbox{\textcolor{red}{入力}}を変換装置に入れた結果として\fbox{\textcolor{red}{出力}}が現れるわけですから、入力と出力との間の\fbox{\textcolor{red}{関係}}を表していると考えることもできます。
+% % 			\item また、関数というのは、\fbox{\textcolor{red}{数の集合}}に値を取る\fbox{\textcolor{red}{写像}}の一種と考えることもできます。
+% % 			\item グラフとは、\fbox{\textcolor{red}{入力}}と\fbox{\textcolor{red}{出力}}との関係を\fbox{\textcolor{red}{平面図}}に示したものであり、視覚的にその関係を理解しやすくしたものと考えることができます。
+% % 			\item このグラフに表した関数の\fbox{\textcolor{red}{形}}を見ることで、入力と出力との\fbox{\textcolor{red}{関係}}を直感的に理解することができます。
+% % 		\end{itemize}
+% % \end{frame}
+
+% \backupend
+\end{document}

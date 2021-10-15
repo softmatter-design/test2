@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="応力緩和.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   version="1.1"
+   id="svg2"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path981" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4587" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4584" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-3"
+       style="overflow:visible">
+      <path
+         id="path4584-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible">
+      <path
+         id="path4587-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-3-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4584-5-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4587-0-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-3-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4584-5-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4587-0-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-3-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4584-5-99" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4587-0-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-3-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4584-5-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4587-0-84" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="472"
+     inkscape:window-x="1072"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer2"
+     inkscape:document-units="px"
+     inkscape:cy="-17.443888"
+     inkscape:cx="1111.894"
+     inkscape:zoom="0.33589188"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="レイヤー 1">
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       d="m 639.55247,691.43813 29.25782,0 m -294.75782,-0.475 29.25781,0 m 221.80469,22.7525 -29.625,-45.03 m 44.25,22.8 -14.625,22.23 m -59.25,0 -29.625,-45.03 m 29.625,45.03 29.625,-45.03 m -88.875,45.03 -29.625,-45.03 m 29.625,45.03 29.625,-45.03 m -88.875,45.03 -29.625,-45.03 m 29.625,45.03 29.625,-45.03 m -73.875,22.23 14.625,-22.23"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-opacity:1;stroke-dasharray:none"
+       id="path3118-6-6-2-2-1" />
+    <rect
+       y="298.64462"
+       x="38.323826"
+       height="105"
+       width="180"
+       id="rect3973-9"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3963-4"
+       d="m 223.00842,298.9571 -184.215833,0 0,104.375 186.562513,0"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 64.375927,349.42943 235.416663,1.38888 m -242.822928,-49.4375 6.5625,0 0,99.375 -6.5625,0 z"
+       style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3967-1" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 447.15114,243.66296 19.50521,0 m -196.50521,-0.5 19.50521,0 m 147.86979,23.95 -19.75,-47.4 m 29.5,24 -9.75,23.4 m -39.5,0 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -59.25,47.4 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -59.25,47.4 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -49.25,23.4 9.75,-23.4"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.4999999;stroke-opacity:1;stroke-dasharray:none"
+       id="path3118-6-6-2" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       transform="matrix(0.61875002,0,0,0.61875003,337.77041,346.84838)"
+       d="m 68.055553,556.52887 a 11.111111,11.111111 0 1 1 -22.222221,0 11.111111,11.111111 0 1 1 22.222221,0 z"
+       sodipodi:ry="11.111111"
+       sodipodi:rx="11.111111"
+       sodipodi:cy="556.52887"
+       sodipodi:cx="56.944443"
+       id="path3959-3"
+       style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:2.02020192;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <g
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       transform="translate(98,0.50897217)"
+       id="g4262">
+      <rect
+         style="fill:#9ff2f1;fill-opacity:1;stroke:none"
+         id="rect3973-9-9"
+         width="180"
+         height="105"
+         x="9.4671383"
+         y="638.19165" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 194.15172,638.50416 -184.215827,0 0,104.375 186.562507,0"
+         id="path3963-4-3"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3967-1-4"
+         style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 35.519233,688.97649 235.416657,1.38888 m -242.822917,-49.4375 6.5625,0 0,99.375 -6.5625,0 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       transform="translate(97.448866,0)"
+       id="g4360">
+      <path
+         id="path3118-6-6"
+         style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 450.52394,563.97222 19.50521,0 m -196.50521,-0.5 19.50521,0 m 147.86979,23.95 -19.75,-47.4 m 29.5,24 -9.75,23.4 m -39.5,0 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -59.25,47.4 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -59.25,47.4 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -49.25,23.4 9.75,-23.4"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:2.02020192;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path3959"
+         sodipodi:cx="56.944443"
+         sodipodi:cy="556.52887"
+         sodipodi:rx="11.111111"
+         sodipodi:ry="11.111111"
+         d="m 68.055553,556.52887 c 0,6.1365 -4.974613,11.11111 -11.11111,11.11111 -6.136497,0 -11.111111,-4.97461 -11.111111,-11.11111 0,-6.1365 4.974614,-11.11111 11.111111,-11.11111 6.136497,0 11.11111,4.97461 11.11111,11.11111 z"
+         transform="matrix(0.61875002,0,0,0.61875003,239.77041,219.36997)" />
+      <g
+         transform="translate(0,-126.96944)"
+         id="g4262-4">
+        <rect
+           y="638.19165"
+           x="9.4671383"
+           height="105"
+           width="180"
+           id="rect3973-9-9-0"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3963-4-3-5"
+           d="m 194.15172,638.50416 -184.215827,0 0,104.375 186.562507,0"
+           style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 35.519233,688.97649 235.416657,1.38888 m -242.822917,-49.4375 6.5625,0 0,99.375 -6.5625,0 z"
+           style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path3967-1-4-9" />
+      </g>
+    </g>
+    <rect
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       y="766.17902"
+       x="107.46714"
+       height="105"
+       width="180"
+       id="rect3973-9-9-0-3"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-4"
+       d="m 292.15172,766.49151 -184.21583,0 0,104.375 186.56251,0"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       d="m 207.51923,817.04013 235.41666,1.38888 m -242.82292,-49.4375 6.5625,0 0,99.375 -6.5625,0 z"
+       style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3967-1-4-9-2" />
+    <text
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       id="text4383"
+       y="541.59875"
+       x="17.314014"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-size:28px;line-height:1.25"
+         y="541.59875"
+         x="17.314014"
+         id="tspan4385"
+         sodipodi:role="line"> </tspan><tspan
+         style="font-size:28px;line-height:1.25"
+         id="tspan4389"
+         y="576.59875"
+         x="17.314014"
+         sodipodi:role="line">Init.</tspan></text>
+    <text
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       id="text4393"
+       y="707.04382"
+       x="28.962452"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-size:28px;line-height:1.25"
+         y="707.04382"
+         x="28.962452"
+         id="tspan4395"
+         sodipodi:role="line">t=0</tspan></text>
+    <text
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       id="text4397"
+       y="827.28003"
+       x="25.134327"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-size:28px;line-height:1.25"
+         y="827.28003"
+         x="25.134327"
+         id="tspan4399"
+         sodipodi:role="line">t=τ</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 473.05839,41.653623 29.25782,0 m -294.75782,-0.475 29.25781,0 m 221.80469,22.7525 -29.625,-45.03 m 44.25,22.8 -14.625,22.23 m -59.25,0 -29.625,-45.03 m 29.625,45.03 29.625,-45.03 m -88.875,45.03 -29.625,-45.03 m 29.625,45.03 29.625,-45.03 m -88.875,45.03 -29.625,-45.03 m 29.625,45.03 29.625,-45.03 m -73.875,22.23 14.625,-22.23"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-opacity:1;stroke-dasharray:none"
+       id="path3118-6-6-2-2" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 457.03947,181.13513 22.43099,0 m -225.98099,-0.49 22.43099,0 m 170.05026,23.471 -22.7125,-46.452 m 33.925,23.52 -11.2125,22.932 m -45.425,0 -22.7125,-46.452 m 22.7125,46.452 22.7125,-46.452 m -68.1375,46.452 -22.7125,-46.452 m 22.7125,46.452 22.7125,-46.452 m -68.1375,46.452 -22.7125,-46.452 m 22.7125,46.452 22.7125,-46.452 m -56.6375,22.932 11.2125,-22.932"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-opacity:1;stroke-dasharray:none"
+       id="path3118-6-6-2-3" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       d="m 646.3793,818.92401 22.43099,0 m -225.98099,-0.49 22.43099,0 m 170.05026,23.471 -22.7125,-46.452 m 33.925,23.52 -11.2125,22.932 m -45.425,0 -22.7125,-46.452 m 22.7125,46.452 22.7125,-46.452 m -68.1375,46.452 -22.7125,-46.452 m 22.7125,46.452 22.7125,-46.452 m -68.1375,46.452 -22.7125,-46.452 m 22.7125,46.452 22.7125,-46.452 m -56.6375,22.932 11.2125,-22.932"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-opacity:1;stroke-dasharray:none"
+       id="path3118-6-6-2-3-3" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       transform="matrix(0.61875002,0,0,0.61875003,409.3508,474.32676)"
+       d="m 68.055553,556.52887 a 11.111111,11.111111 0 1 1 -22.222221,0 11.111111,11.111111 0 1 1 22.222221,0 z"
+       sodipodi:ry="11.111111"
+       sodipodi:rx="11.111111"
+       sodipodi:cy="556.52887"
+       sodipodi:cx="56.944443"
+       id="path3959-35"
+       style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:2.02020192;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+  </g>
+  <g
+     inkscape:label="レイヤー"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4575"
+       d="m 566.55302,738.87083 0,-208.9382"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.00000001, 5.00000001;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4579"
+       d="m 568.4768,732.20536 100.03653,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <text
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       id="text5213"
+       y="758.0271"
+       x="605.99048"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-size:28px;line-height:1.25"
+         y="758.0271"
+         x="605.99048"
+         id="tspan5215"
+         sodipodi:role="line">ε</tspan></text>
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4575-6"
+       d="m 668.13223,847.97021 0,-208.9382"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.00000001, 5.00000001;stroke-dashoffset:0" />
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       transform="translate(-14.198328,-0.44356009)"
+       id="g960">
+      <g
+         id="g79">
+        <rect
+           transform="rotate(-90)"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none"
+           id="rect3973-9-8"
+           width="180"
+           height="105"
+           x="-507.32639"
+           y="619.62463" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 620.24962,323.11055 v 184.21583 h 104.375 V 320.76387"
+           id="path3963-4-32"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g922"
+         transform="translate(4.7776046,-84)">
+        <rect
+           y="429.20151"
+           x="621.21704"
+           height="26.626083"
+           width="92.884949"
+           id="rect81"
+           style="fill:#0000ff;stroke:#0000ff;stroke-width:2.40892;stroke-opacity:1" />
+        <rect
+           y="281.26212"
+           x="662.58868"
+           height="149.4205"
+           width="10.141663"
+           id="rect918"
+           style="fill:#0000ff;stroke:#0000ff;stroke-width:2.66667;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       transform="translate(11.801672,-9.4655521)"
+       id="g968">
+      <g
+         id="g79-1"
+         transform="translate(218.677,9.021992)">
+        <rect
+           y="619.62463"
+           x="-507.32639"
+           height="105"
+           width="180"
+           id="rect3973-9-8-3"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none"
+           transform="rotate(-90)" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3963-4-32-3"
+           d="m 620.24962,323.11055 v 184.21583 h 104.375 V 320.76387"
+           style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(223.4546,9.021992)"
+         id="g922-3">
+        <rect
+           style="fill:#0000ff;stroke:#0000ff;stroke-width:2.40892;stroke-opacity:1"
+           id="rect81-2"
+           width="92.884949"
+           height="26.626083"
+           x="621.21704"
+           y="429.20151" />
+        <rect
+           style="fill:#0000ff;stroke:#0000ff;stroke-width:2.66667;stroke-opacity:1"
+           id="rect918-7"
+           width="10.141663"
+           height="149.4205"
+           x="662.58868"
+           y="281.26212" />
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       id="path970"
+       d="m 728.00141,383.35486 h 97.35996"
+       style="fill:none;stroke:#000000;stroke-width:6.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:nodetypes="cccccccc"
+       id="path1272"
+       d="m 609.27233,143.03669 50,50.16102 50,-50.16102 h -30 V 57.975542 h -40 v 85.061148 z"
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path3118-6-6-2-2-1-0"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1221.6609,-224.03063 v -29.2578 m -0.475,294.757804 v -29.2578 m 22.7525,-221.804704 -45.03,29.625 m 22.8,-44.25 22.23,14.625 m 0,59.25 -45.03,29.625 m 45.03,-29.625 -45.03,-29.625 m 45.03,88.875004 -45.03,29.625 m 45.03,-29.625 -45.03,-29.625004 m 45.03,88.875004 -45.03,29.625 m 45.03,-29.625 -45.03,-29.625 m 22.23,73.875 -22.23,-14.625"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+    <circle
+       style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3959-3-5"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600"
+       cx="-42.51701"
+       cy="1221.4235"
+       r="6.875"
+       transform="rotate(-90)" />
+    <g
+       id="g4262-8"
+       transform="rotate(-90,424.12678,-106.60497)"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600">
+      <rect
+         y="638.19165"
+         x="9.4671383"
+         height="105"
+         width="180"
+         id="rect3973-9-9-4"
+         style="fill:#9ff2f1;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3963-4-3-7"
+         d="M 194.15172,638.50416 H 9.935893 v 104.375 H 196.4984"
+         style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 35.519233,688.97649 235.416657,1.38888 M 28.112973,640.92787 h 6.5625 v 99.375 h -6.5625 z"
+         style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3967-1-4-7" />
+    </g>
+    <circle
+       r="6.875"
+       cy="1093.9451"
+       cx="-43.068165"
+       style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3959-32"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none"
+       id="rect3973-9-9-0-9"
+       width="180"
+       height="105"
+       x="-308.6058"
+       y="1041.6631"
+       transform="rotate(-90)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1041.9756,123.92123 v 184.21583 h 104.375 V 121.57455"
+       id="path3963-4-3-5-7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3967-1-4-9-4"
+       style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 530.99632,-227.78705 1.3889,-235.41666 m -49.4375,242.82292 v -6.5625 h 99.375 v 6.5625 z"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none"
+       id="rect3973-9-9-0-3-6"
+       width="180"
+       height="105"
+       x="-308.05466"
+       y="1296.4019"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600"
+       transform="rotate(-90)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1296.7143,123.37007 v 184.21585 h 104.375 V 121.02337"
+       id="path3963-4-3-5-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+    <path
+       id="path3967-1-4-9-2-6"
+       style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1347.2629,208.00257 1.3889,-235.416596 m -49.4375,242.822896 v -6.5625 h 99.375 v 6.5625 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+    <path
+       id="path3118-6-6-2-3-3-9"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1349.1468,-230.85753 v -22.4309 m -0.49,225.980904 v -22.4309 m 23.471,-170.050304 -46.452,22.7125 m 23.52,-33.925 22.932,11.2125 m 0,45.425 -46.452,22.7125 m 46.452,-22.7125 -46.452,-22.7125 m 46.452,68.1375 -46.452,22.7125 m 46.452,-22.7125 -46.452,-22.7125 m 46.452,68.137504 -46.452,22.7125 m 46.452,-22.7125 -46.452,-22.712504 m 22.932,56.637504 -22.932,-11.2125"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+    <circle
+       style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3959-35-9"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600"
+       cx="29.063313"
+       cy="1348.9019"
+       r="6.875"
+       transform="rotate(-90)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5, 5;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1269.0936,-151.03123 H 1060.1554"
+       id="path4575-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="190.4687"
+       y="1288.2499"
+       id="text5213-4"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan5215-9"
+         x="190.4687"
+         y="1288.2499"
+         style="font-size:28px;line-height:1.25">ε</tspan></text>
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       d="m 1353.7836,412.86287 v -29.2578 m -0.475,294.7578 v -29.2578 m 22.7525,-221.8047 -45.03,29.625 m 22.8,-44.25 22.23,14.625 m 0,59.24999 -45.03,29.625 m 45.03,-29.625 -45.03,-29.62499 m 45.03,88.875 -45.03,29.625 m 45.03,-29.625 -45.03,-29.62501 m 45.03,88.87501 -45.03,29.625 m 45.03,-29.625 -45.03,-29.625 m 22.23,73.875 -22.23,-14.625"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-2-2-1-0-8" />
+    <circle
+       transform="rotate(-90)"
+       r="6.875"
+       cy="1353.5463"
+       cx="-679.41052"
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       id="path3959-3-5-3"
+       style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       transform="rotate(-90,808.63491,145.7804)"
+       id="g4262-8-9">
+      <rect
+         style="fill:#9ff2f1;fill-opacity:1;stroke:none"
+         id="rect3973-9-9-4-9"
+         width="180"
+         height="105"
+         x="9.4671383"
+         y="638.19165" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 194.15172,638.50416 H 9.935893 v 104.375 H 196.4984"
+         id="path3963-4-3-7-8"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3967-1-4-7-2"
+         style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 35.519233,688.97649 235.416657,1.38888 M 28.112973,640.92787 h 6.5625 v 99.375 h -6.5625 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       transform="rotate(-90,808.656,146.31045)"
+       id="g4360-7-8">
+      <path
+         id="path3118-6-6-8-4"
+         style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 450.52394,563.97222 h 19.50521 m -196.50521,-0.5 h 19.50521 m 147.86979,23.95 -19.75,-47.4 m 29.5,24 -9.75,23.4 m -39.5,0 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -59.25,47.4 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -59.25,47.4 -19.75,-47.4 m 19.75,47.4 19.75,-47.4 m -49.25,23.4 9.75,-23.4"
+         inkscape:connector-curvature="0" />
+      <circle
+         r="11.111111"
+         cy="556.52887"
+         cx="56.944443"
+         style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:2.0202;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path3959-32-4"
+         transform="matrix(0.61875002,0,0,0.61875003,239.77041,219.36997)" />
+      <g
+         transform="translate(0,-126.96944)"
+         id="g4262-4-8-1">
+        <rect
+           y="638.19165"
+           x="9.4671383"
+           height="105"
+           width="180"
+           id="rect3973-9-9-0-9-4"
+           style="fill:#9ff2f1;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3963-4-3-5-7-2"
+           d="M 194.15172,638.50416 H 9.935893 v 104.375 H 196.4984"
+           style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 35.519233,688.97649 235.416657,1.38888 M 28.112973,640.92787 h 6.5625 v 99.375 h -6.5625 z"
+           style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path3967-1-4-9-4-8" />
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       y="1450.3572"
+       x="-942.96344"
+       height="105"
+       width="180"
+       id="rect3973-9-9-0-3-6-8"
+       style="fill:#9ff2f1;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path3963-4-3-5-4-4-3"
+       d="m 1450.6694,758.27879 v 184.21585 h 104.375 V 755.93209"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       d="m 1501.218,842.91129 1.3889,-235.41659 m -49.4375,242.82289 v -6.5625 h 99.375 v 6.5625 z"
+       style="fill:#066fa9;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3967-1-4-9-2-6-4" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       d="m 1503.1019,404.0512 v -22.4309 m -0.49,225.9809 v -22.4309 m 23.471,-170.0503 -46.452,22.7125 m 23.52,-33.925 22.932,11.2125 m 0,45.425 -46.452,22.71249 m 46.452,-22.71249 -46.452,-22.7125 m 46.452,68.13749 -46.452,22.7125 m 46.452,-22.7125 -46.452,-22.7125 m 46.452,68.13751 -46.452,22.7125 m 46.452,-22.7125 -46.452,-22.71251 m 22.932,56.63751 -22.932,-11.2125"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1"
+       id="path3118-6-6-2-3-3-9-8" />
+    <circle
+       transform="rotate(-90)"
+       r="6.875"
+       cy="1502.8572"
+       cx="-605.84546"
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       id="path3959-35-9-3"
+       style="fill:#0a480c;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4575-3-3"
+       d="M 1398.766,485.86226 H 1189.8279"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5, 5;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4579-4-6"
+       d="M 1394.5508,483.93846 V 383.90197"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart-3-9);marker-end:url(#Arrow1Lend-6-9)" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4575-6-6-6"
+       d="M 1398.766,384.28307 H 1189.8278"
+       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5, 5;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4575-3-2"
+       d="m 1562.9828,330.95688 h -500"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.33333, 2.66667;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.33333, 2.66667;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1560.1554,215.40887 H 1351.2172"
+       id="path4575-3-2-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.66666675;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.33333349,2.66666675;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 1560.1554,-151.03123 h -500"
+       id="path4575-3-2-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4575-3-2-4-5"
+       d="m 1560.1554,-255.87723 h -500"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.33333, 2.66667;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4579-4-7"
+       d="M 1470.2338,288.12498 V 219.38842"
+       style="fill:none;stroke:#000000;stroke-width:0.828924px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart-3-0);marker-end:url(#Arrow1Lend-6-6)" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\hsasa\Dropbox\セミナー関連\技術情報協会\2019_5_レオロジー\fig\fig_5\応力緩和.png"
+       inkscape:connector-curvature="0"
+       id="path4575-3-2-4-0"
+       d="m 1570.245,-24.07599 h -500"
+       style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.33333, 2.66667;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#00d200;stroke:#008b00;stroke-width:2.12242007;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect1763"
+       width="96.915565"
+       height="21.749548"
+       x="1045.7053"
+       y="286.38751" />
+    <path
+       id="path3118-6-6-8"
+       style="fill:none;stroke:#d41000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1094.4131,108.36763 V 88.86242 m -0.5,196.50521 v -19.50521 m 23.95,-147.86979 -47.4,19.75 m 24,-29.5 23.4,9.75 m 0,39.5 -47.4,19.75 m 47.4,-19.75 -47.4,-19.75 m 47.4,59.25 -47.4,19.75 m 47.4,-19.75 -47.4,-19.75 m 47.4,59.25 -47.4,19.75 m 47.4,-19.75 -47.4,-19.75 m 23.4,49.25 -23.4,-9.75"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

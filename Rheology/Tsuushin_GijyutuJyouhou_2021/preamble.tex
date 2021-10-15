@@ -1,0 +1,81 @@
+
+% 数式
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{bm}
+% 画像
+\usepackage{graphicx}
+
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{ascmac}
+\usepackage{xcolor}
+
+
+\usepackage{makeidx}
+\makeindex
+
+\graphicspath{{../../_Figures//}{../../_Figures/Rheology/}}
+
+\usepackage{qrcode}
+\setlength\lineskiplimit{0pt}
+\setlength\normallineskiplimit{0pt}
+
+\usepackage{qexam}
+
+\usepackage{titlesec}
+\titleformat*{\section}{\Large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+\titleformat*{\paragraph}{\normalsize\bfseries}
+
+% ページ設定
+% \pagestyle{empty}
+% 高さの設定
+\setlength{\textheight}{\paperheight}   % ひとまず紙面を本文領域に
+\setlength{\topmargin}{-5.4truemm}      % 上の余白を20mm(=1inch-5.4mm)に
+\addtolength{\topmargin}{-\headheight}  % 
+\addtolength{\topmargin}{-\headsep}     % ヘッダの分だけ本文領域を移動させる
+\addtolength{\textheight}{-40truemm}    % 下の余白も20mmに%% 幅の設定
+\setlength{\textwidth}{\paperwidth}     % ひとまず紙面を本文領域に
+\setlength{\oddsidemargin}{-5.4truemm}  % 左の余白を20mm(=1inch-5.4mm)に
+\setlength{\evensidemargin}{-5.4truemm} % 
+\addtolength{\textwidth}{-40truemm}     % 右の余白も20mmに
+% 図と本文との間
+%\abovecaptionskip=-5pt
+%\belowcaptionskip=-5pt
+%
+% 全体の行間調整
+% \renewcommand{\baselinestretch}{1.0} 
+% 図と表
+%\renewcommand{\figurename}{Fig.}
+%\renewcommand{\tablename}{Tab.}
+%
+
+% \makeatletter 
+% \def\section{\@startsection {section}{1}{\z@}{1.5 ex plus 2ex minus -.2ex}{0.5 ex plus .2ex}{\large\bf}}
+% \def\subsection{\@startsection{subsection}{2}{\z@}{0.2\Cvs \@plus.5\Cdp \@minus.2\Cdp}{0.1\Cvs \@plus.3\Cdp}{\reset@font\normalsize\bfseries}}
+% \makeatother 
+
+\usepackage[dvipdfmx,%
+ bookmarks=true,%
+ bookmarksnumbered=true,%
+ colorlinks=false,%
+ setpagesize=false,%
+ pdftitle={数式に頼らない直感的理解による材料設計のためのレオロジー⼊⾨},%
+ pdfauthor={佐々木裕},%
+ pdfsubject={},%
+ pdfkeywords={レオロジー; 材料設計; }]{hyperref}
+\usepackage{pxjahyper}
+
+\usepackage{plext}
+
+\usepackage{niceframe} 
+\usepackage{framed}
+\newenvironment{longartdeco}{%
+  \def\FrameCommand{\fboxsep=\FrameSep \artdecoframe}%
+  \MakeFramed {\FrameRestore}}%
+ {\endMakeFramed}
+ 
+\usepackage{siunitx}
+
+\newcommand{\rmd}{\mathrm{d}}

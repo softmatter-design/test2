@@ -1,0 +1,183 @@
+ \documentclass[12pt, dvipdfmx]{beamer}
+
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+%%%%%%%%%%%  package  %%%%%%%%%%%
+\usepackage{bxdpx-beamer}% dvipdfmxなので必要
+\usepackage{pxjahyper}% 日本語で'しおり'したい
+
+\usepackage{amssymb,amsmath,ascmac}
+
+\usepackage{multirow}
+\usepackage{bm}
+
+\graphicspath{{../../_Figures//}{../../_Figures/Rheology/}}
+
+\usepackage{tikz}
+\usepackage{xparse}
+
+\usepackage{multimedia}
+
+\usetikzlibrary{shapes,arrows}
+%% define fancy arrow. \tikzfancyarrow[<option>]{<text>}. ex: \tikzfancyarrow[fill=red!5]{hoge}
+\tikzset{arrowstyle/.style n args={2}{inner ysep=0.1ex, inner xsep=0.5em, minimum height=2em, draw=#2, fill=black!20, font=\sffamily\bfseries, single arrow, single arrow head extend=0.4em, #1,}}
+\NewDocumentCommand{\tikzfancyarrow}{O{fill=black!20} O{none}  m}{
+\tikz[baseline=-0.5ex]\node [arrowstyle={#1}{#2}] {#3 \mathstrut};}
+
+%目次スライド
+\AtBeginSection[]{
+  \frame{\tableofcontents[currentsection]}
+}
+
+%アペンディックスのページ番号除去
+\newcommand{\backupbegin}{
+   \newcounter{framenumberappendix}
+   \setcounter{framenumberappendix}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+   \addtocounter{framenumberappendix}{-\value{framenumber}}
+   \addtocounter{framenumber}{\value{framenumberappendix}} 
+}
+
+\newcommand{\rmd}{\mathrm{d}}
+\newcommand{\dd}[1]{\dfrac{\mathrm{d} #1}{\mathrm{d} x}}
+
+%%%%%%%%%%%  theme  %%%%%%%%%%%
+\usetheme{Copenhagen}
+% \usetheme{Metropolis}
+% \usetheme{CambridgeUS}
+% \usetheme{Berlin}
+
+%%%%%%%%%%%  inner theme  %%%%%%%%%%%
+% \useinnertheme{default}
+
+% %%%%%%%%%%%  outer theme  %%%%%%%%%%%
+\useoutertheme{default}
+% \useoutertheme{infolines}
+
+%%%%%%%%%%%  color theme  %%%%%%%%%%%
+%\usecolortheme{structure}
+
+%%%%%%%%%%%  font theme  %%%%%%%%%%%
+\usefonttheme{professionalfonts}
+%\usefonttheme{default}
+
+%%%%%%%%%%%  degree of transparency  %%%%%%%%%%%
+%\setbeamercovered{transparent=30}
+
+% \setbeamertemplate{items}[default]
+
+%%%%%%%%%%%  numbering  %%%%%%%%%%%
+% \setbeamertemplate{numbered}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+
+\title
+[動的な粘弾性]
+{動的な粘弾性}
+\author[東亞合成　佐々木]{佐々木 裕}
+\institute[東亞合成]{東亞合成株式会社}
+\date{\today}
+
+\begin{document}
+
+%%%%%
+% 1 P
+%%%%%
+\maketitle
+
+%%%%%
+% 2 P
+%%%%%
+%% 目次 (必要なければ省略)
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+\begin{frame}
+	\frametitle{この章でのお話}
+
+
+	% 具体的に列記すると、以下のような事項となります。
+	\begin{itemize}
+		\item 動的な刺激に対する応答
+        \begin{itemize}
+			\item 理想的な弾性固体
+			\item 理想的な粘性液体
+		\end{itemize} 
+		\item 粘弾性体の動的な刺激への応答
+		\begin{itemize}
+			\item マックルウェルモデルの応答
+			\item 複雑な材料の応答
+			\item 一般化マックスウェルモデル
+		\end{itemize} 
+		\item 具体的な応答のスペクトルについて
+		\begin{itemize}
+			\item 周波数分散
+			\item 温度分散
+			\item 測定の注意点
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\section{刺激を動的に与えてみると}
+\subsection{理想的な弾性固体の応答}
+\begin{frame}
+    \frametitle{}
+
+\end{frame}
+
+\subsection{理想的な粘性液体の応答}
+\begin{frame}
+    \frametitle{粘性液体の応答}
+
+\end{frame}
+
+\section{粘弾性体の動的な刺激への応答}
+
+\subsection{マックスウェルモデルの応答}
+
+\subsection{複雑な材料の応答}
+
+\subsection{一般化マックスウェルモデル}
+
+\section{具体的な応答のスペクトルについて}
+
+\subsection{周波数分散}
+\begin{frame}
+    \frametitle{周波数分散}
+  
+\end{frame}
+
+\subsection{温度分散}
+\begin{frame}
+    \frametitle{温度分散}
+
+\end{frame}
+
+\subsection{測定の注意点}
+\begin{frame}
+    \frametitle{測定の注意点}
+
+\end{frame}
+
+% \appendix
+% \backupbegin
+
+% % \section{演習問題 1}
+% % \subsection{「物質の三態について」}
+% % \begin{frame}
+% % 	\frametitle{「物質の三態について」}
+% % 	\scriptsize
+% % 	以下の穴を埋めてください。
+% % 		\begin{itemize}
+% % 			\item 関数の役割を考えてみると、\fbox{\textcolor{red}{入力}}を変換装置に入れた結果として\fbox{\textcolor{red}{出力}}が現れるわけですから、入力と出力との間の\fbox{\textcolor{red}{関係}}を表していると考えることもできます。
+% % 			\item また、関数というのは、\fbox{\textcolor{red}{数の集合}}に値を取る\fbox{\textcolor{red}{写像}}の一種と考えることもできます。
+% % 			\item グラフとは、\fbox{\textcolor{red}{入力}}と\fbox{\textcolor{red}{出力}}との関係を\fbox{\textcolor{red}{平面図}}に示したものであり、視覚的にその関係を理解しやすくしたものと考えることができます。
+% % 			\item このグラフに表した関数の\fbox{\textcolor{red}{形}}を見ることで、入力と出力との\fbox{\textcolor{red}{関係}}を直感的に理解することができます。
+% % 		\end{itemize}
+% % \end{frame}
+
+% \backupend
+\end{document}
