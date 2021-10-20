@@ -615,6 +615,45 @@
 
 \subsection{ゴムの破断について}
 
+\begin{frame}
+    \frametitle{破壊工学の考え方}
+    \begin{exampleblock}{破壊工学の考え方}
+    
+    \begin{itemize}
+    \item
+    系中に\alert{クラックが存在することを前提}に耐久性を評価
+    % \item
+    % \alert{「クラック近傍での応力集中を如何に抑制するか？」}
+    \end{itemize}
+    \end{exampleblock}
+    \begin{columns}[totalwidth=1\textwidth]
+    \column{.52\textwidth}
+    \begin{alertblock}{破壊工学の観点から（微視的）}
+        \begin{itemize}
+            \item
+            クラック先端の応力集中\\ \alert{応力拡大係数 $K_I$ で評価}
+            \footnotesize
+            \begin{align*}
+            K_{I} = \sigma \sqrt{\pi c}
+            \end{align*}
+            \normalsize
+            \item 
+            クラック進展の抑制 \\
+            $\Rightarrow$ 先端での\alert{局所降伏}\\
+            降伏応力 $\sigma_Y$ に反比例
+            \footnotesize
+            \begin{align*}
+            d \propto \left( \dfrac{K_I}{\sigma_Y} \right)^2
+            \end{align*}
+            \normalsize
+        \end{itemize}
+    \end{alertblock}
+    \column{.46\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{./Crack_Yield.pdf}
+    \end{columns}
+\end{frame}
+
 % %%%%%%%%%%%%%%%%%
 \begin{frame}
 	\frametitle{SBRでの伸びきり効果}
@@ -729,5 +768,50 @@
 					\includegraphics[width=\textwidth]{gt_N48_C4_M3.png}
 				\end{block}
 		\end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{緩和状態の比較}
+	\begin{exampleblock}{動的粘弾性スペクトルの作成}
+		\begin{itemize}
+			\item 平衡状態での応力ゆらぎの相関関数を測定
+			\item Green-Kubo により、応力緩和関数G(t) を得る。
+			\item 必要に応じて、長時間側を外挿。
+			\item 離散データを線形近似で内挿し動的粘弾性スペクトル
+		\end{itemize}
+	\end{exampleblock}
+    \begin{columns}[onlytextwidth]
+        \column{.5\linewidth}
+            \begin{itemize}
+                \item ホモポリマーと比較して
+                \begin{itemize}
+                    \item 絡み合いを抑制した NPT はホモポリマーに類似
+                    \item NVT ではストランドの自由な運動が抑制？
+                \end{itemize}
+                % \item \textcolor{red}{3分岐のほうが、長時間緩和を持っていた。}
+            \end{itemize}
+        \column{.48\linewidth}
+            \includegraphics[width=\textwidth]{gw_eq.png}
+    \end{columns}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Constrained Junction Model}
+	\begin{exampleblock}{伸長時の緩和現象}
+		\begin{itemize}
+			\item 伸長時に
+			\begin{itemize}
+				\item ストランドに直交する他の鎖の影響が緩む
+				\item 架橋点およびストランドへの規制が緩和
+			\end{itemize}
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=.7\textwidth]{Constrained_Juntion.pdf}
+
+			P.J.Flory, J.C.P., 66 5720 (1977)
+		\end{center}
+	\end{exampleblock}
+		
 \end{frame}
 \end{document}
