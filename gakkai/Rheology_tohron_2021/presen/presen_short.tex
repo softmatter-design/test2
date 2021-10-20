@@ -117,7 +117,7 @@
 			\item 現行の鉄鋼主体\\$ \Rightarrow$ \textcolor{green}{高分子材料を含むマルチマテリアル化}
 			\item 高分子材料によるマルチマテリアル化のポイント
 				\begin{itemize}
-					\item 高い比強度の有効利用
+					\item \alert{高い比強度}の有効利用
 					\item 特徴を生かした適材適所 $\Leftrightarrow$ 適切な接合方法の選択
 						\begin{itemize}
 							\item {\color{red} 「接着接合」への高分子の利用}
@@ -475,7 +475,7 @@
         \end{columns}
     \begin{alertblock}{Z1-codeとは}
         \begin{itemize}
-            \item 絡み合いを可視化するアルゴリズム\footnote{
+            \item 絡み合いを可視化、定量化するアルゴリズム\footnote{
                 M. Kröger, Comput. Phys. Commun. 168, 209 (2005)
                 % \begin{itemize}
                 %     \item M. Kröger, Comput. Phys. Commun. 168, 209 (2005)
@@ -579,6 +579,25 @@
 \end{frame}
 
 \begin{frame}
+    \frametitle{TetraPEG gel での先行研究}
+	\vspace{-2mm}
+	\begin{exampleblock}{濃度依存での力学応答の変化}
+		\begin{itemize}
+			\item 合成時の濃度に依存して、
+			\begin{itemize}
+				\item Phantom Network model から、
+				\item Affine Network model へと遷移
+			\end{itemize}
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=.5\textwidth]{sakai_affine_phantom.png}
+
+			Y. Akagi et al, Macromolecules 46, 3, 1035 (2013)
+		\end{center}
+	\end{exampleblock}
+\end{frame}
+
+\begin{frame}
     \frametitle{ヒステリシスの検討}
         \begin{block}{計算条件}
             \begin{itemize}
@@ -634,7 +653,7 @@
 				\end{itemize}
 			\item 絡み合いを低減したネットワーク構造との比較で、
 				\begin{itemize}
-					\item 比較的長時間での緩和を確認
+					% \item 比較的長時間での緩和を確認
 					\item Trapped Entanglements が緩和後の弾性率に影響 
 					\item ファントムネットワークモデルへと漸近
 					\item ヒステリシスの発現が増加
