@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="接着と水.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1476306"
+     inkscape:cx="337.21653"
+     inkscape:cy="783.35312"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="1609"
+     inkscape:window-y="327"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient26201">
+      <stop
+         style="stop-color:#0000fe;stop-opacity:0.7995338"
+         offset="0"
+         id="stop26197" />
+      <stop
+         style="stop-color:#00ffd0;stop-opacity:0"
+         offset="1"
+         id="stop26199" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path2067" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2346"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path2344" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path2061" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path2067-7" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient26201"
+       id="linearGradient26203"
+       x1="93.8946"
+       y1="217.9803"
+       x2="78.922638"
+       y2="217.94521"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:0.205333;stroke:none;stroke-width:1.41111"
+       id="rect846"
+       width="111.6841"
+       height="3.5691321"
+       x="13.41276"
+       y="44.190132"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.07775"
+       id="rect846-1"
+       width="111.6841"
+       height="2.0819936"
+       x="13.41276"
+       y="47.75927"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:0.205333;stroke:none;stroke-width:1.41111"
+       id="rect846-3"
+       width="111.6841"
+       height="3.5691321"
+       x="13.41276"
+       y="49.84127"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:1.07625"
+       id="rect1435"
+       width="25.14197"
+       height="9.220274"
+       x="125.09686"
+       y="44.190132"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:0.205333;stroke:none;stroke-width:2.24493"
+       id="rect846-4"
+       width="45.075909"
+       height="22.381538"
+       x="49.927597"
+       y="66.692192"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.71458"
+       id="rect846-1-6"
+       width="45.075909"
+       height="13.055896"
+       x="49.927597"
+       y="89.073769"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:0.205333;stroke:none;stroke-width:2.24493"
+       id="rect846-3-9"
+       width="45.075909"
+       height="22.381538"
+       x="49.927597"
+       y="102.12971"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:2.93488"
+       id="rect1435-4"
+       width="29.814173"
+       height="57.81908"
+       x="95.00351"
+       y="66.692192"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#8500f8;stroke-width:1.41111;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="M 89.562891,95.63444 H 105.41326"
+       id="path2041"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="82.275352"
+       y="109.84512"
+       id="text3774"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3772"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="82.275352"
+         y="109.84512">水の拡散</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.352778;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4538"
+       cx="124.40637"
+       cy="48.311058"
+       r="8.6994848"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="138.29823"
+       y="52.480949"
+       id="text5665"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5663"
+         style="stroke-width:0.264583"
+         x="138.29823"
+         y="52.480949">水</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.325756"
+       y="83.427818"
+       id="text6893"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan6891"
+         style="fill:#666666;stroke-width:0.264583"
+         x="62.325756"
+         y="83.427818">基材</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="50.8479"
+       y="99.460396"
+       id="text7581"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan7579"
+         style="fill:#008080;stroke-width:0.264583"
+         x="50.8479"
+         y="99.460396">接着剤</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.205333;stroke:none;stroke-width:2.24493"
+       id="rect846-4-5"
+       width="45.075909"
+       height="22.381538"
+       x="63.096626"
+       y="188.84254"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.71458"
+       id="rect846-1-6-4"
+       width="45.075909"
+       height="13.055896"
+       x="63.096626"
+       y="211.22412"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:0.205333;stroke:none;stroke-width:2.24493"
+       id="rect846-3-9-9"
+       width="45.075909"
+       height="22.381538"
+       x="63.096626"
+       y="224.28006"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#00a9ff;fill-opacity:1;stroke:none;stroke-width:2.93488"
+       id="rect1435-4-9"
+       width="29.814173"
+       height="57.81908"
+       x="108.17254"
+       y="188.84254"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#8500f8;stroke-width:1.41111;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart-0)"
+       d="m 152.73816,197.67646 h 15.85037"
+       id="path2041-9"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="95.973549"
+       y="236.49339"
+       id="text3774-7"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3772-2"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="95.973549"
+         y="236.49339">水の拡散</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="67.292702"
+       y="203.72609"
+       id="text6893-5"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan6891-9"
+         style="fill:#666666;stroke-width:0.264583"
+         x="67.292702"
+         y="203.72609">基材</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="45.181877"
+       y="221.95604"
+       id="text7581-6"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan7579-8"
+         style="fill:#008080;stroke-width:0.264583"
+         x="45.181877"
+         y="221.95604">接着剤</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.431745px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 49.931683,66.68137 118.61781,41.99084"
+       id="path13827"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.266819px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.75417,124.52533 8.50689,-76.13922"
+       id="path13827-2"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="130.175"
+       y="86.518761"
+       id="text15479"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adherent_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan15477"
+         style="stroke-width:0.264583"
+         x="130.175"
+         y="86.518761">接着端部の拡大</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="40.745827"
+       y="20.108332"
+       id="text18213"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan18211"
+         style="stroke-width:0.264583"
+         x="40.745827"
+         y="20.108332">接着部への水の拡散</tspan></text>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.133292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 80.349698,211.26426 c 0,0 1.819317,-0.0667 2.022981,0.27026 1.388313,2.2971 1.568331,9.72437 0.04694,12.34149 -0.230992,0.39736 -2.107649,0.37451 -2.107649,0.37451"
+       id="path19490"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="mix-blend-mode:multiply;fill:url(#linearGradient26203);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 108.17253,224.28001 v -13.05589 l -25.760181,0.0914 1.123648,2.03661 -0.05267,8.8136 -1.176316,2.00149 z"
+       id="path22494"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\hsasa\git_local\test2\Figures\simulation\adhetant_water_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>
