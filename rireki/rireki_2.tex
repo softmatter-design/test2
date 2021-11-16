@@ -1,0 +1,138 @@
+%
+% Copyright (c) 1996, 2004, 2006, 2009, 2014
+% Tama Communications Corporation. All rights reserved.
+%
+% Redistribution and use in source and binary forms, with or without
+% modification, are permitted provided that the following conditions
+% are met:
+% 1. Redistributions of source code must retain the above copyright
+%    notice, this list of conditions and the following disclaimer.
+% 2. Redistributions in binary form must reproduce the above copyright
+%    notice, this list of conditions and the following disclaimer in the
+%    documentation and/or other materials provided with the distribution.
+%
+% THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+% ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+% IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+% ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+% FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+% DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+% OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+% HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+% LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+% OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+% SUCH DAMAGE.
+%
+\documentclass[a4]{jarticle}
+\usepackage{rireki}
+%
+% オプション
+%
+% 下記のオプションが利用可能です。
+%
+% \空行挿入		% 学歴と職歴の間に空行を挿入します
+\toA4			% A4用紙にB5 のトンボ付きで出力します
+%			(履歴書のフォーマットはB5サイズ固定です)
+\begin{document}
+%
+% ID情報
+%
+\姓{佐々木}
+\名{裕}
+\姓読み{ささき}
+\名読み{ひろし}
+\性別{男}					% 男|女
+\誕生日{1959 年 3 月 17 日}
+\年齢{62}
+%
+% 顔写真
+%
+% 画像ファイルにはEPS フォーマット・縦横比4:3 のものをご使用ください。
+% 縦を4cm に調整し、縦横比を変更せずに印刷します。
+% 次のように指定します。
+% \顔写真{photo.eps}
+%
+\顔写真{photo.eps}
+%
+% 現住所
+%
+\現住所郵便番号{468-0075}
+\現住所{愛知県名古屋市天白区御幸山７１９－２}
+\現住所読み{あいちけんなごやしてんぱくくみゆきやま}
+\現住所市外局番{052}
+\現住所電話番号{836-3487}
+\現住所呼び出し{}
+%
+% 連絡先
+%
+\連絡先郵便番号{}
+\連絡先{\tt e-mail: hsasaki@xj.commufa.jp}
+\連絡先読み{}
+\連絡先市外局番{}
+\連絡先電話番号{}
+\連絡先呼び出し{}
+%
+% 学歴、職歴
+%
+% 学歴、職歴を年月順に列挙してください。合計20個まで記入出来ます。
+% 20個を超える部分は印刷されませんので、ご注意ください。
+% 印刷順は、学歴=>職歴の順になります。
+%
+\学歴{1974}{4}{大分県立別府鶴見が丘高等学校 入学}      % {年}{月}{内容}
+\学歴{1977}{3}{大分県立別府鶴見が丘高等学校 卒業}
+\学歴{1977}{4}{北海道大学 入学}
+\学歴{1984}{3}{北海道大学 工学部合成化学工学科 卒業}
+\学歴{1984}{4}{北海道大学大学院工学研究科修士課程 合成化学工学専攻 入学}
+\学歴{1986}{3}{北海道大学大学院工学研究科修士課程 合成化学工学専攻 修了}
+\職歴{1986}{4}{東亞合成株式会社 入社}
+\学歴{1992}{1}{米国 Rennselaer Polytechnic Institute（海外留学）}
+\学歴{1993}{3}{米国 Rennselaer Polytechnic Institute より帰国}
+\学歴{1994}{4}{北海道大学地球環境科学研究科博士後期課程 入学}
+\学歴{1996}{3}{北海道大学地球環境科学研究科博士後期課程 修了}
+\職歴{2021}{10}{現在にいたる}
+%
+% 資格
+%
+% 資格を取得年月順に列挙してください。9つまで記入できます。
+% 9つを超える部分は印刷されませんので、ご注意ください。
+%
+\資格{1981}{7}{普通自動車一種免許}            % {取得年}{取得月}{資格}
+\資格{1988}{3}{甲種危険物取扱者}            % {取得年}{取得月}{資格}
+\資格{1996}{12}{TOEIC 835 点}
+%
+% 個人情報
+%
+% 志望の動機と本人希望記入欄はlatex のコマンドを記述できます。
+%
+\志望の動機{
+	\begin{tabular}{ll}
+	{\gt 趣味・特技} & テニス、読書\\
+	{\gt 高分子関連} & 高分子材料を中心とした機能性材料の設計・合成・評価\\
+	{\gt 理論的アプローチ} & 統計力学、高分子物理を中心とした理論的アプローチに関する広範な知見\\
+	{\gt 研究・開発全般} & 研究・開発に関わるコンセプトの集約化とそのプレゼンテーション\\
+	{\gt シミュレーション} & SCF 計算、MD 計算、DPD 等の各種シミュレーションに関する知見\\
+	{\gt 分析・評価技術} & 分析、観察、粘弾性測定等の各種評価技術\\
+	\end{tabular}
+}
+\本人希望記入欄{
+
+職務経歴書に示しましたような幅広い経験を生かして、あらゆる世代の研究員をも巻き込んだ形で各種の研究・開発業務を推進していくことができる自信があります。
+
+%	私が希望する仕事の条件は下記の通りです。
+%	\begin{itemize}
+%	\item ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯
+%	\item ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯
+%	\item ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯
+%	\end{itemize}
+}
+%
+% その他
+%
+\通勤時間{}
+\扶養家族数{2}					% 人数(配偶者を除きます)
+\配偶者{あり}					% あり|なし
+\配偶者の扶養義務{あり}	
+
+\サイン{Your Signature}
+
+\end{document}
