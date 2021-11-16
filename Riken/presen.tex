@@ -1,0 +1,183 @@
+\documentclass[12pt, dvipdfmx]{beamer}
+
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+%%%%%%%%%%%  package  %%%%%%%%%%%
+\usepackage{bxdpx-beamer}% dvipdfmxなので必要
+\usepackage{pxjahyper}% 日本語で'しおり'したい
+
+\usepackage{amssymb,amsmath,ascmac}
+
+\usepackage{multirow}
+\usepackage{bm}
+
+\graphicspath{{../../../Figures/gakkai/}}
+
+\usepackage{tikz}
+\usepackage{xparse}
+
+\usepackage{multimedia}
+
+\usetikzlibrary{shapes,arrows}
+%% define fancy arrow. \tikzfancyarrow[<option>]{<text>}. ex: \tikzfancyarrow[fill=red!5]{hoge}
+\tikzset{arrowstyle/.style n args={2}{inner ysep=0.1ex, inner xsep=0.5em, minimum height=2em, draw=#2, fill=black!20, font=\sffamily\bfseries, single arrow, single arrow head extend=0.4em, #1,}}
+\NewDocumentCommand{\tikzfancyarrow}{O{fill=black!20} O{none}  m}{
+\tikz[baseline=-0.5ex]\node [arrowstyle={#1}{#2}] {#3 \mathstrut};}
+
+%微分関連のマクロ
+%
+\newcommand{\diff}{\mathrm d}
+\newcommand{\difd}[2]{\dfrac{\diff #1}{\diff #2}}
+\newcommand{\difp}[2]{\dfrac{\partial #1}{\partial #2}}
+\newcommand{\difdd}[2]{\dfrac{\diff^2 #1}{\diff #2^2}}
+\newcommand{\difpp}[2]{\dfrac{\partial^2 #1}{\partial #2^2}}
+
+%目次スライド
+\AtBeginSection[]{
+  \frame{\tableofcontents[currentsection]}
+}
+
+%アペンディックスのページ番号除去
+\newcommand{\backupbegin}{
+   \newcounter{framenumberappendix}
+   \setcounter{framenumberappendix}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+   \addtocounter{framenumberappendix}{-\value{framenumber}}
+   \addtocounter{framenumber}{\value{framenumberappendix}} 
+}
+
+\newcommand{\rmd}{\mathrm{d}}
+\newcommand{\dd}[1]{\dfrac{\mathrm{d} #1}{\mathrm{d} x}}
+
+%%%%%%%%%%%  theme  %%%%%%%%%%%
+\usetheme{Copenhagen}
+% \usetheme{Metropolis}
+% \usetheme{CambridgeUS}
+% \usetheme{Berlin}
+
+%%%%%%%%%%%  inner theme  %%%%%%%%%%%
+% \useinnertheme{default}
+
+% %%%%%%%%%%%  outer theme  %%%%%%%%%%%
+\useoutertheme{default}
+% \useoutertheme{infolines}
+
+%%%%%%%%%%%  color theme  %%%%%%%%%%%
+%\usecolortheme{structure}
+
+%%%%%%%%%%%  font theme  %%%%%%%%%%%
+\usefonttheme{professionalfonts}
+%\usefonttheme{default}
+
+%%%%%%%%%%%  degree of transparency  %%%%%%%%%%%
+%\setbeamercovered{transparent=30}
+
+% \setbeamertemplate{items}[default]
+
+%%%%%%%%%%%  numbering  %%%%%%%%%%%
+% \setbeamertemplate{numbered}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title
+[ランダムな接続性を有するネットワークポリマーの緩和挙動]
+{ランダムな接続性を有する\\ネットワークポリマーの緩和挙動}
+\author[東亞合成　佐々木]{佐々木裕}
+\institute[東亞合成]{東亞合成}
+\date{October 21, 2021}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}\frametitle{}
+	\titlepage
+\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%
+% \section*{}
+% %
+% \begin{frame}
+% %[allowframebreaks]
+% {Outline}
+% 	\tableofcontents
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%
+\section{はじめに}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{自己紹介}
+
+\begin{frame}
+	\frametitle{自己紹介}
+\end{frame}
+
+\subsection{モデル化への私のあがき}
+
+
+\section{考えてきたこと}
+\subsection{化学のやり方}
+\subsection{物理のやり方}
+
+
+
+\subsection{抽象的？}
+
+
+\begin{frame}
+    \frametitle{抽象}
+
+    「抽象」という語については、「事物や表象からある性質・共通性・本質を抽（ひ）き出して把握する」つまり「象を抽き出す」という意味を持つ語
+
+
+    \begin{itemize}
+        \item 個々の事物の本質・共通の属性を抜き出して、一般的な概念をとらえるさま。
+        \item 単に概念的に思考されるだけで、実際の形態・内容を持たないさま。
+    \end{itemize}
+
+    後者の意味の反意語は、具体的
+
+    Concrete, Specific
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{抽象と捨象}
+    \begin{itemize}
+        \item 抽き出す行為と捨てる行為
+        \item 不要なものに埋もれた中から本質につながる単純化
+        \item 粗視化はどちら？
+        \item 熊井先生の走り回り画法
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{<title>}
+
+    具体的
+
+    Concrete, Specific
+
+
+    反意語として使われる
+
+    ab-
+    struct
+
+
+\end{frame}
+\section{おすすめ}
+
+\subsection{私のやり方}
+\begin{frame}
+    \frametitle{私のやり方}
+    \begin{block}{おすすめのやり方}
+        \begin{itemize}
+            \item 急がば回れ
+            \item 備えよ常に
+            \item 腑に落とす（落ちる）
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+
+\end{document}
