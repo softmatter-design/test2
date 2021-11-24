@@ -49,31 +49,17 @@
 \newcommand{\rmd}{\mathrm{d}}
 \newcommand{\dd}[1]{\dfrac{\mathrm{d} #1}{\mathrm{d} x}}
 
+%%%
+\usepackage{pgfpages}
+\setbeamertemplate{note page}[plain] % or [default], [compress]
+\setbeameroption{show notes on second screen=right} % or bottom, ...
+\newcommand{\pdfnote}[1]{\note{#1}} % as you like
+
 %%%%%%%%%%%  theme  %%%%%%%%%%%
 \usetheme{Copenhagen}
-% \usetheme{Metropolis}
-% \usetheme{CambridgeUS}
-% \usetheme{Berlin}
-
-%%%%%%%%%%%  inner theme  %%%%%%%%%%%
-% \useinnertheme{default}
-
-% %%%%%%%%%%%  outer theme  %%%%%%%%%%%
 \useoutertheme{default}
-% \useoutertheme{infolines}
-
-%%%%%%%%%%%  color theme  %%%%%%%%%%%
-%\usecolortheme{structure}
-
 %%%%%%%%%%%  font theme  %%%%%%%%%%%
 \usefonttheme{professionalfonts}
-%\usefonttheme{default}
-
-%%%%%%%%%%%  degree of transparency  %%%%%%%%%%%
-%\setbeamercovered{transparent=30}
-
-% \setbeamertemplate{items}[default]
-
 %%%%%%%%%%%  numbering  %%%%%%%%%%%
 % \setbeamertemplate{numbered}
 \setbeamertemplate{navigation symbols}{}
@@ -92,45 +78,41 @@
 \begin{frame}\frametitle{}
 	\titlepage
 \end{frame}
-% %%%%%%%%%%%%%%%%%%%%%
-% \section*{}
-% %
-% \begin{frame}
-% %[allowframebreaks]
-% {Outline}
-% 	\tableofcontents
-% \end{frame}
-
 %%%%%%%%%%%%%%%%%%%%%
 \section{はじめに}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{はじめに}
 \begin{frame}
     \frametitle{はじめに}
-    \begin{block}{「計算で物事を理解する予測する」}
-        ～産業界の実問題に立ち向かうサイエンス～
+    \begin{block}{シンポジウムのタイトル}
+        「計算で物事を理解する予測する」\\
+        ～産業界の実問題に立ち向かうサイエンス～\\
 
 　　    22人の計算科学と先端実験の先駆者たちが\\産業界の実問題解決への手掛かりを開示します。
     \end{block}
     
-    \begin{exampleblock}{私のお話}
+    \note[item]{本日のお題}
+    \begin{exampleblock}<2->{私のお話}
         \begin{itemize}
             \item 「理解する」という人間の行動について、フォーカス
-            \item 21人の計算に関するタイトなお話 + \alert{おまけの与太話}
             \begin{itemize}
-                \item もともとは合成系の化学系出身
-                \item カチオン重合性モノマーの反応性評価から、MOシミュレーションもどきへ。
-                \item 高分子系材料一般の探索指針を求めてメゾスケールシミュレーションへ。
+                \item 合成化学系出身の企業研究（開発）者が
+                \item ソフトマター関連のシミュレーションを通して、
+                \item 考えてきたことを紹介。
             \end{itemize}
+            \item<3> 21人の計算に関するタイトなお話 + \alert{おまけの与太話}
         \end{itemize}
+        \note[item]{まあ、単なる与太話ですので、お気楽にお付き合い願えればと。}
     \end{exampleblock}
 \end{frame}
 
-\subsection{自己紹介}
 
+
+\subsection{自己紹介}
 \begin{frame}
 	\frametitle{自己紹介}
     \vspace{-3mm}
+    \note[item]{私の背景を理解していただくために、簡単に自己紹介をさせていただきます。}
         \begin{columns}[T, onlytextwidth]
             \column{.48\linewidth}
                 \begin{block}{大学時代}
@@ -151,7 +133,7 @@
                         \item 合成化学をベースとし、材料設計
                         \begin{itemize}
                             \item 経験知に基づく設計
-                            \item ChemDrawの構造を無理やり機能へと意味づけ
+                            \item ChemDrawの構造を無理やり材料の機能へと意味づけ
                         \end{itemize}
                         \item 留学を機会に新規材料
                         \begin{itemize}
@@ -166,69 +148,86 @@
 
 \subsection{モデル化への私のあがき}
 \begin{frame}
-    \frametitle{}
-        \begin{itemize}
-            \item 光硬化型材料の開発において
+    \frametitle{私の研究歴}
+    \note[item]{ちょっと繰り返しになりますが、もう少し詳しく研究内容を紹介します。}
+    \note[item]{海外留学時に再発見したオキセタンの評価を機会にシミュレーションの道へ}
+    \begin{itemize}
+        \item もともとは合成系の化学系出身
+        \item カチオン重合性評価から、MOシミュレーションへ
+        \item 高分子系材料一般の探索指針を求めて、メゾスケールシミュレーションへ。
+    \end{itemize}
+        \begin{block}{実際の内容}
             \begin{itemize}
-                \item 各種分子構造の試作と要求特性との相関を模索
+                \item 光硬化型材料の開発において
+                \begin{itemize}
+                    \item 各種分子構造の試作と要求特性との相関を模索
+                    % \item 光カチオン重合硬化型材料の探索
+                    \item オキセタン化合物の有効性の再発見
+                \end{itemize}
+                \item シミュレーションをベースとしたモデル化へ
+                \begin{itemize}
+                    \item オキセタンの反応性について
+                    \item 表面偏析のモデル化
+                    \item ネットワークポリマーとネットワーク理論
+                    \item フルアトムMDシミュレーションと粗視化
+                \end{itemize}
             \end{itemize}
-            \item 新規材料の探索
-            \begin{itemize}
-                \item 光カチオン重合硬化型材料の探索
-                \item オキセタン化合物の有効性の再発見
-            \end{itemize}
-            \item シミュレーションをベースとしたモデル化へ
-            \begin{itemize}
-                \item オキセタンの反応性について
-                \item 表面偏析のモデル化
-                \item ネットワークポリマーとネットワーク理論
-                \item フルアトムMDシミュレーションと粗視化
-            \end{itemize}
-        \end{itemize}
+        \end{block}
 \end{frame}
 
 \begin{frame}
     \frametitle{OCTAとの出会い}
+        \note[item]{OCTAの説明}
+        \note[item]{JACIが開催したOCTA-WSに2004年から参加し、土井先生、川勝先生、滝本先生、および、
+        三菱化学の樹神さんのような多数の民間企業の研究者の知己を得た。}
         \begin{block}{OCTAとは}
             \begin{itemize}
-                \item 
+                \item ソフトマテリアルに対する統合的なシミュレータ
+                \begin{itemize}
+                    \item COGNAC、PASTA、SUSHI、MUFFIN
+                    \item GOURMET というシミュレーションプラットフォーム
+                \end{itemize}
             \end{itemize}
         \end{block}
-        \centering
-            \includegraphics[width=.8\textwidth]{octa.png}
+        \begin{columns}[c, onlytextwidth]
+            \column{.6\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{octa.png}
+            \column{.4\linewidth}
+                \begin{itemize}
+                    \item マルチスケール
+                    \item マルチフィジックスの統合
+                    \item シームレス\\ズーミング
+                \end{itemize}
+        \end{columns}    
 \end{frame}
 
 \begin{frame}
-    \frametitle{マルチスケール？}
+    \frametitle{統合的な理解を目指して}
     \begin{itemize}
-        \item マルチスケールが重要なのではなくて、階層的な構造
+        \item マルチスケールな取り扱いで階層的な構造をイメージ
         \begin{itemize}
-            \item 再帰的に捉えることもできるが、
+            \item メゾスケールの重要性
             \begin{itemize}
-                \item ローカルには、エントロピー最大化（自由エネルギー最小化）
+                \item ローカルには、自由エネルギーを最小化
                 \item ローカルの微視的状態の個数倍 $\neq$ グローバル
             \end{itemize}
-            \item 準安定状態
+            \item 実事象では、平衡状態には至らない
             \begin{itemize}
+                \item 時間遷移の過程で準安定状態でトラップ
                 \item 生物学での、ホメオスタシス（恒常性）
-                \item 自己組織化
-                \item 分散システムでの自己安定化：フォールトトレラント
+                \item 自己組織化の理解
+                % \item 分散システムでの自己安定化：フォールトトレラント
             \end{itemize}
         \end{itemize}
         \item マルチフィジックスは、人間の勝手な都合
         \begin{itemize}
             \item 自然はあるがままに捉えるべき
-            \item シームレスズーミングは幻想
+            \item 階層ごとの切り分けは無意味な場合も多い
         \end{itemize}
+        \item シームレスズーミングは幻想
     \end{itemize}
-\end{frame}
-
-\begin{frame}
-    \frametitle{モデリングについて}
-
-    化学系の人間としての過去の自身に欠けていたものが、
-物理系では当たり前の考え方である「自然現象の背後にあるユニバーサリティーの理解と適正なレベルでのモデル化」だと感じてきました。
-
+    \large{\alert{実事象の統合的な理解は一筋縄では行かない！}}
 \end{frame}
 
 \begin{frame}
@@ -240,7 +239,7 @@
             \item 工学的には、自己集合体とは区別しない事が多い
         \end{itemize}
     \end{block}
-
+    \note[item]{例えば、自己組織化という概念を例に考えてみると、}
     \begin{exampleblock}{自己集合体（平衡条件近傍で形成）とは区別する立場}
         \begin{columns}[T, onlytextwidth]
             \column{.48\linewidth}
@@ -264,129 +263,176 @@
 \end{frame}
 
 \section{考えてきたこと}
+\subsection{モデル化による現象の理解}
+\begin{frame}
+    \frametitle{モデル化による現象の理解}
+    \note[item]{あくまでも、私にとってなんですが}
+    \begin{alertblock}{化学系の人間としての過去の自身に欠けていたもの}
+        物理系では当たり前の考え方\\
+        「自然現象の背後にあるユニバーサリティーの理解と、\\適正なレベルでのモデル化」
+    \end{alertblock}
 
-\begin{frame}
-    \frametitle{化学系企業でありがちな状態}
-    \begin{itemize}
-        \item 教科書的なものの背後にある物理的、数学的な思想を理解することからの逃避
-        \item 数式や物理モデルの盲目的な受認によるデータの処理
-        \item 統計的な妥当性の確認の放棄
-        \item 客観的な視点に基づく独立事象と従属事象の切り分けの放棄
-    \end{itemize}
-
-\end{frame}
-\subsection{化学のやり方}
-\begin{frame}
-    \frametitle{化学のやり方}
-    \begin{itemize}
-        \item 基本的には天下りを受容
-        \item 見えないものを受け入れる
-        \item 分子、原子
-        \item 有り様を実感できない
-        \item 受験の影響（暗記科目としてすり込まれる）
-        \item 多様性の容認
-        \item 熱力学が理解できていない人が、けっこう多い
-    \end{itemize}
-\end{frame}
-    
-\subsection{物理のやり方}
-\begin{frame}
-    \frametitle{物理的な考え方}
-    \begin{itemize}
-        \item 物理の求める一般性
-        \item 本質に迫るためのモデル化
-    \end{itemize}
-    \begin{itemize}
-        \item 揺動散逸定理
-        \item 中心極限定理
-        \item 線形応答理論
-        \item 乱雑位相近似
-        \item 臨界現象（転移における普遍性）
-        \item 緩和挙動
-        \item スケーリング則
-    \end{itemize}
+    \begin{block}{化学系企業でありがちな状態}
+        \begin{itemize}
+            \item 教科書的なものの背後にある物理的、数学的な思想を理解することからの逃避
+            \item 数式や物理モデルの盲目的な受認によるデータの処理
+            \item 統計的な妥当性の確認の放棄
+            \item 客観的な視点に基づく独立事象と従属事象の切り分けの放棄
+        \end{itemize}
+    \end{block}
 \end{frame}
 
+\subsection{化学と物理}
 \begin{frame}
-    \frametitle{印象派物理}
+    \frametitle{化学と物理を比べると}
+    \begin{columns}[T, onlytextwidth]
+        \column{.48\linewidth}
+        \begin{block}{化学のやり方}
+            \begin{itemize}
+                \item 基本的には天下りを受容
+                \begin{itemize}
+                    \item 見えないものを受け入れる
+                    \item 有り様を実感できない分子、原子
+                    \item 「誰が原子を見たか？」
+                \end{itemize}
+                \item 多様性を容認
+                \note[item]{ちょっとイチャモンかもしれませんが、偏微分でビビる人が多いのかもしれません}
+                \item 熱力学が理解できていない人が、けっこう多い
+            \end{itemize}
+        \end{block}
+        
+        \column{.48\linewidth}
+        \begin{exampleblock}{物理的な考え方}
+            \begin{itemize}
+                \item 事象に内在する一般性
+                \item その本質に迫るために\\モデル化
+                \item 興味深い考え方、\\
+                揺動散逸定理、中心極限定理、線形応答理論、乱雑位相近似、臨界現象（転移における普遍性）、緩和挙動、スケーリング則
+            \end{itemize}
+            \note[item]{これは、エイヤと私が感心したものを並べただけですが。}
+        \end{exampleblock}
+    \end{columns}
+\end{frame}
 
+\begin{frame}
+    \frametitle{ソフトマターでの印象派物理}
     \begin{itemize}
         \item 印象派とは数学的な詳細をあえて大胆に無視することでシンプルに捉え、本質に迫るスタイルのこと
         \item 写実主義的物理との対比
-        \item P-G de Gennes らのフランスでの潮流
+        \item P-G de Gennes からのフランスでの潮流
         \item まわりの実験家とつねに対話をして、身の回りの事象に対して強い好奇心を持ち、斬新なアイデアを創出
-    \end{itemize}
-
-\end{frame}
-\subsection{抽象的？}
-\begin{frame}
-    \frametitle{抽象}
-
-    「抽象」という語については、「事物や表象からある性質・共通性・本質を抽（ひ）き出して把握する」つまり「象を抽き出す」という意味を持つ語
-
-
-    \begin{itemize}
-        \item 個々の事物の本質・共通の属性を抜き出して、一般的な概念をとらえるさま。
-        \item 単に概念的に思考されるだけで、実際の形態・内容を持たないさま。
-    \end{itemize}
-
-    後者の意味の反意語は、具体的
-
-    Concrete, Specific
-
-\end{frame}
-
-\begin{frame}
-    \frametitle{抽象と捨象}
-    \begin{itemize}
-        \item 抽き出す行為と捨てる行為
-        \item 不要なものに埋もれた中から本質につながる単純化
-        \item 粗視化はどちら？
-        \item 熊井先生の走り回り画法
+        \item 大胆な発想での理解；「大いなる同一視」
     \end{itemize}
 \end{frame}
 
-
-
+\subsection{抽象的と具体的}
 \begin{frame}
-    \frametitle{具体的に？}
-    \begin{itemize}
-        \item 抽象的ということを、非現実的と捉える人のなんと多いことか。
-        \item 実事象はあまりに複雑で因果関係がわかりにくい。
-        \item 最近の風潮として、すぐに成果を求める。
-        \item シミュレーションに対しても、考え方の指針ではなく、答えを求める。
-    \end{itemize}
+    \frametitle{抽象的に考える}
+    抽象的ということを、非現実的と捉え、「えそらごと」と読んでしまう人のなんと多いことか。
+
+    \begin{exampleblock}{抽象とは}
+        「抽象」という語については、「事物や表象からある性質・共通性・本質を抽（ひ）き出して把握する」つまり「象を抽き出す」という意味を持つ語
+        \begin{itemize}
+            \item 個々の事物の本質・共通の属性を抜き出して、一般的な概念をとらえるさま。
+            \item 単に概念的に思考されるだけで、実際の形態・内容を持たないさま。
+        \end{itemize}
+        後者の意味の反意語は、具体的
+    \end{exampleblock}
+    \large{\alert{抽象化は、モデル化に必須。}}
 \end{frame}
 
 \begin{frame}
-    \frametitle{機械学習への違和感}
-
-    \begin{itemize}
-        \item （一部の方に見られる）思考を放棄したような無手勝流
-        \item 
-    \end{itemize}
-
+    \frametitle{最近の風潮}
+    \begin{columns}[T, onlytextwidth]
+        \column{.48\linewidth}
+            \begin{block}{最近の風潮}
+                \begin{itemize}
+                    \item 実事象はあまりに複雑で因果関係がわかりにくい。
+                    \item それにも関わらず、すぐに成果を求める。
+                    \item シミュレーションに対しても、考え方の指針ではなく、答えを求める。
+                    \item そのようなアプローチは、汎用性を生み出さない。
+                \end{itemize}
+            \end{block}
+        \column{.48\linewidth}
+            \begin{exampleblock}{抽象と捨象}
+                \begin{itemize}
+                    \item 捨象は捨てる行為に、\\フォーカス
+                    \item 抽き出す行為と捨てる行為
+                    \item どちらも不要なものに埋もれた中から本質につながる単純化
+                    \item 粗視化はどちらであるべきか？
+                    \item 熊井先生の走り回り画法
+                \end{itemize}
+            \end{exampleblock}
+    \end{columns} 
 \end{frame}
 
-
-\section{おすすめ}
+\section{私のおすすめ}
 \subsection{あるべき状態}
 \begin{frame}
-    \frametitle{あるべき状態}
-
-    \begin{block}{あるべき状態}
+    \frametitle{MI への違和感}
+    \begin{block}{機械学習について}
+        機械学習は特定の分野では非常に有効
         \begin{itemize}
-            \item 物理的な思考による事象の成り立ちの理解およびモデル化への道すじを共有
-            \item 目的を明確にし、適切な次元、スケール及び時間軸で議論を行う
-            \item 物質の多様性を前提とした化学的な方法論の整理と適正なモデル化への挑戦
-            \item 物理及び化学双方の方法論についての相互理解の深化
+            \item 回帰的手法をベースとした多変量解析
+            \item 自動運転のようなフィードバック系
         \end{itemize}
     \end{block}
-    この実材料の創成の過程において、化学系の研究者が物理側から提案された理論的な成果を盲目的に受け入れるのではなく、
-その背景を理解する必要があります。
-また、物理分野の人たちがモデルを構築する際に、物質に内在する多様性を実感しつつモデルの条件設定を適切に行っていただくことも重要です。
-結局、物理と化学のあいだで、思考（志向）ベースまで含めた互いの方法論についての相互理解を深めていくことこそが重要なのだと考えるに至りました。
+    \begin{exampleblock}{MI への違和感}
+        \note[item]{悪口ばかりでも何なんで、使い方次第とは思います。}
+        \begin{itemize}
+            \item （一部の方に見られる）思考を放棄したような無手勝流
+            \item 少なくとも、MI を打ち出の小槌と捉えてはいけない。
+            \item シミュレーションを実験の代替とする方法論は有効。
+            \item 考えるための道具として有効活用すべき。
+        \end{itemize}
+    \end{exampleblock}
 \end{frame}
+
+\begin{frame}
+    \frametitle{あるべき状態}
+    \begin{exampleblock}{化学系研究者の立ち位置}
+        \begin{itemize}
+            \item 試行錯誤ベースで実際に物質を合成することは必須
+            \item 物理側からの理論的な成果を盲目的に受け入れては駄目
+        \end{itemize}
+    \end{exampleblock}
+    \begin{alertblock}{あるべき状態}
+        \begin{itemize}
+            \item 物理的な思考による事象の成り立ちの理解、および、モデル化への道すじを共有
+            \item 目的を明確にし、適切な次元、スケール及び時間軸で、議論を行う
+            \item 物質の多様性を前提とした化学的な方法論の整理と、適正なモデル化への挑戦
+            \item 物理及び化学双方の方法論についての相互理解の深化
+        \end{itemize}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}
+    \frametitle{基礎知識の汎用化について}
+        \begin{exampleblock}{データサイエンスの企業での使いこなし}
+            \begin{itemize}
+                \item データサイエンティストの中途採用
+                \begin{itemize}
+                    \item マネージメントの難しさ $\Rightarrow$ プロの持ち腐れ
+                    \item 現役データサイエンティストの満足度は低い
+                    \begin{itemize}
+                        \item 手本がない
+                        \item 周りの理解がない
+                        \item スキルアップの時間がない
+                    \end{itemize}
+                \end{itemize}
+            \end{itemize}
+        \end{exampleblock}
+        \begin{alertblock}{「データサイエンスの民主化」}
+            \begin{itemize}
+                \item 文系、数学苦手は関係ない
+                \item データをもとに客観的に考えるという基本的な概念
+                \item 関係者みんなに広く浅く（深いに越したことはない）
+            \end{itemize}
+        \end{alertblock}
+        \centering
+        \Large{\alert{研究一般についても大事}}
+\end{frame}
+
 \subsection{私のやり方}
 \begin{frame}
     \frametitle{私のやり方}
@@ -413,73 +459,49 @@
         \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \frametitle{基礎知識の汎用化}
-        \begin{exampleblock}{データサイエンスの企業での使いこなし}
-            \begin{itemize}
-                \item データサイエンティストの中途採用
-                \begin{itemize}
-                    \item マネージメントの難しさ $\Rightarrow$ プロの持ち腐れ
-                    \item 現役データサイエンティストの満足度は低い
-                    \begin{itemize}
-                        \item 手本がない
-                        \item 周りの理解がない
-                        \item スキルアップの時間がない
-                    \end{itemize}
-                \end{itemize}
-            \end{itemize}
-        \end{exampleblock}
-        \begin{alertblock}{「データサイエンスの民主化」}
-            \begin{itemize}
-                \item 文系、数学苦手は関係ない
-                \item データをもとに客観的に考えるという基本的な概念
-                \item 関係者みんなに広く浅く
-                \item 研究一般についても大事
-            \end{itemize}
-        \end{alertblock}
-\end{frame}
-
-
-\begin{frame}
-    \frametitle{概念の理解}
-        説明変数と目的変数との関係をモデル化
-        \begin{itemize}
-            \item 例えば、ランダムフォレスト
-            \begin{itemize}
-                \item 説明変数の選択への制約が少ない。
-                \item 過学習を影響を排除しやすい。
-            \end{itemize}
-            \item 
+% \begin{frame}
+%     \frametitle{概念の理解}
+%         説明変数と目的変数との関係をモデル化
+%         \begin{itemize}
+%             \item 例えば、ランダムフォレスト
+%             \begin{itemize}
+%                 \item 説明変数の選択への制約が少ない。
+%                 \item 過学習を影響を排除しやすい。
+%             \end{itemize}
+%             \item 
             
-        \end{itemize}
+%         \end{itemize}
+% \end{frame}
 
-\end{frame}
-
-\subsection{自分の頭で}
+\subsection{自分の頭で考える}
 \begin{frame}
     \frametitle{他人の意見について}
         \begin{columns}[c, onlytextwidth]
-            \column{.55\linewidth}
+            \column{.54\linewidth}
             \large
             \begin{block}{その道のプロの言うこと}
                 \begin{itemize}
                     \large
                     \item それなりの確からしさ
                     \item 前提条件の確認が必要
-                    \item 常識が異なる
-                    \item 暗黙の了解が多数
+                    \begin{itemize}
+                        \large
+                        \item 常識が異なる
+                        \item 暗黙の了解が多数
+                    \end{itemize}
                     \item 素人が下手に使う怖さ
                 \end{itemize}
             \end{block}
-            \column<2>{.06\linewidth}
+            \column{.02\linewidth}
+
+            sikenn
+
+            % \large{$\Rightarrow$}
+            
+            \column{.44\linewidth}<2>
             \LARGE
-            $\Rightarrow$
-            \column<2>{.35\linewidth}
-            \Large
                 \alert{「盲目的に\\信じてはだめ」}
         \end{columns}
-        
-        
 \end{frame}
 
 \begin{frame}
@@ -508,17 +530,35 @@
                 \column{.48\linewidth}
                 \begin{exampleblock}<3>{消化（使いこなす）ために？}
                     \begin{itemize}
-                        \item 特定の分野に囚われない広範な知見
+                        \item 特定分野に囚われない広範な知見
                         \item 自由な議論
                         \item 締め切りを決めない
                         \item ゆっくり考える
                         \item 数値化にこだわらない
-                        \item 目に見えないものを大事に
+                        \item 目に見えないものを\\大事に
                     \end{itemize}
                 \end{exampleblock}
             \end{columns}
         \end{alertblock}
-        
 \end{frame}
 
+\begin{frame}
+    \frametitle{まとめに代えて}
+        \begin{exampleblock}{私のアプローチ}
+            \begin{itemize}
+                \item 自由に議論できる場の創設
+                \begin{itemize}
+                    \item Slack を利用して、「東海ソフトマター」という\\議論の場を設置
+                    \item 大学、企業半々程度の参加者
+                    \item それをベースに「ザツダン会」を開催
+                \end{itemize}
+                \item 基本的な知見の再整理
+                \begin{itemize}
+                    \item Moodle システムを利用して、LMSサイトを整備中
+                    \item 自身の初心者としての疑問点にフォーカスして整理
+                    \item 対象：レオロジー、高分子物理、統計等
+                \end{itemize}
+            \end{itemize}
+        \end{exampleblock}
+\end{frame}
 \end{document}
