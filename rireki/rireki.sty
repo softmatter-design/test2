@@ -1,5 +1,5 @@
 %
-% Copyright (c) 1996, 2004, 2013, 2014
+% Copyright (c) 1996, 2004, 2013, 2014, 2016, 2019
 % Tama Communications Corporation. All rights reserved.
 %
 % Redistribution and use in source and binary forms, with or without
@@ -23,10 +23,10 @@
 % OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 % SUCH DAMAGE.
 %
-%	rireki.sty	Version 2.6
+%	rireki.sty	Version 2.9
 %
 \typeout{`Rireki style(B5)'}
-\usepackage[dvipdfmx]{graphicx}
+%\usepackage[dvipdfmx]{graphicx}	% lualatex でも使えるようにrireki.tex に移動
 %----------------------------------------------------------------------------
 %
 % スタイルファイル実装メモ
@@ -35,12 +35,7 @@
 %
 % 0. 用紙
 %
-%	B5用紙またはA4用紙を使用します。
-%	B5 用紙には直接、A4 用紙にはB5のトンボ付きで出力します。
-%	履歴書のサイズは常にB5です。
-%
-%	\toA4 マクロ使用	A4 にトンボ付きで出力
-%	\toA4 マクロ不使用	B5 に直接出力
+%	B5 用紙を使用します。
 %	
 % 1. 座標
 %
@@ -97,9 +92,12 @@
 \def\height{257}		% ページ高(B5)
 \def\ROOT@X{0}			% ページ原点X(紙の左端からの距離mm)
 \def\ROOT@Y{0}			% ページ原点Y(紙の上端からの距離mm)
-\topmargin      = -38.2mm
-\oddsidemargin  = -28.6mm
-\evensidemargin = -28.6mm
+\topmargin      = -1in
+\oddsidemargin  = -1in
+\evensidemargin = -1in
+\headheight     = 0mm
+\headsep        = 0mm
+\parindent      = 0mm
 \textwidth      = \width mm
 \textheight     = \height mm
 \unitlength     = 1mm
@@ -261,53 +259,6 @@
 }
 %----------------------------------------------------------------------------
 %
-% トンボ書き出し
-%
-%	\put(0,0){\framebox(\width,\height)} の3mm 外側の枠
-%
-% A4用紙にB5の出力をするために用意しました。
-% pLaTeX2付属のトンボでは、B5用のトンボはA4用紙からはみ出してしまいます。
-%
-%----------------------------------------------------------------------------
-\newif\ifトンボ\トンボfalse
-\def\toA4{
-	\トンボtrue
-	\topmargin      = -25.4mm
-	\oddsidemargin  = -15.4mm
-	\evensidemargin = -15.4mm
-}
-\def\トンボ書き出し{
-	% 左下
-	\put(-3, 0){\line(-1, 0){6}}
-	\put(-3, 0){\line( 0,-1){9}}
-	\put( 0,-3){\line(-1, 0){9}}
-	\put( 0,-3){\line( 0,-1){6}}
-	% 右下
-	\let\x\width
-	\put(\x,-3){\line( 1, 0){9}}
-	\put(\x,-3){\line( 0,-1){6}}
-	\Add\width{3}\x
-	\put(\x, 0){\line( 1, 0){6}}
-	\put(\x, 0){\line( 0,-1){9}}
-	% 左上
-	\let\y\height
-	\put(-3,\y){\line(-1, 0){6}}
-	\put(-3,\y){\line( 0, 1){9}}
-	\Add\height{3}\y
-	\put( 0,\y){\line(-1, 0){9}}
-	\put( 0,\y){\line( 0, 1){6}}
-	% 右上
-	\Add\width{3}\x
-	\let\y\height
-	\put(\x,\y){\line( 1, 0){6}}
-	\put(\x,\y){\line( 0, 1){9}}
-	\let\x\width
-	\Add\height{3}\y
-	\put(\x,\y){\line( 1, 0){9}}
-	\put(\x,\y){\line( 0, 1){6}}
-}
-%----------------------------------------------------------------------------
-%
 % 履歴書の書き出し
 %
 %----------------------------------------------------------------------------
@@ -330,6 +281,7 @@
 \def\名読み#1{\def\@名読み{#1}}
 \def\性別#1{\def\@性別{#1}}
 \def\誕生日#1{\def\@誕生日{#1}}
+\def\現在日付#1{\def\@現在日付{#1}}
 \def\年齢#1{\def\@年齢{#1}}
 \def\本籍#1{\def\@本籍{#1}}			% 旧版との互換性のため
 \def\顔写真#1{\def\@顔写真{#1}}
@@ -407,7 +359,6 @@
 \def\ROOT@Y{24}				% 1ページ目の原点
 \学歴職歴リスト編集
 \begin{picture}(\width,\height)		% B5 = (181x257mm)
-\ifトンボ\トンボ書き出し\fi
 %\put(0,0){\framebox(\width,\height)}
 %----------------
 % 氏名住所
@@ -416,7 +367,7 @@
 \SetPos(0,0) {
 	\def\枠の高さ{66.5}
 	\Put(0,-1){\makebox(25,5)[t]{\Large \bf 履\hspace{5mm}歴\hspace{5mm}書}}
-	\Put(70,-1){\makebox(25,3)[t]{\scriptsize \today 現在}}
+	\Put(70,-1){\makebox(25,3)[t]{\scriptsize \@現在日付 現在}}
 	\Sub{\写真横}{2}{\w}
 	\Sub{\写真縦}{2}{\h}
 	\Put(103.5,28.5){\dashbox{.5}(\w,\h)[c]{\parbox{\w mm}{\center\scriptsize 写真をはる位置\\\vspace{1mm}(縦\写真縦 mm, 横\写真横 mm)}}}
@@ -516,10 +467,9 @@
 
 \newpage
 
-\def\ROOT@X{11}				% 2ページ目の原点
+\def\ROOT@X{12.5}			% 2ページ目の原点
 \def\ROOT@Y{24}				% 2ページ目の原点
 \begin{picture}(\width,\height)		% B5 = (182x257mm)
-\ifトンボ\トンボ書き出し\fi
 %----------------
 % 学歴・職歴(続き)
 %----------------

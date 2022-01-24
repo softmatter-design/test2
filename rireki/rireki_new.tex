@@ -1,5 +1,5 @@
 %
-% Copyright (c) 1996, 2004, 2006, 2009, 2014
+% Copyright (c) 1996, 2004, 2006, 2009, 2014, 2016, 2019
 % Tama Communications Corporation. All rights reserved.
 %
 % Redistribution and use in source and binary forms, with or without
@@ -23,16 +23,27 @@
 % OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 % SUCH DAMAGE.
 %
-\documentclass[a4]{jarticle}
+\newif\iflualatex
+% lualatex を使用するには \lualatextrue を有効にしてください
+%\lualatextrue
+%
+% ヘッダー
+%
+\iflualatex
+\documentclass[b5j]{ltjsarticle}
+\usepackage[deluxe,nfssonly]{luatexja-preset}
+\usepackage{graphicx}
+\else
+\documentclass[uplatex,b5j]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\fi
 \usepackage{rireki}
 %
 % オプション
 %
 % 下記のオプションが利用可能です。
 %
-% \空行挿入		% 学歴と職歴の間に空行を挿入します
-\toA4			% A4用紙にB5 のトンボ付きで出力します
-%			(履歴書のフォーマットはB5サイズ固定です)
+\空行挿入		% 学歴と職歴の間に空行を挿入します
 \begin{document}
 %
 % ID情報
@@ -43,6 +54,7 @@
 \名読み{ひろし}
 \性別{男}					% 男|女
 \誕生日{1959 年 3 月 17 日}
+\現在日付{2022 年 1 月 24日}
 \年齢{62}
 %
 % 顔写真
@@ -50,7 +62,7 @@
 % 画像ファイルにはEPS フォーマット・縦横比4:3 のものをご使用ください。
 % 縦を4cm に調整し、縦横比を変更せずに印刷します。
 % 次のように指定します。
-% \顔写真{photo.eps}
+% \顔写真{photo.jpg}
 %
 \顔写真{photo.eps}
 %
@@ -89,7 +101,7 @@
 \学歴{1993}{3}{米国 Rennselaer Polytechnic Institute より帰国}
 \学歴{1994}{4}{北海道大学地球環境科学研究科博士後期課程 入学}
 \学歴{1996}{3}{北海道大学地球環境科学研究科博士後期課程 修了}
-\職歴{2021}{10}{現在にいたる}
+\職歴{2022}{1}{現在にいたる}
 %
 % 資格
 %
@@ -115,15 +127,7 @@
 	\end{tabular}
 }
 \本人希望記入欄{
-
-職務経歴書に示しましたような幅広い経験を生かして、あらゆる世代の研究員をも巻き込んだ形で各種の研究・開発業務を推進していくことができる自信があります。
-
-%	私が希望する仕事の条件は下記の通りです。
-%	\begin{itemize}
-%	\item ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯
-%	\item ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯
-%	\item ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯
-%	\end{itemize}
+週 8-10 時間の稼働が可能です。
 }
 %
 % その他

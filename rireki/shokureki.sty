@@ -1,0 +1,913 @@
+﻿% shokureki.sty
+% Copyright Tetsuo Ikegawa
+%
+% page layout
+%
+\voffset=-25.4mm
+\hoffset=0mm
+\topmargin=7mm
+\textheight=257.9mm
+\textwidth=184.6mm
+\oddsidemargin=-12.7mm
+\evensidemargin=-12.7mm
+
+%
+% glbal var
+%
+\def\yes{yes}
+\def\no{no}
+\def\@compactForm{no}
+\def\@reverseDate{no}
+\def\@multiCol{no}
+\def\@listProject{no}
+\def\@noTable{no}
+\def\@breakBox{no}
+
+%
+% token list definition
+%
+\newtoks\tokShokurekiList
+\newtoks\tokProjectList
+\newtoks\tokKeikenList
+\newtoks\tokShikakuList
+\newtoks\tokPRList
+\newtoks\tokItemList
+\newtoks\tokDescList
+
+\long\def\addTokShokureki#1{
+\expandafter\tokShokurekiList\expandafter{\the\tokShokurekiList#1}
+}
+
+\long\def\addTokProject#1{
+\expandafter\tokProjectList\expandafter{\the\tokProjectList#1}
+}
+
+\long\def\addTokKeiken#1{
+\expandafter\tokKeikenList\expandafter{\the\tokKeikenList#1}
+}
+
+\long\def\addTokShikaku#1{
+\expandafter\tokShikakuList\expandafter{\the\tokShikakuList#1}
+}
+
+\long\def\addTokPR#1{
+\expandafter\tokPRList\expandafter{\the\tokPRList#1}
+}
+
+\long\def\addTokItem#1{
+\expandafter\tokItemList\expandafter{\the\tokItemList#1}
+}
+
+\long\def\addTokDesc#1{
+\expandafter\tokDescList\expandafter{\the\tokDescList#1}
+}
+%
+% short title
+%
+\newcommand\makeshorttitle{%
+    \newpage\null
+    \vspace{-1.2cm}
+    \vskip 0.4em
+    \begin{center}%
+      \let\footnote\thanks
+      {\LARGE \@title \par}%
+      \vskip .3em
+      {\large
+        \lineskip .1em
+        \begin{tabular}[t]{c}%
+          \@author
+        \end{tabular}\par}%
+      \vskip .2em
+      {\large \@date}%
+    \end{center}%
+    \par\vskip .3em
+    \ifvoid\@abstractbox\else\centerline{\box\@abstractbox}\vskip.3em\fi
+}
+%
+% short section
+%
+\newcommand\setshortsection{%
+\renewcommand{\section}{%
+  \if@slide\clearpage\fi
+  \@startsection{section}{1}{\z@}%
+  {.6\Cvs \@plus.3\Cdp \@minus.2\Cdp}% 前アキ
+  {.1\Cvs \@plus.1\Cdp}% 後アキ
+  {\normalfont\Large\headfont\raggedright}}
+
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
+  {.4\Cvs \@plus.3\Cdp \@minus.2\Cdp}% 前アキ
+  {.1\Cvs \@plus.1\Cdp}% 後アキ
+  {\normalfont\large\headfont}}
+
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}%
+  {.2\Cvs \@plus.3\Cdp \@minus.2\Cdp}%
+  {\z@}%
+  {\normalfont\normalsize\headfont}}
+
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}%
+   {1.25ex \@plus 1ex \@minus .2ex}%
+   {-1em}%
+   {\reset@font\normalsize\bfseries}}
+
+}
+%
+% ruby-furigana
+%
+\def\ruby#1#2{%
+\leavevmode
+\setbox0=\hbox{#1}\setbox1=\hbox{\tiny#2}%
+\ifdim\wd0>\wd1 \dimen0=\wd0 \else \dimen0=\wd1 \fi
+\hbox{\kanjiskip=\fill
+\vbox{\hbox to \dimen0{\tiny \hfil#2\hfil}%
+\nointerlineskip
+\hbox to \dimen0{\hfil#1\hfil}}}}
+%
+%
+%
+\newcommand\compact[1]{%
+\gdef\@compactForm{yes}
+\setshortsection
+\renewcommand{\baselinestretch}{#1}
+\pagestyle{empty}
+}
+
+\newcounter{enum2}
+\newcommand\@changeList{%
+\renewenvironment{itemize}%  
+{%
+\begin{list}{\parbox{1zw}{$\ast$}}% 見出し記号／直後の空白を調節
+   {%
+     \setlength{\topsep}{0zh}
+     \setlength{\itemindent}{0zw}
+     \setlength{\leftmargin}{1.5zw}%  左のインデント
+     \setlength{\rightmargin}{0zw}% 右のインデント
+     \setlength{\labelsep}{0zw}%    黒丸と説明文の間
+     \setlength{\labelwidth}{0zw}%  ラベルの幅
+     \setlength{\itemsep}{0em}%     項目ごとの改行幅
+     \setlength{\parsep}{0em}%      段落での改行幅
+     \setlength{\listparindent}{0zw}% 段落での一字下り
+   }
+}{%
+\end{list}%
+}
+
+\renewenvironment{enumerate}{%
+  \setcounter{enum2}{0}
+  \begin{list}%
+  {%
+     \arabic{enum2}.\ \,%  見出し記号／直後の空白を調節
+  }%
+  {%
+     \usecounter{enum2}
+     \setlength{\topsep}{0zh}
+     \setlength{\itemindent}{0zw}%  ここは 0 に固定
+     \setlength{\leftmargin}{1.5zw}%  左のインデント
+     \setlength{\rightmargin}{0zw}% 右のインデント
+     \setlength{\labelsep}{0zw}%    黒丸と説明文の間
+     \setlength{\labelwidth}{0zw}%  ラベルの幅
+     \setlength{\itemsep}{0em}%     項目ごとの改行幅
+     \setlength{\parsep}{0em}%      段落での改行幅
+     \setlength{\listparindent}{0zw}% 段落での一字下り
+  }
+}{%
+  \end{list}%
+}
+
+\renewenvironment{description}
+  {\list{}
+  {%
+    \setlength{\topsep}{0zh}
+    \setlength{\itemindent}{0zw}
+    \setlength{\leftmargin}{2.5zw}%  左のインデント 
+    \setlength{\rightmargin}{0zw}% 右のインデント 
+    \setlength{\labelsep}{1zw}%    ラベルと説明文の間 
+    \setlength{\labelwidth}{0zw}%  ラベルの幅 
+    \setlength{\itemsep}{0em}%     項目ごとの改行幅 
+    \setlength{\parsep}{0em}%      段落での改行幅 
+    \setlength{\listparindent}{0zw}% 段落での一字下り 
+    \let\makelabel\descriptionlabel}
+  }
+  {\endlist}
+
+}
+%--------------------------------------
+%
+% start preamble
+%
+%--------------------------------------
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{fancybox}
+\usepackage{ascmac}
+\usepackage{cookbox}
+
+%\compact{0.85}
+%--------------------------------------
+%
+% end preamble
+%
+%--------------------------------------
+
+%--------------------------------------
+%
+% misc definition
+%
+%--------------------------------------
+\newcount\mCount
+\newcount\yCount
+\newcount\saveM
+
+\def\getym#1/#2/{%
+\gdef\ynum{#1}%
+\gdef\mnum{#2}%
+}
+
+\newcommand\fromto[2]{%
+\getym#2/\relax%
+\yCount=\ynum%
+\mCount=\mnum%
+\edef\toY{\ynum}%
+\edef\toM{\mnum}%
+\getym#1/\relax%
+\edef\fromY{\ynum}%
+\edef\fromM{\mnum}%
+%
+\advance\yCount -\ynum
+\advance\mCount -\mnum
+\advance\mCount by1%
+\multiply\yCount by 12
+\advance\yCount by \the\mCount
+\ifnum\yCount>11
+\mCount = \the\yCount
+\divide\yCount by 12
+\saveM = \the\yCount
+\multiply\saveM by 12
+\advance\mCount -\the\saveM
+\fi
+\ifnum\yCount<1
+\def\mlen{({\the\mCount}ヵ月)}
+\else
+\def\mlen{({\the\yCount}年{\the\mCount}ヵ月)}
+\fi
+\ifx \@noTable\yes%
+    {\fromY}年{\fromM}月%
+    $\rightarrow$%
+    {\toY}年{\toM}月 \mlen
+\else
+  \ifx \@reverseDate\yes%
+    {\toY}年{\toM}月\par%
+    $\uparrow$ \mlen\par%
+    {\fromY}年{\fromM}月
+  \else%
+    {\fromY}年{\fromM}月\par%
+    $\downarrow$ \mlen\par%
+    {\toY}年{\toM}月
+  \fi
+\fi
+}
+%
+% display control
+%
+\newcommand\listProject[1]{
+	\def\@listProject{#1}
+}
+
+\newcommand\reverseDate[1]{
+	\def\@reverseDate{#1}
+}
+
+\newcommand\multiCol[1]{
+	\def\@multiCol{#1}
+}
+
+\newcommand\breakBox[1]{
+	\def\@breakBox{#1}
+	% breakbox is strange with normal section margin
+	\setshortsection
+}
+
+\newcommand\二段組開始{
+\ifx \@multiCol\yes
+\vspace{-.8cm}
+\begin{multicols}{2}
+\fi
+}
+
+\newcommand\二段組終了{
+\ifx \@multiCol\yes
+\end{multicols}
+\vspace{-.8cm}
+\fi
+}
+
+%
+% custom itemizing
+%
+\newcommand\@itemLine[1]{%
+・#1 \par
+}
+\newcommand\@simpleItem[1]{%
+\global\addTokItem{\@itemLine{#1}}
+}
+
+\newcommand\@defDesc[2]{%
+\global\addTokDesc{\item [#1] #2}
+}
+
+\newcommand\@defItem[1]{%
+\global\addTokItem{\item #1}
+}
+
+\newenvironment{@itemize2}{%
+\long\def\項目{\@simpleItem}
+}{%
+}
+
+%
+% custom description
+%
+\newcommand\@descLine[2]{%
+% \textbf{#1} #2\par
+% omit #1 for space saving
+#2\par
+}
+\newcommand\@descItem[2]{%
+%\global\addTokDesc{\@descLine{#1}{#2}}
+\global\addTokDesc{#2\par}
+}
+
+\newcommand\@descTab[2]{%
+\global\addTokDesc{\parbox[t]{\dcwA}{\textbf{#1}} & \parbox[t]{\dcwB}{#2} \\}
+}
+
+\newenvironment{@description2}{%
+\long\def\説明{\@descItem}
+}{%
+}
+
+%--------------------------------------
+%
+% summary
+%
+%--------------------------------------
+\newcommand\要約[1]{%
+\ifx \@compactForm\yes
+\def\@summary{#1}
+\else
+\subsection*{要約} #1
+\fi
+}
+
+%--------------------------------------
+%
+% job history
+%
+%--------------------------------------
+\def\jcwA{8zw}
+\def\jcwB{32zw}
+\def\jcwC{10zw}
+
+\newcommand\職歴リスト幅設定[3]{
+\gdef\jcwA{#1}
+\gdef\jcwB{#2}
+\gdef\jcwC{#3}
+}
+
+\newcommand\histLine[3]{%
+\parbox[t]{\jcwA}{#1 \par \vspace{0.5mm}} &% 
+\parbox[t]{\jcwB}{#2 \par \vspace{0.5mm}} &% 
+\parbox[t]{\jcwC}{#3 \par \vspace{0.5mm}} \\ \hline
+}
+
+\newcommand\@history[3]{%
+\global\addTokShokureki{\histLine{#1}{#2}{#3}}
+}
+%
+% job history environment
+%
+\newenvironment{職歴リスト}[4]
+%
+% initialize job history list
+%
+%
+{%
+\@changeList
+\newcommand\職歴{\@history}
+
+\newenvironment{箇条書き}{%
+\newtoks\tokItemList
+\begin{@itemize2}
+}{%
+\the\tokItemList
+\end{@itemize2}
+}
+
+\newenvironment{説明リスト}{%
+\newtoks\tokDescList
+\begin{@description2}
+}{%
+\the\tokDescList
+\end{@description2}
+}
+
+\gdef\@histTitle{#1}
+\gdef\@histTitleOne{#2}
+\gdef\@histTitleTwo{#3}
+\gdef\@histTitleThree{#4}
+}
+%
+% close the job history
+%
+{% do nothing
+\subsection*{\@histTitle}
+\ifx \@compactForm\yes
+	\@summary \par
+	\vspace{.2cm}
+\fi
+%
+% start a table
+%
+\begin{tabular}{|p{\jcwA}|p{\jcwB}|p{\jcwC}|}%
+%
+% put the header
+%
+\hline
+\@histTitleOne & \@histTitleTwo & \@histTitleThree \\ \hline%
+\the\tokShokurekiList
+\end{tabular}
+}
+%--------------------------------------
+%
+% project list (3 columns)
+%
+%--------------------------------------
+\def\gcwA{8zw}
+\def\gcwB{34zw}
+\def\gcwC{10zw}
+
+\newcommand\業務リスト幅設定[3]{
+\gdef\gcwA{#1}
+\gdef\gcwB{#2}
+\gdef\gcwC{#3}
+}
+
+\newcommand\@projectLineA[3]{%
+\parbox[t]{\gcwA}{#1 \par \vspace{0.5mm}} &%
+\parbox[t]{\gcwB}{#2 \par \vspace{0.5mm}} &%
+\parbox[t]{\gcwC}{#3 \par \vspace{0.5mm}} \\ \hline
+}
+
+\newcommand\@projectListLineA[3]{%
+\ifx \@breakBox\yes
+	\thicklines
+	\setlength{\breakovalboxtopspace}{0pt}
+	\setlength{\breakovalboxbottomspace}{0pt}
+	\vspace{-.5\baselineskip}
+	\begin{breakovalbox}[\@projTitleOne:#1]%
+	%\vspace{-.75\baselineskip}
+	\vspace{-.5\baselineskip}
+\else
+	\begin{itembox}[l]{\@projTitleOne:#1}%
+	\vspace{-.5\baselineskip}
+\fi
+\subsubsection*{\@projTitleTwo}
+#2
+\vspace{-.5\baselineskip}
+\subsubsection*{\@projTitleThree}
+#3
+\ifx \@breakBox\yes
+	\end{breakovalbox}
+\else
+	\end{itembox}
+\fi
+\vspace{-.6\baselineskip}
+}
+
+\newcommand\@kaisyaA[1]{%
+\global\addTokProject{%
+\multicolumn{3}{|l|}{#1} \\ \hline
+}}
+
+\newcommand\@kaisyaListA[1]{%
+\global\addTokProject{%
+\Ovalbox{#1} \vspace{.2cm}%
+}}
+
+\newcommand\@projectA[3]{%
+\global\addTokProject{%
+\@projectLineA{#1}{#2}{#3}
+}}
+
+\newcommand\@projectListA[3]{%
+\global\addTokProject{%
+\@projectListLineA{#1}{#2}{#3}
+}}
+
+%
+% project list environment
+%
+\newenvironment{業務リスト}[4]
+%
+% initialize project list
+%
+{%
+\ifx \@listProject\yes%
+	%
+	% No table format
+	%
+	\def\@noTable{yes}
+	\let\プロジェクト=\@projectListA\relax
+	\let\業務=\@projectListA\relax
+	\let\所属=\@kaisyaListA\relax
+	\let\会社=\@kaisyaListA\relax
+	\newenvironment{箇条書き}{%
+	\newtoks\tokItemList
+	\newcommand\項目{\@defItem}
+	\begin{itemize}
+	}{%
+	\the\tokItemList
+	\end{itemize} 
+	\vspace{-.75\baselineskip}
+	}
+	%
+	\newenvironment{説明リスト}{%
+	\newtoks\tokDescList
+	\newcommand\説明{\@defDesc}
+	\begin{description}
+	}{%
+	\the\tokDescList
+	\end{description}%
+	\vspace{-.25\baselineskip}
+	}
+\else
+	%
+	% table format
+	%
+	\@changeList
+	\def\@noTable{no}
+	\let\プロジェクト=\@projectA\relax
+	\let\業務=\@projectA\relax
+	\let\所属=\@kaisyaA\relax
+	\let\会社=\@kaisyaA\relax
+	\newenvironment{箇条書き}{%
+	\newtoks\tokItemList
+	%\vspace{-.5\baselineskip}
+	\begin{@itemize2}
+	}{%
+	\the\tokItemList
+	\end{@itemize2}
+	%\vspace{-.5\baselineskip}
+	}
+	\newenvironment{説明リスト}{%
+	\newtoks\tokDescList
+	%\vspace{-.5\baselineskip}
+	\begin{@description2}
+	}{%
+	\the\tokDescList
+	\end{@description2}
+	%\vspace{-.5\baselineskip}
+	}
+\fi
+
+\gdef\@projTitle{#1}
+\gdef\@projTitleOne{#2}
+\gdef\@projTitleTwo{#3}
+\gdef\@projTitleThree{#4}
+}
+%
+% close the project list
+%
+{%
+\vspace{0.3cm}
+\subsection*{\@projTitle}
+
+\ifx \@listProject\yes%
+	\the\tokProjectList
+\else
+%
+% start a long table
+%
+\vspace{-0.5\baselineskip}
+\begin{longtable}{|p{\gcwA}|p{\gcwB}|p{\gcwC}|}%
+%
+% put the header
+%
+\hline
+\@projTitleOne &\@projTitleTwo &\@projTitleThree \\ \hline%
+\endhead
+\the\tokProjectList
+\end{longtable}
+\fi
+}
+%--------------------------------------
+%
+% project list (4 columns)
+%
+%--------------------------------------
+\def\pcwA{7zw}
+\def\pcwB{22zw}
+\def\pcwC{10zw}
+\def\pcwD{11zw}
+
+\newcommand\プロジェクトリスト幅設定[4]{
+\gdef\pcwA{#1}
+\gdef\pcwB{#2}
+\gdef\pcwC{#3}
+\gdef\pcwD{#4}
+}
+
+%
+% description table width
+%
+\def\dcwA{4zw}
+\def\dcwB{22zw}
+
+\newcommand\@projectLine[4]{%
+\parbox[t]{\pcwA}{#1 \par \vspace{0.5mm}} &%
+\parbox[t]{\pcwB}{#2 \par \vspace{0.5mm}} &%
+\parbox[t]{\pcwC}{#3 \par \vspace{0.5mm}} &%
+\parbox[t]{\pcwD}{#4 \par \vspace{0.5mm}} \\ \hline
+}
+
+\newcommand\@projectListLine[4]{%
+\ifx \@breakBox\yes
+        \thicklines
+        \setlength{\breakovalboxtopspace}{0pt}
+        \setlength{\breakovalboxbottomspace}{0pt}
+        \vspace{-.75\baselineskip}
+        \begin{breakovalbox}[\@projTitleOne:#1]%
+        \vspace{-.75\baselineskip}
+\else
+        \begin{itembox}[l]{\@projTitleOne:#1}%
+        \vspace{-.3\baselineskip}
+\fi
+\subsubsection*{\@projTitleTwo}
+#2
+\vspace{-.5\baselineskip}
+\begin{multicols}{2}
+\subsubsection*{\@projTitleThree}
+#3
+\par
+\subsubsection*{\@projTitleFour}
+#4
+\end{multicols}
+\vspace{-.7\baselineskip}
+\ifx \@breakBox\yes
+	\end{breakovalbox}
+\else
+	\end{itembox}
+\fi
+}
+
+\newcommand\@kaisya[1]{%
+\global\addTokProject{%
+\multicolumn{4}{|l|}{#1} \\ \hline
+}}
+
+\newcommand\@kaisyaList[1]{%
+\global\addTokProject{%
+\Ovalbox{#1} \vspace{.2cm}%
+}}
+
+\newcommand\@project[4]{%
+\global\addTokProject{%
+\@projectLine{#1}{#2}{#3}{#4}
+}}
+
+\newcommand\@projectList[4]{%
+\global\addTokProject{%
+\@projectListLine{#1}{#2}{#3}{#4}
+}}
+
+%
+% project list environment
+%
+\newenvironment{プロジェクトリスト}[5]
+%
+% initialize project list
+%
+{%
+\ifx \@listProject\yes%
+	%
+	% No table list
+	%
+	\def\@noTable{yes}
+	\let\所属=\@kaisyaList\relax
+	\let\プロジェクト=\@projectList\relax
+	\let\業務=\プロジェクト\relax
+	\let\会社=\所属\relax
+	\newenvironment{箇条書き}{%
+	\newtoks\tokItemList
+	\newcommand\項目{\@defItem}
+	\begin{itemize}
+	}{%
+	\the\tokItemList
+	\end{itemize} 
+	\vspace{-.75\baselineskip}
+	}
+	\newenvironment{説明リスト}{%
+	\newtoks\tokDescList
+	\newcommand\説明{\@descTab}
+	\begin{tabular}{p{\dcwA} p{\dcwB}}%
+	}{%
+	\the\tokDescList
+	\end{tabular} 
+	\vspace{-.5\baselineskip}
+	}
+\else
+	%
+	% table format
+	%
+	\@changeList
+	\def\@noTable{no}
+	\let\所属=\@kaisya\relax
+	\let\プロジェクト=\@project\relax
+	\let\業務=\プロジェクト\relax
+	\let\会社=\所属\relax
+	\newenvironment{箇条書き}{%
+	\newtoks\tokItemList
+	\begin{@itemize2}
+	}{%
+	\the\tokItemList
+	\end{@itemize2}
+	}
+	\newenvironment{説明リスト}{%
+	\newtoks\tokDescList
+	\begin{@description2}
+	}{%
+	\the\tokDescList
+	\end{@description2}
+	}
+\fi
+
+\gdef\@projTitle{#1}
+\gdef\@projTitleOne{#2}
+\gdef\@projTitleTwo{#3}
+\gdef\@projTitleThree{#4}
+\gdef\@projTitleFour{#5}
+}
+%
+% close the project list
+%
+{%
+\vspace{0.3cm}
+\subsection*{\@projTitle}
+
+\ifx \@listProject\yes%
+	\the\tokProjectList
+\else
+%
+% start a long table
+%
+\vspace{-0.5\baselineskip}
+\begin{longtable}{|p{\pcwA}|p{\pcwB}|p{\pcwC}|p{\pcwD}|}%
+%
+% put the header
+%
+\hline
+\@projTitleOne &\@projTitleTwo &\@projTitleThree &\@projTitleFour \\ \hline%
+\endhead
+\the\tokProjectList
+\end{longtable}
+\fi
+}
+%--------------------------------------
+%
+% keiken list
+%
+%--------------------------------------
+\def\kcwA{5zw}
+\def\kcwB{20zw}
+
+\newcommand\@keikenDesc[2]{%
+\global\addTokKeiken{%
+\item [#1] #2
+}}
+
+\newcommand\@keikenTab[2]{%
+\global\addTokKeiken{%
+\parbox[t]{\kcwA}{\textbf{#1}} & \parbox[t]{\kcwB}{#2} \\
+}}
+
+
+\newenvironment{経験リスト}[1]
+{%
+\ifx \@multiCol\yes
+\newcommand\経験{\@keikenTab}
+\else
+\newcommand\経験{\@keikenDesc}
+\fi
+
+\gdef\@expTitle{#1}
+}
+{%
+\subsection*{\@expTitle}
+\ifx \@multiCol\yes
+\begin{tabular}{p{\kcwA} p{\kcwB}}%
+\the\tokKeikenList
+\end{tabular}
+\else
+\begin{description}
+\the\tokKeikenList
+\end {description}
+\fi
+}
+
+%--------------------------------------
+%
+% shikaku list
+%
+%--------------------------------------
+\def\scwXS{8zw}
+\def\scwXM{16zw}
+\def\scwXL{25zw}
+
+% 資格リスト幅設定
+\newcommand\資格リスト幅設定[3]{
+\gdef\scwXS{#1}
+\gdef\scwXM{#2}
+\gdef\scwXL{#3}
+}
+
+\newcommand\shikakuLine[2]{%
+\parbox[t]{\scwA}{#1} &% 
+\parbox[t]{\scwB}{#2} \\ \hline
+}
+
+\newcommand\@shikaku[2]{%
+\global\addTokShikaku{\shikakuLine{#1}{#2}}
+}
+%
+% shikaku environment
+%
+\newenvironment{資格リスト}[3]
+%
+% initialize shikaku list
+%
+%
+{%
+\ifx \@multiCol\yes
+\def\scwA{\scwXS}
+\def\scwB{\scwXM}
+\else
+\def\scwA{\scwXS}
+\def\scwB{\scwXL}
+\fi
+
+\@changeList
+\newcommand\資格{\@shikaku}
+
+\gdef\@skillTitle{#1}
+\gdef\@skillTitleOne{#2}
+\gdef\@skillTitleTwo{#3}
+}
+%
+% close the shikaku list
+%
+{% 
+\subsection*{\@skillTitle}
+\begin{tabular}{|p{\scwA}|p{\scwB}|}%
+\hline
+\@skillTitleOne &\@skillTitleTwo \\ \hline%
+\the\tokShikakuList
+\end{tabular}
+}
+
+%--------------------------------------
+%
+% PR list
+%
+%--------------------------------------
+\newcommand\prItem[2]{%
+\paragraph{#1} #2
+}
+
+\newcommand\@pr[2]{%
+\global\addTokPR{\paragraph*{#1} #2}
+}
+
+\newcommand\@prline[1]{%
+\global\addTokPR{#1}
+}
+%
+% shikaku environment
+%
+\newenvironment{自己PR}[1]
+%
+% initialize shikaku list
+%
+%
+{%
+\let\PR=\@pr\relax
+\let\PRLine=\@prline\relax
+
+\gdef\@prTitle{#1}
+}
+%
+% close the shikaku list
+%
+{% do nothing
+\vspace{.5cm}
+\subsection*{\@prTitle}
+\the\tokPRList
+}

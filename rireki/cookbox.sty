@@ -1,0 +1,734 @@
+% cookbox.sty by Daisuke Yamamoto 2001
+% Date: Aug 25, 2005
+% Ver 2.05
+
+% breakovalbox
+% boldbreakovalbox
+% doublebreakovalbox
+% ddoublebreakovalbox
+
+% You can choose `\thinlines' or `\thicklines'
+
+%length										%type (default)
+\newlength{\breakovalboxradius}				%oval radius (10pt)
+\breakovalboxradius=10pt\relax
+\newlength{\breakovalboxleftmargin}			%leftmargin (5pt)
+\breakovalboxleftmargin=5pt\relax
+\newlength{\breakovalboxrightmargin}		%rightmargin (5pt)
+\breakovalboxrightmargin=5pt\relax
+\newlength{\breakovalboxtopspace}			%topspace (0pt)
+\breakovalboxtopspace=0pt\relax
+\newlength{\breakovalboxbottomspace}		%bottomspace (0pt)
+\breakovalboxbottomspace=0pt\relax
+\newlength{\breakovalboxaboveskip}			%above box space (\baselineskip)
+\breakovalboxaboveskip=\baselineskip\relax
+\newlength{\breakovalboxunderskip}			%under box space (\baselineskip)
+\breakovalboxunderskip=\baselineskip\relax
+\newlength{\breakovalboxwidth}				%box width (\linewidth)
+\breakovalboxwidth=\z@\relax				%after read
+\newlength{\breakovalboxleftside}			%leftside (\parindent)
+\breakovalboxleftside=\parindent\relax
+\newlength{\breakovalboxlineweight}			%line weight(5pt)
+\breakovalboxlineweight=5pt\relax
+
+\newdimen\boval@leftsp
+\newdimen\boval@ln
+\newdimen\boval@width
+\newdimen\boval@linewidth
+\newdimen\dboval@linespace
+	\dboval@linespace=2pt\relax
+\newdimen\boval@toplinewidth
+\newdimen\boval@aboveskip
+\newdimen\boval@underskip
+\newdimen\boval@parindent
+\newdimen\boval@hboxwidth
+\newdimen\boval@titleheight
+\newdimen\boval@titlewidth
+\newdimen\boval@titlebase
+\newdimen\boval@lineweight
+\boval@parindent\parindent\relax
+
+\newbox\boval@rest
+\newbox\boval@first
+\newbox\boval@line
+\newbox\boval@title
+\newif\if@bovalcont 
+\newif\ifbovalcount
+\newcount\boval@lcnt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% quoter oval %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\boval@qoval#1{\hbox{\@oval(1,1)[#1]}}%quoter oval
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% breakovalbox %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\breakovalbox{\@ifnextchar[{\@breakovalbox}{\@breakovalbox[]}}
+\def\boldbreakovalbox{\@ifnextchar[{\@breakovalbox}{\@breakovalbox[]}}
+\def\doublebreakovalbox{\@ifnextchar[{\@breakovalbox}{\@breakovalbox[]}}
+\def\ddoublebreakovalbox{\@ifnextchar[{\@breakovalbox}{\@breakovalbox[]}}
+
+%% common begin
+\def\@breakovalbox[#1]{%                                        breakovalbox
+\ifdim\breakovalboxwidth=\z@%                                   breakovalboxwidth
+    \global\breakovalboxwidth\linewidth\fi%                     (default)
+\boval@width\breakovalboxwidth\relax%							box width
+	\advance\boval@width-2\breakovalboxradius%
+	\advance\boval@width-\breakovalboxleftside%
+\setbox\boval@title\hbox{#1}%									\boval@title = text
+\boval@aboveskip\breakovalboxaboveskip\relax%
+\vskip\boval@aboveskip\relax%
+\setbox\boval@rest\vbox\bgroup
+\linewidth\breakovalboxwidth\relax%                             rightmargin 
+    \advance\linewidth -\breakovalboxleftmargin
+    \advance\linewidth -\breakovalboxrightmargin
+    \advance\linewidth -2\@wholewidth
+    \advance\linewidth -\breakovalboxleftside
+\hsize\linewidth\@parboxrestore
+\parindent\boval@parindent\relax}
+
+
+% \@tempdimb: amount of vertical skip 
+% between the first line (\boval@first) and the rest (\boval@rest)
+\def\boval@split{%
+\@tempdimb\ht\boval@rest % height of original box
+\advance\@tempdimb\dp\boval@rest 
+\setbox\boval@first\vsplit\boval@rest to\z@ % split it
+\setbox\boval@first\vbox{\unvbox\boval@first}% recover height & depth of \boval@first
+\setbox\@tempboxa\vbox{\copy\boval@first\copy\boval@rest}% naive concatenation
+\advance\@tempdimb-\ht\@tempboxa 
+\advance\@tempdimb-\dp\@tempboxa}% gap between two boxes
+ 
+
+% \@tempdima: height of the first line (\boval@first) + \breakovalboxtopspace
+\def\boval@addfsepht{%
+    \setbox\boval@first\vbox{\vskip\breakovalboxtopspace\box\boval@first}}%topspace
+
+\def\boval@addskipht{%
+    \setbox\boval@first\vbox{\vskip\@tempdimb\box\boval@first}}
+
+% \@tempdima: depth of the first line (\boval@first) + \breakovalboxbottomspace
+\def\boval@addfsepdp{%
+     \@tempdima\dp\boval@first
+     \advance\@tempdima\breakovalboxbottomspace%             bottomspace
+     \dp\boval@first\@tempdima}
+
+% \@tempdima: depth of the first line (\boval@first) + vertical skip
+\def\boval@addskipdp{%
+     \@tempdima\dp\boval@first
+     \advance\@tempdima\@tempdimb
+     \dp\boval@first\@tempdima}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% side lines %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\boval@line{%
+    \boval@hboxwidth\breakovalboxwidth\relax
+	\advance\boval@hboxwidth-\breakovalboxleftside
+    \vskip\z@\noindent%                                      for centering
+    \hskip\breakovalboxleftside%                             shift left
+    \hbox to\boval@hboxwidth{%
+    \ifbovalcount\smash{\llap{\the\boval@lcnt\ }}\fi
+    \vrule\@width\@wholewidth%                               left line
+    \hskip\breakovalboxleftmargin%                           left margin
+    \box\boval@first\hfil
+    \vrule\@width\@wholewidth%                               right line
+}}
+
+\def\bboval@line{%
+    \boval@hboxwidth\breakovalboxwidth\relax
+	\advance\boval@hboxwidth-\breakovalboxleftside
+    \vskip\z@\noindent%											for centering
+    \hskip\breakovalboxleftside%								shift left
+    \hbox to\boval@hboxwidth{%
+    \ifbovalcount\smash{\llap{\the\boval@lcnt\ }}\fi
+    \vrule\@width\breakovalboxlineweight%						left line
+    \hskip\breakovalboxleftmargin%								left margin
+    \box\boval@first\hfil
+    \hskip-\breakovalboxlineweight
+    \vrule\@width\breakovalboxlineweight%						right line
+}}
+
+\def\dboval@line{%
+	\boval@hboxwidth\breakovalboxwidth\relax
+	\advance\boval@hboxwidth-\breakovalboxleftside
+	\vskip\z@\noindent%											for centering
+	\hskip\breakovalboxleftside%								shift left
+	\hbox to\boval@hboxwidth{%
+	\ifbovalcount\smash{\llap{\the\boval@lcnt\ }}\fi
+	\vrule\@width\@wholewidth%									left line
+	\hskip\dboval@linespace%										line space
+	\vrule\@width\@wholewidth%									left line
+	\hskip\breakovalboxleftmargin%								left margin
+	\box\boval@first\hfil
+    \hskip-\dboval@linespace
+	\vrule\@width\@wholewidth%									right line
+	\hskip\dboval@linespace%										line space
+	\vrule\@width\@wholewidth%									right line
+}}
+
+\def\ddboval@line{%
+    \boval@hboxwidth\breakovalboxwidth\relax
+	\advance\boval@hboxwidth-\breakovalboxleftside
+    \vskip\z@\noindent%                                      for centering
+    \hskip\breakovalboxleftside%                             shift left
+    \hbox to\boval@hboxwidth{%
+    \ifbovalcount\smash{\llap{\the\boval@lcnt\ }}\fi
+    \thicklines%
+    \vrule\@width\@wholewidth%                               left line
+    \hskip 1.5\@wholewidth%                           left line space
+    \thinlines%
+    \hskip -.5\@wholewidth%                           left line space
+    \vrule\@width\@wholewidth%                               left line
+    \hskip\breakovalboxleftmargin%                           left margin
+    \box\boval@first\hfil
+    \vrule\@width\@wholewidth%                               right line
+    \hskip -.5\@wholewidth%                         	  left line space
+    \thicklines%
+    \hskip 1.5\@wholewidth%                     	      right line space
+    \vrule\@width\@wholewidth%                               right line
+    \thinlines%
+}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% top line %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\boval@toplinecommon{%                                        top line
+    \boval@leftsp=\breakovalboxradius\relax        
+        \advance\boval@leftsp\breakovalboxleftside
+    \boval@toplinewidth=\boval@width\relax%						top line width
+		\advance\boval@toplinewidth-\@wholewidth
+		\advance\boval@toplinewidth-\wd\boval@title
+	\boval@titleheight=\ht\boval@title\relax%					title height
+		\advance\boval@titleheight\dp\boval@title
+	\boval@titlebase=\breakovalboxradius\relax%					title base line
+		\advance\boval@titlebase-.5\boval@titleheight
+}
+
+\def\boval@topline{%                                        top line
+	%common setting
+	\boval@toplinecommon
+
+    \noindent\hskip\boval@leftsp\hskip.5\@wholewidth%
+    \ifdim\breakovalboxradius>1pt%
+		\boval@qoval{tl}%									topleft oval
+    \fi%
+	%%% title box %%%
+	\raise \boval@titlebase \box\boval@title%
+    \vbox{\noindent%
+		\hrule\@height\@wholewidth\@width\boval@toplinewidth%		top line
+		\vskip\breakovalboxradius%
+		\vskip-.5\@wholewidth%										line width vskip
+		\vskip\z@\noindent%
+    }%
+    \ifdim\breakovalboxradius>1pt%
+	\boval@qoval{tr}%                                     topright oval
+    \fi%
+    \hskip\breakovalboxradius\hskip.5\@wholewidth%
+    \hskip\z@%                                                for centering
+    \ifdim\breakovalboxradius>1pt%
+	\vskip-.5\@wholewidth%                               line width vskip
+    \else\vskip\z@\fi%
+    \vskip -\breakovalboxradius                              %radius vskip
+}
+
+\def\bboval@topline{%                                         double top line
+	%common setting
+	\boval@toplinecommon
+
+    \noindent%													avoid indent
+    \hskip\boval@leftsp%
+    \hskip.5\@wholewidth%
+    \ifdim\breakovalboxradius>1pt%
+		\boval@lineweight=\breakovalboxlineweight\relax%		temp
+			\advance\boval@lineweight-\@wholewidth%				default line weight
+		\loop%													loop
+			\boval@qoval{tl}%									%%% topleft oval
+			\advance\unitlength-\@wholewidth
+			\advance\boval@lineweight-.5\@wholewidth
+			\ifdim\boval@lineweight>0pt\repeat
+		\unitlength=2\breakovalboxradius\relax					
+			\advance\unitlength2\@wholewidth%
+			\advance\unitlength-2\breakovalboxlineweight
+		\boval@qoval{tl}%										topleft oval (least radius)
+		%default radius
+		\unitlength=2\breakovalboxradius\relax
+    \fi%
+	%%% title box %%%
+	\raise \boval@titlebase \box\boval@title%
+    \vbox{\noindent%
+		\hrule\@height\breakovalboxlineweight\@width\boval@toplinewidth%	top line
+		\vskip\breakovalboxradius%								space
+		\vskip-\breakovalboxlineweight%
+		\vskip.5\@wholewidth%
+		\vskip\z@\noindent%
+    }%
+    \ifdim\breakovalboxradius>1pt%
+		\boval@lineweight=\breakovalboxlineweight\relax%		temp
+			\advance\boval@lineweight-\@wholewidth%				default line weight
+		\loop%													loop
+			\boval@qoval{tr}%									%%% topright oval
+			\advance\unitlength-\@wholewidth
+			\advance\boval@lineweight-.5\@wholewidth
+			\ifdim\boval@lineweight>0pt\repeat
+		\unitlength=2\breakovalboxradius\relax					
+			\advance\unitlength2\@wholewidth%
+			\advance\unitlength-2\breakovalboxlineweight
+		\boval@qoval{tr}%										topright oval (least radius)
+		%default radius
+		\unitlength=2\breakovalboxradius\relax
+    \fi%
+    \hskip\breakovalboxradius\hskip.5\@wholewidth%
+    \hskip\z@%													for centering
+    \ifdim\breakovalboxradius>1pt%
+	\vskip-.5\@wholewidth%										line width vskip
+    \else\vskip\z@\fi%
+    \vskip -\breakovalboxradius                              %radius vskip
+}
+
+
+\def\dboval@topline{%                                         double top line
+	%common setting
+	\boval@toplinecommon
+
+    \noindent%                                                avoid indent
+    \hskip\boval@leftsp%
+    \hskip.5\@wholewidth%
+    \ifdim\breakovalboxradius>1pt%
+	\boval@qoval{tl}%                                     topleft oval
+	\advance\unitlength -2\@wholewidth
+	\advance\unitlength -2\dboval@linespace
+	\boval@qoval{tl}%                                     topleft oval
+	%default radius
+	\unitlength=2\breakovalboxradius\relax
+    \fi%
+	%%% title box %%%
+	\raise \boval@titlebase \box\boval@title%
+	\raise .5\@wholewidth
+    \vbox{\noindent%
+		\hrule\@height\@wholewidth\@width\boval@toplinewidth%		top line
+		\vskip\dboval@linespace%									line space
+		\hrule\@height\@wholewidth\@width\boval@toplinewidth%		top line
+		\vskip\breakovalboxradius%									space
+		\vskip-\dboval@linespace%
+		\vskip-2\@wholewidth%
+		\vskip\z@\noindent%
+    }%
+    \ifdim\breakovalboxradius>1pt%
+		\boval@qoval{tr}%                                     topright oval
+		\advance\unitlength -2\@wholewidth
+		\advance\unitlength -2\dboval@linespace
+		\boval@qoval{tr}%                                     topright oval
+		%default radius
+		\unitlength=2\breakovalboxradius\relax
+    \fi%
+    \hskip\breakovalboxradius\hskip.5\@wholewidth%
+    \hskip\z@%                                                for centering
+    \ifdim\breakovalboxradius>1pt%
+	\vskip-.5\@wholewidth%                               line width vskip
+    \else\vskip\z@\fi%
+    \vskip -\breakovalboxradius                              %radius vskip
+}
+
+
+\def\ddboval@topline{%												double top line
+	\thicklines%
+		%common setting
+		\boval@toplinecommon
+
+		\noindent%													avoid indent
+		\hskip\boval@leftsp%
+		\hskip.5\@wholewidth%
+		\ifdim\breakovalboxradius>1pt%
+				\boval@qoval{tl}%                                     topleft oval
+				\advance\unitlength -4\@wholewidth
+			\thinlines%
+				\boval@qoval{tl}%                                     topleft oval
+			\thicklines%
+				\advance\unitlength 4\@wholewidth
+		\fi%
+		%%% title box %%%
+		\raise \boval@titlebase \box\boval@title%
+		\raise.5\@wholewidth
+		\vbox{\noindent%
+			\thicklines%
+				\hrule\@height\@wholewidth\@width\boval@toplinewidth%    top line
+				\vskip 1.5\@wholewidth%                               line space
+			\thinlines%
+				\vskip -.5\@wholewidth%                               line space
+				\hrule\@height\@wholewidth\@width\boval@toplinewidth%    top line
+				\vskip\breakovalboxradius%                              space
+				\vskip-.5\@wholewidth%
+			\thicklines%
+				\vskip-2.5\@wholewidth%
+				\vskip\z@\noindent%
+		}%
+		\ifdim\breakovalboxradius>1pt%
+			\thicklines%
+				\boval@qoval{tr}%                                     topright oval
+				\advance\unitlength -4\@wholewidth
+			\thinlines%
+				\boval@qoval{tr}%                                     topright oval
+			\thicklines%
+				\advance\unitlength 4\@wholewidth
+		\fi%
+		\hskip\breakovalboxradius\hskip.5\@wholewidth%
+		\hskip\z@%												for centering
+		\ifdim\breakovalboxradius>1pt%
+			\thicklines%
+				\vskip-.5\@wholewidth%							   line width vskip
+		\else\vskip\z@\fi%
+			\vskip -\breakovalboxradius							  %radius vskip
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% bottom line %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\boval@bottomline{%									   bottom line
+    \boval@leftsp\breakovalboxradius\relax
+        \advance\boval@leftsp\breakovalboxleftside
+    \boval@linewidth\boval@width\relax
+	\advance\boval@linewidth-\@wholewidth
+    \ifdim\breakovalboxradius>1pt%
+	\vskip-.5\@wholewidth%									line width vskip
+    \else\vskip\z@\fi%
+    \noindent\hskip\boval@leftsp\hskip.5\@wholewidth%
+    \ifdim\breakovalboxradius>1pt%
+	\boval@qoval{bl}%                                     bottomleft oval
+    \fi%
+    \vtop{\noindent%
+	\vskip\breakovalboxradius%
+	\vskip-.5\@wholewidth%                               line width vskip
+	\vskip\z@\noindent%
+	\hrule\@height\@wholewidth\@width\boval@linewidth%    bottom line
+    }%
+    \ifdim\breakovalboxradius>1pt%
+	\boval@qoval{br}%                                     bottomright oval
+    \fi%
+    \hskip\breakovalboxradius\hskip.5\@wholewidth%
+    \hskip\z@%                                                for centering
+}
+
+\def\bboval@bottomline{%                                       double bottom line
+    \boval@leftsp\breakovalboxradius\relax
+        \advance\boval@leftsp\breakovalboxleftside
+    \boval@linewidth\boval@width\relax
+	\advance\boval@linewidth-\@wholewidth
+
+    \ifdim\breakovalboxradius>1pt%
+	\vskip -.5\@wholewidth%										line width vskip
+    \else\vskip\z@\fi%
+    \noindent%                                                avoid indent
+	\hskip\boval@leftsp\hskip.5\@wholewidth%
+    \ifdim\breakovalboxradius>1pt%
+		\boval@lineweight=\breakovalboxlineweight\relax%		temp
+			\advance\boval@lineweight-\@wholewidth%				default line weight
+		\loop%													loop
+			\boval@qoval{bl}%									%%% bottomleft oval
+			\advance\unitlength-\@wholewidth
+			\advance\boval@lineweight-.5\@wholewidth
+			\ifdim\boval@lineweight>0pt\repeat
+		\unitlength=2\breakovalboxradius\relax					
+			\advance\unitlength2\@wholewidth%
+			\advance\unitlength-2\breakovalboxlineweight
+		\boval@qoval{bl}%										bottomleft oval (least radius)
+		%default radius
+		\unitlength=2\breakovalboxradius\relax
+    \fi%
+    \vtop{\noindent%
+		\vskip\breakovalboxradius%                              space
+		\vskip.5\@wholewidth%									line width vskip
+		\vskip-\breakovalboxlineweight%
+		\vskip\z@\noindent%
+		\hrule\@height\breakovalboxlineweight\@width\boval@linewidth%    bottom line
+    }%
+    \ifdim\breakovalboxradius>1pt%
+		\boval@lineweight=\breakovalboxlineweight\relax%		temp
+			\advance\boval@lineweight-\@wholewidth%				default line weight
+		\loop%													loop
+			\boval@qoval{br}%									%%% bottomright oval
+			\advance\unitlength-\@wholewidth
+			\advance\boval@lineweight-.5\@wholewidth
+			\ifdim\boval@lineweight>0pt\repeat
+		\unitlength=2\breakovalboxradius\relax					
+			\advance\unitlength2\@wholewidth%
+			\advance\unitlength-2\breakovalboxlineweight
+		\boval@qoval{br}%										bottomright oval (least radius)
+		%default radius
+		\unitlength=2\breakovalboxradius\relax
+    \fi%
+    \hskip\breakovalboxradius\hskip.5\@wholewidth%
+    \hskip\z@%                                                for centering
+}
+
+\def\dboval@bottomline{%									   double bottom line
+	\boval@leftsp\breakovalboxradius\relax
+		\advance\boval@leftsp\breakovalboxleftside
+	\boval@linewidth\boval@width\relax
+		\advance\boval@linewidth-\@wholewidth
+
+	\ifdim\breakovalboxradius>1pt%
+		\vskip -.5\@wholewidth%							   line width vskip
+	\else\vskip\z@\fi%
+	\noindent%												avoid indent
+		\hskip\boval@leftsp\hskip.5\@wholewidth%
+	\ifdim\breakovalboxradius>1pt%
+		\boval@qoval{bl}%									 bottomleft oval
+		\advance\unitlength -2\@wholewidth
+		\advance\unitlength -2\dboval@linespace
+		\boval@qoval{bl}%									 bottomleft oval
+		%default radius
+		\unitlength=2\breakovalboxradius\relax
+	\fi%
+	\vtop{\noindent%
+		\vskip\breakovalboxradius%								space
+		\vskip-1.5\@wholewidth%
+		\vskip-\dboval@linespace%
+		\vskip\z@\noindent%
+		\hrule\@height\@wholewidth\@width\boval@linewidth%		bottom line
+		\vskip\dboval@linespace%								line space
+		\hrule\@height\@wholewidth\@width\boval@linewidth%		bottom line
+	}%
+	\ifdim\breakovalboxradius>1pt%
+		\boval@qoval{br}%									 bottomright oval
+		\advance\unitlength -2\@wholewidth
+		\advance\unitlength -2\dboval@linespace
+		\boval@qoval{br}%									 bottomright oval
+		%default radius
+		\unitlength=2\breakovalboxradius\relax
+	\fi%
+	\hskip\breakovalboxradius\hskip.5\@wholewidth%
+	\hskip\z@%												for centering
+}
+
+\def\ddboval@bottomline{%																		   double bottom line
+	\thicklines%
+		\boval@leftsp\breakovalboxradius\relax
+			\advance\boval@leftsp\breakovalboxleftside
+		\boval@linewidth\boval@width\relax
+			\advance\boval@linewidth-\@wholewidth
+		\ifdim\breakovalboxradius>1pt%
+			\vskip -.5\@wholewidth%											line width vskip
+			\else\vskip\z@\fi%
+		\noindent%															avoid indent
+		\hskip\boval@leftsp\hskip.5\@wholewidth%
+		\ifdim\breakovalboxradius>1pt%
+			\thicklines%
+				\boval@qoval{bl}%											bottomleft oval
+				\advance\unitlength -4\@wholewidth
+			\thinlines%
+				\boval@qoval{bl}%											bottomleft oval
+			\thicklines%
+				\advance\unitlength 4\@wholewidth
+		\fi%
+		\vtop{\noindent%
+			\thinlines
+				\vskip\breakovalboxradius%									space
+				\vskip -.5\@wholewidth%
+			\thicklines%
+				\vskip-2\@wholewidth%
+			\thinlines%
+				\vskip\z@\noindent%
+				\hrule\@height\@wholewidth\@width\boval@linewidth%			bottom line
+				\vskip -.5\@wholewidth%										line space
+			\thicklines%
+				\vskip 1.5\@wholewidth%										line space
+				\hrule\@height\@wholewidth\@width\boval@linewidth%			bottom line
+		}%
+		\ifdim\breakovalboxradius>1pt%
+			\thicklines%
+				\boval@qoval{br}%											bottomright oval
+				\advance\unitlength -4\@wholewidth
+			\thinlines%
+				\boval@qoval{br}%											bottomright oval
+			\thicklines%
+				\advance\unitlength 4\@wholewidth
+		\fi%
+		\hskip\breakovalboxradius\hskip.5\@wholewidth%
+	\thinlines%
+		\hskip\z@%															for centering
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% end of breakovalbox %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\endbreakovalbox{\egroup
+\ifhmode\par\fi{\noindent\boval@lcnt\@ne 
+\@bovalconttrue\baselineskip\z@\lineskiplimit\z@
+\lineskip\z@\vfuzz\maxdimen
+\boval@split\boval@addfsepht\boval@addskipdp
+\unitlength=2\breakovalboxradius\relax%
+\ifvoid\boval@rest%                                          1 line
+\def\boval@fstln{\boval@addfsepdp
+\vbox{%
+    \boval@topline
+    \boval@line
+    \boval@bottomline
+}\vskip\z@%
+}%
+\else%                                                       plural lines
+\def\boval@fstln{%                                         
+\vbox{%
+    \boval@topline
+    \boval@line
+    }\hfil
+\advance\boval@lcnt\@ne
+\loop 
+ \boval@split\boval@addskipdp\leavevmode
+\ifvoid\boval@rest                            %last line
+ \@bovalcontfalse\boval@addfsepdp
+ \vskip\z@\noindent
+ \vtop{%
+    \boval@line
+    \boval@bottomline
+}\vskip\z@%
+\else                                         %from 2 to n-1
+ \boval@line
+\fi
+ \hfil\advance\boval@lcnt\@ne
+\if@bovalcont\repeat}%
+\fi
+\leavevmode
+\boval@fstln\par}%
+\boval@underskip\breakovalboxunderskip\relax%
+\vskip\boval@underskip\relax}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% end of boldbreakovalbox %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\endboldbreakovalbox{\egroup
+\ifhmode\par\fi{\noindent\boval@lcnt\@ne 
+\@bovalconttrue\baselineskip\z@\lineskiplimit\z@
+\lineskip\z@\vfuzz\maxdimen
+\boval@split\boval@addfsepht\boval@addskipdp
+\unitlength=2\breakovalboxradius\relax%
+\ifvoid\boval@rest%                                          1 line
+\def\boval@fstln{\boval@addfsepdp
+\vbox{%
+    \bboval@topline
+    \bboval@line
+    \bboval@bottomline
+}\vskip\z@%
+}%
+\else%                                                       plural lines
+\def\boval@fstln{%                                         
+\vbox{%
+    \bboval@topline
+    \bboval@line
+    }\hfil
+\advance\boval@lcnt\@ne
+\loop 
+ \boval@split\boval@addskipdp\leavevmode
+\ifvoid\boval@rest                            %last line
+ \@bovalcontfalse\boval@addfsepdp
+ \vskip\z@\noindent
+ \vtop{%
+    \bboval@line
+    \bboval@bottomline
+}\vskip\z@%
+\else                                         %from 2 to n-1
+ \bboval@line
+\fi
+ \hfil\advance\boval@lcnt\@ne
+\if@bovalcont\repeat}%
+\fi
+\leavevmode
+\boval@fstln\par}%
+\boval@underskip\breakovalboxunderskip\relax%
+\vskip\boval@underskip\relax}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% end of doublebreakovalbox %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\enddoublebreakovalbox{\egroup
+\ifhmode\par\fi{\noindent\boval@lcnt\@ne 
+\@bovalconttrue\baselineskip\z@\lineskiplimit\z@
+\lineskip\z@\vfuzz\maxdimen
+\boval@split\boval@addfsepht\boval@addskipdp
+\unitlength=2\breakovalboxradius\relax%
+\ifvoid\boval@rest%                                          1 line
+\def\boval@fstln{\boval@addfsepdp
+\vbox{%
+    \dboval@topline
+    \dboval@line
+    \dboval@bottomline
+}\vskip\z@%
+}%
+\else%                                                       plural lines
+\def\boval@fstln{%                                         
+\vbox{%
+    \dboval@topline
+    \dboval@line
+    }\hfil
+\advance\boval@lcnt\@ne
+\loop 
+ \boval@split\boval@addskipdp\leavevmode
+\ifvoid\boval@rest                            %last line
+ \@bovalcontfalse\boval@addfsepdp
+ \vskip\z@\noindent
+ \vtop{%
+    \dboval@line
+    \dboval@bottomline
+}\vskip\z@%
+\else                                         %from 2 to n-1
+ \dboval@line
+\fi
+ \hfil\advance\boval@lcnt\@ne
+\if@bovalcont\repeat}%
+\fi
+\leavevmode
+\boval@fstln\par}%
+\boval@underskip\breakovalboxunderskip\relax%
+\vskip\boval@underskip\relax}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% end of ddoublebreakovalbox %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\endddoublebreakovalbox{\egroup
+\ifhmode\par\fi{\noindent\boval@lcnt\@ne 
+\@bovalconttrue\baselineskip\z@\lineskiplimit\z@
+\lineskip\z@\vfuzz\maxdimen
+\boval@split\boval@addfsepht\boval@addskipdp
+\unitlength=2\breakovalboxradius\relax%
+\ifvoid\boval@rest%                                          1 line
+\def\boval@fstln{\boval@addfsepdp
+\vbox{%
+    \ddboval@topline
+    \ddboval@line
+    \ddboval@bottomline
+}\vskip\z@%
+}%
+\else%                                                       plural lines
+\def\boval@fstln{%                                         
+\vbox{%
+    \ddboval@topline
+    \ddboval@line
+    }\hfil
+\advance\boval@lcnt\@ne
+\loop 
+ \boval@split\boval@addskipdp\leavevmode
+\ifvoid\boval@rest                            %last line
+ \@bovalcontfalse\boval@addfsepdp
+ \vskip\z@\noindent
+ \vtop{%
+    \ddboval@line
+    \ddboval@bottomline
+}\vskip\z@%
+\else                                         %from 2 to n-1
+ \ddboval@line
+\fi
+ \hfil\advance\boval@lcnt\@ne
+\if@bovalcont\repeat}%
+\fi
+\leavevmode
+\boval@fstln\par}%
+\boval@underskip\breakovalboxunderskip\relax%
+\vskip\boval@underskip\relax}
+
+\bovalcountfalse
