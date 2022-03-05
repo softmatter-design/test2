@@ -452,6 +452,7 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{frame}
         \frametitle{架橋点近傍の拘束状態に基づく二つのモデル}
+		\vspace{-3mm}
         \begin{columns}[totalwidth=1\textwidth]
         \column{.5\textwidth}
         ストランドと架橋点の模式図
@@ -483,7 +484,27 @@
         \end{columns}
         \end{frame}
 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{frame}
+        \frametitle{最近の結果（せん断変形）}
+		\begin{itemize}
+			\item 絡み合いの効果を排除して評価するために、末端間距離を自然長に設定したネットワークを一重で設定。
+			\item 密度は、低い状態でシミュレート。
+			\item 高温でのシミュレーションに相当
+		\end{itemize}
+		
+        \begin{columns}[totalwidth=1\textwidth]
+        \column{.5\textwidth}
+        %\centering
+        \includegraphics[width=\textwidth]{./fig/reg_4_SS_multi.png}
+        
+		RegularNW-4-chains-N50
+        \column{.5\textwidth}
+        \includegraphics[width=\textwidth]{./fig/random-4chain-SS_multi.png}
 
+		RandomNW-4-chains-N20
+        \end{columns}
+        \end{frame}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%
 % \section{検討内容}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%
