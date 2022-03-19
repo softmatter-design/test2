@@ -1,0 +1,292 @@
+\documentclass[11pt,a4paper]{jsarticle}
+%
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{atbegshi}
+\AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}
+\usepackage[setpagesize=false,
+bookmarks=true,	%しおりを作る
+bookmarksnumbered=true,	%しおりに節番号などを付ける
+bookmarksopen=true,
+pdftitle={},%
+pdfauthor={佐々木裕},%
+pdfsubject={サブタイトル},%
+pdfkeywords={キーワード},
+%linkcolor=blue,anchorcolor=blue,urlcolor=red,
+colorlinks=true,linkcolor=blue,filecolor=blue,urlcolor=red,
+dvipdfmx]{hyperref}
+%
+\usepackage{multirow}
+\usepackage{bm}
+
+
+\usepackage[dvipdfmx]{graphicx}%
+%\def\pgfsysdriver{pgfsys-dvipdfmx.def}%（graphicx パッケージを使用しない場合はこの行を有効に）
+\usepackage{tikz}%（これで、pgf と pgffor も読み込まれます。）
+\usetikzlibrary{positioning}
+
+
+%\def\pdfliteral#1{\special{pdf:content #1}}
+%\usepackage[dvipdfmx]{color}
+%
+\usepackage{wrapfig}
+\usepackage{ascmac}
+%\usepackage{plext} 
+%\usepackage{epsdice}
+%\usepackage[dvipdfm]{pict2e}
+%
+\def\diff{\mathrm d}
+\def\dd#1#2{\dfrac{\diff #1}{\diff #2}}
+\def\pp#1#2{\dfrac{\partial #1}{\partial #2}}
+\def\dd2#1#2{\dfrac{\diff^2 #1}{\diff #2^2}}
+\def\pp2#1#2{\dfrac{\partial^2 #1}{\partial #2^2}}
+%
+\allowdisplaybreaks[3]
+%
+\makeatletter
+%\def\section{\@startsection {section}{1}{\z@}{-3.5ex plus -1ex minus % -.2ex}{2.3ex plus .2ex}{\Large\bf}}
+\def\section{\@startsection 
+{section}
+{1}
+{\z@}
+{3.5ex plus -1ex minus -.2ex}
+{1.5ex plus .2ex}
+{\large\bf}
+}
+\makeatother
+%
+\makeatletter
+\def\subsection{\@startsection 
+{subsection}
+{1}
+{\z@}
+{3.5ex plus -1ex minus -.2ex}
+{1.ex plus .2ex}
+{\large\bf}
+}
+\makeatother
+%
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{40\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.2in}
+\setlength{\topmargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+
+\title{破壊現象}
+\author{佐々木裕}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{やりたいこと}
+
+%接着の耐久性のクライテリアを明確にするために、
+破壊現象をまとめなおして、概観したい。
+
+まず、一般論として、金属材料を想定したような破壊現象への流れを確認し、その高分子材料、とりわけゴムのような超弾性体への展開を確認する。
+
+できれば、単純な亀裂進展に関する議論にとどまらずに、「疲労破壊」および「クリープ破壊」の理解につながるような議論まで展開したい。
+
+\section{材料力学から破壊工学への流れ}
+
+まずは、亀裂進展に基づく破壊現象を理解できるように、高分子材料に限定しない一般的な議論について、教科書的な流れをまとめたい。
+
+\subsection{材料力学}
+
+破壊に繋がる材料力学的に重要な事項は、以下の二つである。
+
+
+\subsubsection{応力集中係数}
+
+楕円状欠陥の応力集中は以下のように書ける。
+\begin{align}
+&\sigma_{max} = \sigma_0　\left( 1+2\sqrt{\dfrac{c}{\rho}} \right) \notag \\[8pt]
+&2c:\;\text{楕円状欠陥の全長} \notag \\
+&\rho:\;\text{欠陥先端の曲率半径}
+\end{align}
+この $\sigma_0$ への係数を「応力集中係数」とよぶ。
+
+亀裂においては、欠陥の先端が先鋭化し $\rho \rightarrow 0$ となるので、応力集中係数も無限大に発散してしまうことになる。
+
+\subsubsection{平面応力、平面歪み}
+
+平板の厚みに応じて、二つの極限が考えられる。
+
+\begin{itemize}
+\item
+平面応力
+
+応力テンソルの非対角成分がいたるところで 0 であり、主応力（対角成分）が板厚方向の座標に無関係な条件で定義される場合であり、板厚が薄い場合に対応する。
+
+\item
+平面歪み
+
+板厚方向の変位がいたるところで 0 であり、面内方向の変位が板厚方向の座標に無関係に定義される。これは、板厚が厚い場合に対応する。
+
+\end{itemize}
+
+\subsection{破壊工学}
+
+
+\subsubsection{グリフィスの条件式}
+
+
+グリフィスは、亀裂（長さ $2c$）により解放されるひずみエネルギーと、亀裂表面の表面エネルギーが平衡を保つと仮定し、亀裂成長の条件を以下のように導いた。
+\begin{align}
+\dfrac{\pi c\sigma^2}{E} \geq 2 \gamma
+\end{align}
+
+この条件式はガラスのような脆性破壊を示す材料には適合する。
+
+上式の左辺は、亀裂の進展により解放されるエネルギーを表すので、エネルギー開放率 $G$ と呼ぶ。
+
+上記のグリフィスの条件は、理想的な線形材料の脆性破壊でない限り、$\gamma$ は表面エネルギーの値には対応しない。
+実験的に求められる実際の材料においては、非線形性（塑性変形エネルギー等）が含まれている。
+これを考慮して $\gamma_p$ とすれば、上式は以下となる。
+\begin{align}
+\dfrac{\pi c\sigma^2}{E} \geq 2 (\gamma+\gamma_p)
+\label{Gr}
+\end{align}
+
+
+\subsubsection{応力拡大係数}
+開口モードでの変形（モード$I$と呼ばれる）において、亀裂の延長線（これを $x$ 軸に取る）上の亀裂先端近傍の応力場を考える。
+
+このとき、亀裂を引き裂く（亀裂面の法線方向：$y$ 軸方向）の応力 $\sigma_y$ は、亀裂の先端からの距離 $x$ の関数として、以下のように書くことができる。
+\begin{align}
+\sigma_y 
+	&= \sigma_0\sqrt{\dfrac{c}{2x}} \notag \\
+	&= \dfrac{K_I}{\sqrt{2\pi x}}
+\end{align}
+なお、ここでの $K_I=\sigma_0 \sqrt{\pi c}$ は「応力拡大係数」と呼ばれ、応力場の激しさを表す係数となっている。
+
+また、亀裂が進展し始める臨界応力 $\sigma_c$ でのこの係数 $K_{Ic}=\sigma_c \sqrt{\pi c}$ を「破壊靭性値」と呼ぶ。
+
+\subsubsection{小規模降伏条件}
+
+上記の応力拡大係数は、材料が塑性変形をしない弾性体であるものとして導出されている。
+しかしながら、実際の材料は弾塑性体であり亀裂先端の高応力により多少の塑性域が形成される。
+
+したがって、応力拡大係数が適応されるためには、この塑性域の大きさが亀裂先端近傍応力分布（$r^{-1/2}$）の特異性に支配される範囲内である必要がある。
+このような条件を「小規模降伏」と呼ぶ。
+
+これが成立する場合、「応力拡大係数」と塑性変形エネルギーも考慮したグリフィスの条件式（\eqref{Gr}）は、等価となることが証明されている。
+
+\subsubsection{J 積分}
+
+小規模降伏条件が成立しない場合、クラック近傍での非線形な状態を線形応答の弾性材料としては取り扱うことができない。
+このとき、非線形応答を示す領域を閉曲線 $\Gamma$ で囲む、J 積分が用いられる。
+
+
+\section{高分子材料について}
+
+\color{red}
+ここからが本論となる部分であるが、まだ描きかけであり今後追加していく。
+
+
+\subsection{一般の高分子材料}
+
+一般的な高分子材料に対しては、確かに小規模降伏条件は適応できない場合が多いが、この J 積分を適応することが可能である。
+
+\subsection{ゴム材料への拡張}
+
+一方、ゴム材料の変形では、亀裂先端にとどまらずに広範囲に変形が生じるため、その取扱いはさらに面倒になる。
+
+ゴムの破壊に対しては、引き裂き破壊に関して、以下のような「ひずみエネルギー開放率 $G$」を定義し、破壊開始の臨界値を「引き裂きエネルギー $G_c$」とする評価が提案されている。
+\begin{align}
+G=-\dfrac{\partial W}{\partial A}=-\dfrac{1}{d}\dfrac{\partial W}{\partial c}
+\end{align}
+ここで、$W$ は破壊開始時にゴム中に蓄えられたひずみエネルギー、$A$ は亀裂断面積、$d$ は試験片の厚さ。
+
+
+\color{black}
+
+
+\newpage
+
+
+
+\begin{appendix}
+\section{破壊工学関連}
+
+
+\subsection{グリフィスの亀裂進展の条件}
+
+\subsubsection{解放される弾性歪みエネルギー}
+
+単位厚さを有し力学的に一様な弾性応答を示す無限平板を対象とする。
+この平板を歪み $\epsilon_0$ となるように一方向に引っ張ることで、内部に応力 $\sigma$ が生じている状態を考える。
+
+このとき、系に蓄えられる弾性歪みエネルギー密度 $w_{el}$ は応力 - 歪曲線下の面積で与えられ、
+\begin{equation}
+w_{el} = \int_0^{\epsilon_0} \sigma \diff \epsilon
+\end{equation}
+となる。
+ヤング率を $E$ とする線形応答を仮定すると、$\sigma = E \epsilon$ であるので、上式は、
+\begin{align}
+w_{el} 
+	&= \int_0^{\epsilon_0} E \epsilon \diff \epsilon \notag \\
+	&= E \dfrac{1}{2} \epsilon^2 \notag \\
+	&= \dfrac{\sigma_0^2}{2E} 
+\end{align}
+
+ここで、歪みを一定に保ったまま、応力印加方向を法線とするように、長さ $2c$ の亀裂を入れたとき、この亀裂の存在により解放される弾性歪みエネルギー $W_{el}$ は、
+\begin{align}
+W_{el}
+	&=-w_{el}\times S \notag \\
+	&=-\dfrac{\pi c^2 \sigma_0^2}{E}
+\end{align}
+なお、$S$ は歪みエネルギーが解放される領域を表し、この場合は二行目となる。
+
+\subsubsection{破面形成に必要なエネルギー}
+
+一方、長さ $2c$ の亀裂の導入により二つの破面が新たに形成され、これらの面が生じる表面エネルギーは、
+\begin{align}
+W_{sur} = 2 \times 2c \times \gamma = 4c \gamma
+\end{align}
+なお、$\gamma$ は単位面積当たりの表面エネルギーである。
+
+\subsubsection{亀裂進展の条件}
+
+亀裂の生成、消滅がリバーシブルなものであると考えよう。
+
+亀裂長が $\delta c$ だけ変化した場合の系のポテンシャル変化 $\delta G$ は、
+\begin{align}
+\delta G 
+	&= \delta W_{el} + \delta W_{sur} \notag \\
+	&= -\dfrac{\pi 2c \sigma_0^2}{E} \delta c + 4 \gamma \delta c
+\end{align}
+
+微小亀裂進展 $\delta c \rightarrow 0$ において、
+\begin{align}
+\dfrac{\partial G}{\partial c}
+	&= -\dfrac{\pi 2c \sigma_0^2}{E} + 4 \gamma
+\end{align}
+
+このとき、「亀裂成長の条件は、亀裂の微小な進展に伴う系全体の自由エネルギー変化が負 $\left( \dfrac{\partial G}{\partial c} \leq 0 \right)$」であるので、以下に示したグリフィスの条件式が得られる。
+\begin{align}
+&-\dfrac{2\pi c \sigma_0^2}{E} + 4 \gamma \leq 0 \notag \\
+\therefore \; &\dfrac{2\pi c \sigma_0^2}{E}  \geq 4 \gamma
+\end{align}
+
+上式を $\sigma$ について解けば、
+\begin{align}
+\sigma  \geq \sqrt{ \dfrac{2\gamma E}{\pi c} }
+\end{align}
+となり、任意長さの亀裂が進展する応力の条件が与えられる。
+
+
+%\section{高分子材料への展開}
+%
+%セグメント数 M のサブチェインからなるネットワークを考えよう。
+%ただし、ボンド長 1 とする。
+%
+
+\end{appendix}
+
+
+
+
+\end{document}

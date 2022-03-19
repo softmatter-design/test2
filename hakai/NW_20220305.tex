@@ -251,6 +251,46 @@
 \end{frame}
 
 \section{破壊工学の考え方}
+
+\subsection{Griffith 理論}
+\begin{frame}
+	\frametitle{応力集中係数}
+
+	楕円状欠陥の応力集中は以下のように書ける。
+\begin{align}
+&\sigma_{max} = \sigma_0　\left( 1+2\sqrt{\dfrac{c}{\rho}} \right) \notag \\[8pt]
+&2c:\;\text{楕円状欠陥の全長} \notag \\
+&\rho:\;\text{欠陥先端の曲率半径}
+\end{align}
+この $\sigma_0$ への係数を「応力集中係数」とよぶ。
+
+亀裂においては、欠陥の先端が先鋭化し $\rho \rightarrow 0$ となるので、応力集中係数も無限大に発散してしまうことになる。
+
+
+\end{frame}
+\begin{frame}
+	\frametitle{Griffith 理論}
+
+	グリフィスは、亀裂（長さ $2c$）により解放されるひずみエネルギーと、亀裂表面の表面エネルギーが平衡を保つと仮定し、亀裂成長の条件を以下のように導いた。
+\begin{align}
+\dfrac{\pi c^2 \sigma^2}{E} \geq 2 \gamma
+\end{align}
+
+この条件式はガラスのような脆性破壊を示す材料には適合する。
+
+上式の左辺は、亀裂の進展により解放されるエネルギーを表すので、エネルギー開放率 $G$ と呼ぶ。
+
+上記のグリフィスの条件は、理想的な線形材料の脆性破壊でない限り、$\gamma$ は表面エネルギーの値には対応しない。
+実験的に求められる実際の材料においては、非線形性（塑性変形エネルギー等）が含まれている。
+これを考慮して $\gamma_p$ とすれば、
+\begin{align}
+\dfrac{\pi c^2 \sigma^2}{E} \geq 2 (\gamma+\gamma_p)
+\label{Gr}
+\end{align}
+
+
+\end{frame}
+
 \subsection{破壊工学の考え方}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
